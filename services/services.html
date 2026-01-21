@@ -28,8 +28,14 @@
   <!-- Canonical -->
   <link rel="canonical" href="https://www.owndays.com/tw/zh_tw/services">
 
-  <!-- TODO: Change to https link later -->
-  <link rel="stylesheet" href="../css/global.css" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="https://assets.lenskart.com/code/2026/01/21/global.css" />
+  <link rel="stylesheet" href="https://assets.lenskart.com/code/2026/01/21/base-services.css" />
+  <link rel="stylesheet" href="https://assets.lenskart.com/code/2026/01/21/services.css" />
+
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="../scripts/services/base-services.js" defer></script>
 </head>
 
 <body>
@@ -44,6 +50,182 @@
       </li>
     </ul>
   </div>
+
+  <section class="services">
+    <div class="base-services__menu base-services__menu--pc"></div>
+
+    <section class="services__p-main">
+      <div class="services__p-main__bg">
+        <picture>
+          <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/main-1536x480.webp">
+          <img src="https://storage.owndays.com/images/services/top/main-768x500.webp" alt="服務">
+        </picture>
+      </div>
+      <div class="services__p-main__title">
+        <h1 class="services__p-main__title-default">服務</h1>
+        <p class="services__p-main__title-description">OWNDAYS隨時提供顧客最高品質、最高水準的服務。</p>
+      </div>
+    </section>
+
+    <div class="services__main-container">
+      <section class="services__content">
+        <div class="services__content-image">
+          <picture>
+            <source
+              media="(min-width:768px)"
+              srcset="https://storage.owndays.com/images/services/top/thumb-price-1536x800.webp"
+            />
+            <img src="https://storage.owndays.com/images/services/top/thumb-price.webp" alt="單一價格"/>
+          </picture>
+        </div>
+
+        <div class="services__content-text">
+          <div>
+            <h2>單一價格</h2>
+            <h3>OWNDAYS，薄型非球面鏡片都不需額外收費。</h3>
+            <div class="services__content-price">
+              <img
+                src="https://storage.owndays.com/images/services/top/icon-frame.svg"
+                alt="鏡框"
+                class="services__icon-frame"
+              />
+              <div class="services__icon-plus"></div>
+              <img
+                src="https://storage.owndays.com/images/services/top/icon-lens.svg"
+                alt="鏡片"
+                class="services__icon-lens"
+              />
+              <div class="services__icon-equal"></div>
+              <span class="services__c-red">NT$1,790<small></small>〜</span>
+            </div>
+            <p>
+              無論任何度數，OWNDAYS都能為您提供最適合的薄型鏡片，並且不需額外收取費用。只需支付鏡框價格即可配製眼鏡，實現了簡單而透明的價格設定。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services__content reverse">
+        <div class="services__content-image">
+          <picture>
+            <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/thumb-lens-1536x800.webp">
+            <img src="https://storage.owndays.com/images/services/top/thumb-lens.webp" alt="鏡片">
+          </picture>
+        </div>
+
+        <div class="services__content-text">
+          <div>
+            <h2>鏡片</h2>
+            <h3>無論任何度數，OWNDAYS皆使用可減低影像扭曲高品質薄型非球面鏡片</h3>
+            <p>使用與世界知名頂級品牌共同研發所製抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            <div class="services__btn-primary">
+              <a href="/tw/zh_tw/services/lens">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services__content">
+        <div class="services__content-image">
+          <picture>
+            <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/sg/thumb-speed-1536x800.webp">
+            <img src="https://storage.owndays.com/images/services/top/thumb-speed.webp" alt="最快20分鐘即可交件">
+          </picture>
+        </div>
+        <div class="services__content-text">
+          <div>
+            <h2>最快20分鐘即可交件</h2>
+            <h3>結帳後最快20分鐘即可交件</h3>
+            <p>OWNDAYS隨時為了客人的寶貴時間著想，以豐富的專業知識與技術將結帳到交件的時間縮減到最快20分鐘即可完成。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services__content reverse">
+        <div class="services__content-image">
+          <picture>
+            <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/thumb-lens-replacement-1536x800.webp">
+            <img src="https://storage.owndays.com/images/services/top/thumb-lens-replacement.webp" alt="鏡片更換">
+          </picture>
+        </div>
+        
+        <div class="services__content-text">
+          <div>
+            <h2>鏡片更換</h2>
+            <h3>提供非於本店購買的鏡框鏡片更換服務！</h3>
+            <div class="services__content-price">
+              <span class="services__c-red">NT$2,000<small></small>〜</span>
+            </div>
+            <p>我們希望大眾重視有著重要回憶的眼鏡。因為這樣的理念，OWNDAYS也接受非於本店購買的鏡框鏡片更換服務。</p>
+            <div class="services__btn-primary">
+              <a href="/tw/zh_tw/services/lens-replacement">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services__content">
+        <div class="services__content-image">
+          <picture>
+            <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/thumb-frame-1536x800.webp">
+            <img src="https://storage.owndays.com/images/services/top/thumb-frame.webp" alt="鏡框">
+          </picture>
+        </div>
+        
+        <div class="services__content-text services__content-text-frame">
+          <div>
+            <h2>鏡框</h2>
+            <h3>在 OWNDAYS門市內所擺設的眼鏡皆為本公司親手企劃・設計・製作的獨創品牌</h3>
+            <p>OWNDAYS將眼鏡零售所需的所有流程一體化內製，提供兼具設計感、功能性和品質的鏡框。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services__content reverse">
+        <div class="services__content-image">
+          <picture>
+            <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/thumb-warranty_v2.webp">
+            <img src="https://storage.owndays.com/images/services/top/thumb-warranty_v2.webp" alt="OWNDAYS安心保證">
+          </picture>
+        </div>
+        
+        <div class="services__content-text services__content-text-frame">
+          <div>
+            <h2>OWNDAYS安心保證</h2>
+            <h3>眼鏡業界首創完善商品保固服務</h3>
+            <p>每一天，OWNDAYS的門市正於全世界大幅成長，全世界的OWNDAYS門市皆可為你的眼鏡提供最完善的服務。</p>
+
+            <div class="services__btn-primary">
+              <a href="/tw/zh_tw/services/warranty">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services__content">
+        <div class="services__content-image">
+          <picture>
+            <source media="(min-width:768px)" srcset="https://storage.owndays.com/images/services/top/thumb-staff.webp">
+            <img src="https://storage.owndays.com/images/services/top/thumb-staff.webp" alt="OWNDAYS安心保證">
+          </picture>
+        </div>
+        
+        <div class="services__content-text services__content-text-frame">
+          <div>
+            <h2>人員</h2>
+            <h3>多國語言對應的高服務品質與專業技術</h3>
+            <p>為了能提供最合適客人的流行風格以及添增生活風格風彩的一副眼鏡，我們將傾聽每一位客人的需求，提供最合適的鏡框、眼鏡的使用方法等。</p>
+
+            <div class="services__btn-primary">
+              <a href="/tw/zh_tw/services/staff">VIEW MORE</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="base-services__menu base-services__menu--sp"></div>
+  </section>
 </body>
 
 </html>

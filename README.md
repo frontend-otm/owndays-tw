@@ -6,3 +6,6 @@ Live Server: https://marketplace.cursorapi.com/items/?itemName=ritwickdey.LiveSe
 
 ## Branch
 main (create new branch from this)
+
+## Current Global.css
+https://assets.lenskart.com/code/2026/01/21/global.css

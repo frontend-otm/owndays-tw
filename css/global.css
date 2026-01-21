@@ -172,6 +172,24 @@ img {
   max-width: 100%;
 }
 
+picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .breadcrumbs {
   width: 100%;
   height: auto;
