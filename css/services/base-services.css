@@ -118,6 +118,18 @@
       }
     }
   }
+
+  @media (min-width: 1024px) {
+    ul {
+      li {
+        transition: all 0.5s ease;
+      }
+
+      li:hover {
+        background: #777;
+      }
+    }
+  }
 }
 
 .base-services__menu--sp {
