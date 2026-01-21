@@ -40,6 +40,6 @@ function setServiceMenus () {
   }
 
   document
-    .querySelectorAll(".services__menu")
+    .querySelectorAll(".base-services__menu")
     .forEach(renderMenu);
 }

@@ -121,12 +121,8 @@
 }
 
 .base-services__menu--sp {
-  @media (min-width: 768px) {
-    display: none;
-  }
-}
-
-.base-services__menu--sp {
+  display: block;
+  
   @media (min-width: 768px) {
     display: none;
   }
