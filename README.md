@@ -8,4 +8,4 @@ Live Server: https://marketplace.cursorapi.com/items/?itemName=ritwickdey.LiveSe
 main (create new branch from this)
 
 ## Current Global.css
-https://assets.lenskart.com/code/2026/01/21/global.css
+https://assets.lenskart.com/code/2026/01/22/global.css
