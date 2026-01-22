@@ -9,7 +9,7 @@
   <title>服務 | OWNDAYS 眼鏡・太陽眼鏡 - 線上購物專區</title>
   <meta name="title" content="服務 | OWNDAYS 眼鏡・太陽眼鏡 - 線上購物專區" />
   <meta name="description" content="OWNDAYS服務頁面。隨時發表最新眼鏡、太陽眼鏡/墨鏡等多樣款式的OWNDAYS，為你提供最高品質・最高水準的服務。時尚眼鏡、太陽眼鏡/墨鏡1990元起！無論任何度數，薄型非球面鏡片追加費用0元！OWNDAYS也提供給你眼鏡業界首創完善商品保固服務。" />
-  <meta name="keywords" content="">
+  <meta name="keywords" content="關於鏡片,眼鏡,太陽眼鏡,墨鏡,鏡框,鏡片,OWNDAYS品牌">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -31,11 +31,12 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="https://assets.lenskart.com/code/2026/01/22/global.css" />
   <link rel="stylesheet" href="https://assets.lenskart.com/code/2026/01/21/base-services-3ad3f6ea.css" />
-  <link rel="stylesheet" href="../css/services/lens.css" />
+  <link rel="stylesheet" href="https://assets.lenskart.com/code/2026/01/22/lens-a279f4c5.css" />
 
   <!-- Script -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://assets.lenskart.com/code/2026/01/21/base-services.js" defer></script>
+  <script src="https://assets.lenskart.com/code/2026/01/22/lens.js" defer></script>
 </head>
 
 <body>
@@ -68,6 +69,830 @@
       <div class="base-services__p-main__title">
         <h1 class="base-services__p-main__title-default">關於鏡片</h1>
         <p class="base-services__p-main__title-description">OWNDAYS除了提供無需追加費用的薄型非球面鏡片，也提供多樣特製鏡片種類</p>
+      </div>
+    </section>
+
+    <section class="lens__list">
+      <h2>鏡片種類一覽</h2>
+
+      <div class="lens__menu">
+        <label id="all" class="active">ALL</label>
+        <label id="fishing-skiing">釣魚・滑雪</label>
+        <label id="outdoor">戶外活動</label>
+        <label id="over-40">40歲以上</label>
+        <label id="pc">電腦・智慧型手機</label>
+        <label id="face-mask">使用口罩時</label>
+      </div>
+
+      <div class="lens-list__panel">
+        <div class="lens__p-lens-tab">
+           <a href="#aspheric" id="lens-aspheric">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag">Standard</p>
+                 <h3 class="lens__c-lens-type">薄型非球面鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$0</p>
+              </div>
+           </a>
+        </div>
+        <div class="lens__p-lens-tab">
+           <a href="#aspheric-double" id="lens-aspheric-double">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">薄型雙面非球面鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$2,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="pc" class="lens__p-lens-tab pc">
+           <a href="#pclens" id="lens-pclens">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">抗藍光鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$1,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="outdoor fishing-skiing" class="lens__p-lens-tab color">
+           <a href="#color" id="lens-color">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">染色鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$1,000</p>
+              </div>
+           </a>
+        </div>
+        <div class="lens__p-lens-tab">
+           <a href="#clear-coat" id="lens-clear-coat">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">CLC高清鍍膜鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$1,000</p>
+              </div>
+           </a>
+        </div>
+        <div class="lens__p-lens-tab">
+           <a href="#anti-scratch" id="lens-anti-scratch">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">Anti Scratch 鍍膜鏡片 </h3>
+                 <p class="lens__c-lens-price">+ NT$2,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="over-40" class="lens__p-lens-tab progressive">
+           <a href="#progressive-regular-upper" id="lens-progressive">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">Regular多焦鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$2,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="over-40" class="lens__p-lens-tab progressive">
+           <a href="#progressive-normal-upper" id="lens-progressive">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">Standard 多焦鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$3,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="over-40" class="lens__p-lens-tab progressive">
+           <a href="#progressive-premium" id="lens-progressive">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">Gold 多焦鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$5,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="over-40" class="lens__p-lens-tab progressive">
+           <a href="#progressive-custom-made" id="lens-progressive">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">Gold + 多焦鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$10,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="outdoor fishing-skiing" class="lens__p-lens-tab transitions">
+           <a href="#transitions-polarised" id="lens-transitions-polarised">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">OWNDAYS調光變色鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$3,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="outdoor fishing-skiing" class="lens__p-lens-tab transitions-gens">
+           <a href="#transitions-gens" id="lens-transitions-gens">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type"><img src="https://storage.owndays.com/images/services/lens/tw_transitions_logo.webp" alt="Transitions">全視線GENS鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$5,000</p>
+              </div>
+           </a>
+        </div>
+        <div data-category="outdoor fishing-skiing" class="lens__p-lens-tab polarised">
+           <a href="#polarised" id="lens-polarised">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">偏光鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$3,000</p>
+              </div>
+           </a>
+        </div>
+        <div class="lens__p-lens-tab">
+           <a href="#relax" id="lens-relax">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">舒壓鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$3,000</p>
+              </div>
+           </a>
+        </div>
+        <div class="lens__p-lens-tab progressive">
+           <a href="#myopia-control" id="lens-myopia-control">
+              <div class="lens__p-lens-tab-inner">
+                 <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+                 <h3 class="lens__c-lens-type">視力管理鏡片</h3>
+                 <p class="lens__c-lens-price">+ NT$3,000</p>
+              </div>
+           </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lens__introduction">
+      <h2>鏡片介紹</h2>
+
+      <div id="aspheric">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag">Standard</p>
+              <h3 class="lens__c-lens-type">薄型非球面鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$0</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>只需負擔鏡框上標示價格即可擁有高品質薄型非球面鏡片</h4>
+          <p>
+            使用與世界知名頂級品牌共同研發所製抗UV、防汙鍍膜薄型非球面鏡片。<br>
+            非球面鏡片比起球面鏡片可減低影像扭曲現象使其更加輕薄，因此可製作出相較以往更加輕盈的眼鏡。無論你是高度近視、遠視還是散光，無論任何度數皆以0元提供給你最適合的薄型非球面鏡片。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>特徵</th>
+                <td>
+                  <ul>
+                    <li>抗UV 99%以上</li>
+                    <li>抗反射鍍膜</li>
+                    <li>耐磨鍍膜</li>
+                    <li>防汙鍍膜</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>折射率</th>
+                <td><p>1.60, 1.67, 1.74</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="aspheric-double">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">薄型雙面非球面鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$2,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>可降低影像扭曲現象的高品質薄型雙非球面鏡片</h4>
+          <p>
+            日本知名品牌，菲律賓製作。鏡片使用雙面非球面設計，雙非球面設計比起單非球面設計、球面設計，更可降低影像扭曲現象，表現最佳光學品質，度數研磨精密，同時達到輕和薄，配戴上舒適度高。<br/>
+            另外，日本品牌鏡片使用的特殊鍍膜能夠大大提升鏡片透光度、抗壓與耐磨程度。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67, 1.74</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>高度近視者／散光族群／高視覺品質需求／長時間使用眼鏡</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="pclens">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-pclens">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">抗藍光鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$1,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>可濾除電腦、智慧型手機螢幕所產生出的刺眼藍光</h4>
+          <p>
+            *新款吸收型的UV420抗藍光鏡片，可提供眼睛之防護，降低紫外線等有害光線照射。愛護眼睛，從抗藍光鏡片開始！
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67, 1.74</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>電腦・智慧型手機</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="color">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-color">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">染色鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$1,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>能夠更加享受時尚流行，可配合喜歡的鏡框來製作自己喜愛的太陽眼鏡</h4>
+          <p>
+            提供多種染色鏡片，可配合喜歡的鏡框製作屬於自己的太陽眼鏡，更加享受時尚流行展現魅力！
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>釣魚・滑雪・戶外活動</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="lens-image">
+            <div class="color-text">
+              <p class="lens-grid-title">顏色種類範例</p>
+              <ul>
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/color-01.webp" alt="灰">
+                  </picture>
+                  <p>灰</p>
+                </li>
+
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/color-02.webp" alt="棕">
+                  </picture>
+                  <p>棕</p>
+                </li>
+
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/color-03.webp" alt="綠">
+                  </picture>
+                  <p>綠</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="clear-coat">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">CLC高清鍍膜鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$1,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>減少反射視野更自然！</h4>
+          <p>
+            減少反射視野更自然！可大幅度降低反射光增加透光率，提供高清視覺讓視線更加清晰舒適。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>特徵</th>
+                <td>
+                  <ul>
+                    <li>薄型非球面鏡片</li>
+                    <li>抗UV 99%以上</li>
+                    <li>耐磨鍍膜</li>
+                    <li>防汙鍍膜</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>折射率</th>
+                <td><p>1.60, 1.67</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="anti-scratch">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">Anti Scratch 鍍膜鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$2,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>耐刮優異高品質的鍍膜鏡片，適用於任何情境。</h4>
+          <p>
+            客戶關心鏡片是否容易有刮痕。OWNDAYS新販售的Anti Scratch鍍膜鏡片，提升了鏡片表面的硬度，更提高了抗刮損能力，易於清潔的特性可以維持鏡片的品質，適合各種不同情境的需求。相較一般標準的奈米膜層，有更好的耐用性。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67, 1.74</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>任何場合</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="progressive">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-progressive">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">多焦點鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$2,000〜</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details-data">
+          <h3>無需替換眼鏡即可同時看遠・中・近的鏡片</h3>
+          <hr>
+          <h4 id="progressive-regular-upper">Regular多焦鏡片 <span class="c-red">+ NT$2,000</span></h4>
+          <p>內面設計多焦點鏡片，為喜愛品牌鏡片族群，提供物超所值的最佳選擇，適用於初次使用看遠看近兩用鏡片的顧客。</p>
+
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上，看近不清晰 / 品牌鏡片配戴者</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+
+          <hr>
+          <h4 id="progressive-normal-upper">Standard 多焦鏡片 <span class="c-red">+ NT$3,000</span></h4>
+          <p>日本知名品牌，菲律賓製作。鏡片使用內面漸進設計，能增加更廣闊的視野，降低晃動感，首次配戴變焦鏡片者能夠快速適應和上手。</p>
+          
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上、近看不清晰／品牌鏡片配戴者</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+
+          <hr>
+          <h4 id="progressive-premium">Gold 多焦鏡片 <span class="c-red">+ NT$5,000</span></h4>
+          <p>比起一般內面漸進設計的鏡片，視覺影像更接近原本大小。將鏡片的度數平均製作在前後表面，不僅大幅提升視野的寬廣度，使用雙面漸進設計更能減少影像扭曲及晃動感，使鏡片有更自然的視覺與外觀。</p>
+          
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67, 1.74</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上、中高度老花／高度近視／高度散光／著重於近距離閱讀報章、書寫等工作／品牌鏡片配戴者／長時間使用眼鏡</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+          
+          <hr>
+          <h4 id="progressive-custom-made">Gold + 多焦鏡片 <span class="c-red">+ NT$10,000</span></h4>
+          <p>對於高視覺品質需求者，鏡片除了使用雙面漸進設計外，同時搭配不同的瞳孔距離與鏡框數據來製作最合適的鏡片，另外再結合最新的技術與顧客實際的生活型態，提供最個人化的選擇。</p>
+          
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67, 1.74</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上、中高度老花／高度近視／高度散光／著重於近距離閱讀報章、書寫等工作／品牌鏡片配戴者／長時間使用眼鏡／頂級視覺品質需求</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="transitions-polarised">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">OWNDAYS調光變色鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$3,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>新發售，OWNDAYS OEM光致變色技術鏡片</h4>
+          <p>
+            鏡片會依紫外線強度改變鏡片顏色，通過吸收電磁輻射(戶外紫外線）在兩種形式之間的化學物質的狀態變色,並在無電磁輻射下(室內)可以逆轉變回透明一般鏡片。適合常在戶外室內交替的工作者。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>任何場合</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="lens-image">
+            <div class="color-text">
+              <p class="lens-grid-title">顏色</p>
+              <ul>
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/signature-gen8-color-01.webp" alt="灰">
+                  </picture>
+                  <p>灰</p>
+                </li>
+
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/signature-gen8-color-02.webp" alt="棕">
+                  </picture>
+                  <p>棕</p>
+                </li>
+
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/signature-gen8-color-03.webp" alt="墨綠">
+                  </picture>
+                  <p>墨綠</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="transitions-gens">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">
+                <img src="https://storage.owndays.com/images/services/lens/tw_transitions_logo.webp" alt="Transitions">
+                全視線GENS鏡片
+              </h3>
+              <p class="lens__c-lens-price">+ NT$5,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>新發售，OWNDAYS OEM光致變色技術鏡片</h4>
+          <p>
+            鏡片會依紫外線強度改變鏡片顏色，通過吸收電磁輻射(戶外紫外線）在兩種形式之間的化學物質的狀態變色,並在無電磁輻射下(室內)可以逆轉變回透明一般鏡片。適合常在戶外室內交替的工作者。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>任何場合</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="lens-image">
+            <div class="color-text" data-key="box-20">
+              <p class="lens-grid-title">顏色</p>
+              <img src="https://storage.owndays.com/images/services/lens/tw_transitions.webp" alt="全視線GENS鏡片顏色一覽">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="polarised">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-polarised">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">偏光鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$3,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>阻隔來自水面上等的反光感，適合使用於戶外活動</h4>
+          <p>
+            可阻隔來自路面、水面、雪面上的反光感及汽車、大樓玻璃反射太陽光帶來的刺眼感，讓視野更加清晰。偏光鏡片與減輕眩光的太陽眼鏡不同之處在於鏡片之間加入特殊濾膜，可過濾紫外線與太陽反射光，使只對眼睛舒適的可見光通過。適用於釣魚、高爾夫、兜風、滑雪等戶外活動。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>釣魚・滑雪・戶外活動</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="lens-image">
+            <div class="color-text">
+              <p class="lens-grid-title">顏色種類範例</p>
+              <ul>
+                <li>
+                  <picture>
+                    <img src="	https://www.owndays.com/images/services/lens/polarised-color-01.webp" alt="灰">
+                  </picture>
+                  <p>灰</p>
+                </li>
+
+                <li>
+                  <picture>
+                    <img src="https://www.owndays.com/images/services/lens/polarised-color-02.webp" alt="棕">
+                  </picture>
+                  <p>棕</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="relax">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-standard">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">舒壓鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$3,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details">
+          <h4>舒緩長時間看近所造成的視覺疲勞</h4>
+          <p>
+            現代人相較以往生活習慣改變，看近需求增加，舒壓鏡片可有效減輕長時間看近造成的眼睛疲勞。<br/>
+            在鏡片的上半部設計了明視區（能看清楚遠距離），並在下半部設計了度數舒壓區（舒適地看近距離物件）。
+          </p>
+          
+          <table>
+            <tbody>
+              <tr>
+                <th>折射率</th>
+                <td>
+                  <p>1.60, 1.67</p>
+                </td>
+              </tr>
+              <tr>
+                <th>使用場合</th>
+                <td><p>長時間看近・筆記型電腦・智慧型手機</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="myopia-control">
+        <div class="lens__p-lens-tab" data-key="header">
+          <a data-key="lens-myopia-control">
+            <div class="lens__p-lens-tab-inner without-max-width">
+              <p class="lens__c-lens-tag lens__c-lens-tag-option">Option</p>
+              <h3 class="lens__c-lens-type">視力管理鏡片</h3>
+              <p class="lens__c-lens-price">+ NT$3,000</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="lens__details-data">
+          <h4>可矯正屈光不正，提供舒適的視覺品質。
+            在OWNDAYS，我們致力於視力管理提供全面性的計畫，其中包含購買後第1，6，11個月進行再次的視力檢查與鏡框調整，以監測和解決您的孩子的視力發展。</h4>
+
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>特徵</th>
+                   <td>
+                      <p>抗UV 99%以上・抗反射鍍膜・耐磨鍍膜・防汙鍍膜</p>
+                   </td>
+                </tr>
+                <tr>
+                  <th>建議年齡</th>
+                  <td>
+                     <p>6歲至16歲</p>
+                  </td>
+               </tr>
+             </tbody>
+          </table>
+
+          <hr>
+          <h4 id="progressive-normal-upper">Standard 多焦鏡片 <span class="c-red">+ NT$3,000</span></h4>
+          <p>日本知名品牌，菲律賓製作。鏡片使用內面漸進設計，能增加更廣闊的視野，降低晃動感，首次配戴變焦鏡片者能夠快速適應和上手。</p>
+          
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上、近看不清晰／品牌鏡片配戴者</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+
+          <hr>
+          <h4 id="progressive-premium">Gold 多焦鏡片 <span class="c-red">+ NT$5,000</span></h4>
+          <p>比起一般內面漸進設計的鏡片，視覺影像更接近原本大小。將鏡片的度數平均製作在前後表面，不僅大幅提升視野的寬廣度，使用雙面漸進設計更能減少影像扭曲及晃動感，使鏡片有更自然的視覺與外觀。</p>
+          
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67, 1.74</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上、中高度老花／高度近視／高度散光／著重於近距離閱讀報章、書寫等工作／品牌鏡片配戴者／長時間使用眼鏡</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+          
+          <hr>
+          <h4 id="progressive-custom-made">Gold + 多焦鏡片 <span class="c-red">+ NT$10,000</span></h4>
+          <p>對於高視覺品質需求者，鏡片除了使用雙面漸進設計外，同時搭配不同的瞳孔距離與鏡框數據來製作最合適的鏡片，另外再結合最新的技術與顧客實際的生活型態，提供最個人化的選擇。</p>
+          
+          <table>
+             <tbody>
+                <tr>
+                   <th>折射率</th>
+                   <td>
+                      <p>1.60, 1.67, 1.74</p>
+                   </td>
+                </tr>
+                <tr>
+                   <th>使用場合</th>
+                   <td>
+                      <p>40歲以上、中高度老花／高度近視／高度散光／著重於近距離閱讀報章、書寫等工作／品牌鏡片配戴者／長時間使用眼鏡／頂級視覺品質需求</p>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+
+          <div class="lens-image" data-key="myopia-control-text">
+            <div>
+              <img src="https://storage.owndays.com/images/services/lens/myopia-control-1.webp" alt="視力管理鏡片">
+              <p>一般鏡片的邊緣成像在視網膜後方</p>
+            </div>
+
+            <div>
+              <img src="https://storage.owndays.com/images/services/lens/myopia-control-2.webp" alt="視力管理鏡片">
+              <p>視力管理鏡片邊緣成像修正在視網膜前方</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="lens__text-comment">
+        衛部醫器輸壹字第021201號<br/>
+        北市衛器廣字第114070064號
+      </p>
+
+      <div class="lens__banner">
+        <a href="/tw/zh_tw/services/lens-replacement">
+          <h2>鏡片更換</h2>
+          <p class="c-banner-subtitle">提供非於本店購買的鏡框鏡片更換服務！</p>
+          <p>度數不足、鏡片損傷等無法正常使用的眼鏡，請攜帶至OWNDAYS。</p>
+          <p class="c-banner-price">NT$2,000〜</p>
+          <p class="c-banner-link">VIEW MORE</p>
+        </a>
       </div>
     </section>
 
