@@ -1,23 +1,25 @@
 @font-face {
   font-family: 'Aktiv Grotesk TWHK';
   src: url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2') format('woff2'),
-      url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff') format('woff');
+    url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Aktiv Grotesk TWHK';
   src: url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2') format('woff2'),
-      url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff') format('woff');
+    url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Aktiv Grotesk TWHK';
   src: url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2') format('woff2'),
-      url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff') format('woff');
+    url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -25,6 +27,7 @@
 
 :root {
   --font-aktiv-grotesk-twhk: 'Aktiv Grotesk TWHK', sans-serif;
+  --line-height-base: 2;
 }
 
 html,
@@ -230,7 +233,7 @@ img {
     transition: .5s;
     cursor: pointer;
   }
-  
+
   @media (min-width: 1296px) {
     ul {
       padding-inline: 50px;
