@@ -404,5 +404,9 @@
   counter-reset: number;
 }
 .u-pc-only {
-  display: none !important;
+  display: block !important;
+  
+  @media (max-width: 768px) {
+    display: none !important;
+  }
 }
