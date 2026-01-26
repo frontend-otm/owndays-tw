@@ -1,3 +1,10 @@
+.l-container {
+  width: 90%;
+  @media (max-width: 767px) {
+    width: 100%;
+    padding: 0 5%;
+  }
+}
 .l-privacy__header {
   padding-bottom: 60px;
   border-bottom: 1px solid #e3e3e3;
@@ -33,7 +40,11 @@
   padding-bottom: 40px;
   border-bottom: 1px solid #e3e3e3;
   max-width: 768px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
+
+  @media (max-width: 767px) {
+    margin: 0 auto 60px;
+  }
 }
 .l-privacy__content h2 {
   font-size: 16px;
@@ -155,7 +166,6 @@
 .l-parent-ol .c-list-decoration li {
   padding-bottom: 0;
 }
-
 .link-color-blue {
   color: #0094c8;
   text-decoration: none;
