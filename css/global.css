@@ -1,33 +1,99 @@
 @font-face {
-  font-family: 'Aktiv Grotesk TWHK';
-  src: url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2') format('woff2'),
-    url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff') format('woff');
+  font-family: "Aktiv Grotesk TWHK";
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff")
+      format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Aktiv Grotesk TWHK';
-  src: url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2') format('woff2'),
-    url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff') format('woff');
+  font-family: "Aktiv Grotesk TWHK";
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff")
+      format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Aktiv Grotesk TWHK';
-  src: url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2') format('woff2'),
-    url('https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff') format('woff');
+  font-family: "Aktiv Grotesk TWHK";
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff")
+      format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Founders Grotesk";
+  src:
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Light.woff2")
+      format("woff2"),
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src:
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Regular.woff2")
+      format("woff2"),
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src:
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Medium.woff2")
+      format("woff2"),
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src:
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Semibold.woff2")
+      format("woff2"),
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Semibold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Founders Grotesk";
+  src:
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Bold.woff2")
+      format("woff2"),
+    url("https://static1.lenskart.com/media/owndays/fonts/FoundersGrotesk/FoundersGrotesk-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --font-aktiv-grotesk-twhk: 'Aktiv Grotesk TWHK', sans-serif;
-  --line-height-base: 2;
+  --font-aktiv-grotesk-twhk: "Aktiv Grotesk TWHK", sans-serif;
+  --font-founders: "Founders Grotesk", sans-serif;
+  --font-base: "Founders Grotesk", "Aktiv Grotesk TWHK", sans-serif;
 }
 
 html,
@@ -161,7 +227,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -175,6 +241,24 @@ img {
   max-width: 100%;
 }
 
+picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+picture img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .breadcrumbs {
   width: 100%;
   height: auto;
@@ -182,7 +266,7 @@ img {
   font-size: 12px;
   font-weight: 500;
   line-height: 1.25;
-  letter-spacing: .12px;
+  letter-spacing: 0.12px;
   position: relative;
   z-index: 2;
   box-sizing: border-box;
@@ -230,7 +314,7 @@ img {
     text-decoration: none;
     display: inline-flex;
     color: #999;
-    transition: .5s;
+    transition: 0.5s;
     cursor: pointer;
   }
 
