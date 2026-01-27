@@ -1,9 +1,5 @@
-:root {
-  --font-base-articles: "Founders Grotesk", "Aktiv Grotesk TWHK", sans-serif;
-}
-
 body {
-  font-family: var(--font-base-articles);
+  font-family: var(--font-base);
   letter-spacing: 1px;
 }
 
