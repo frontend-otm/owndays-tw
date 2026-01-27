@@ -62,6 +62,7 @@
 :root {
   --font-aktiv-grotesk-twhk: 'Aktiv Grotesk TWHK', sans-serif;
   --font-founders: 'Founders Grotesk', sans-serif;
+  --font-base: "Founders Grotesk", "Aktiv Grotesk TWHK", sans-serif;
 }
 
 html,
