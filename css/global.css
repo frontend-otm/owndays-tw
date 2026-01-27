@@ -171,7 +171,8 @@ section {
 
 body {
   line-height: 1;
-  font-family: var(--font-aktiv-grotesk-twhk);
+  font-family: var(--font-base);
+  letter-spacing: 1px;
   box-sizing: border-box;
 }
 
