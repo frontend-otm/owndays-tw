@@ -297,7 +297,7 @@
 }
 
 .lens__c-lens-price {
-  font-family: "Founders Grotesk","Aktiv Grotesk TWHK",sans-serif;
+  font-family: var(--font-base);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;

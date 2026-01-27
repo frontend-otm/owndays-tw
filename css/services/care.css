@@ -1,0 +1,237 @@
+.care {
+  margin-bottom: 60px;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 120px;
+  }
+}
+
+.care__main {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    margin: 30px auto;
+  }
+
+  p {
+    background-color: #06082b;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: 10px 5%;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    img {
+      max-width: 240px;
+      margin: 50px auto;
+    }
+
+    p {
+      padding: 7px 0;
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
+}
+
+.care__main-frame {
+  background-color: #f0f0f0;
+  background-image: url(https://www.owndays.com/images/services/care/main.png);
+  background-size: 380px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 44px 5% 330px;
+
+  @media (min-width: 768px) {
+    padding: 170px 0;
+    background-size: 400px;
+    background-position: 100%;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 200px 0;
+    background-size: 560px;
+    background-position: right -44px;
+  }
+}
+
+.care__content {
+  width: 100%;
+  max-width: 1152px;
+  height: auto;
+  padding: 0 5%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  @media (min-width: 768px) {
+    width: 80%;
+    padding: 0;
+
+    h1 {
+      font-size: 29px;
+      line-height: 1.7;
+    }
+  }
+}
+
+.care__features {
+  h2 {
+    width: fit-content;
+    height: auto;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 46px auto 30px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(calc(-50% - 2px));
+      right: 8px;
+      bottom: -4px;
+      width: calc(100% - 6px);
+      height: 4px;
+      background-color: #06082b;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      margin: 0 1.8%;
+
+      > div {
+        width: 170px;
+        height: 170px;
+        padding: 30px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #f0f0f0;
+
+        p {
+          font-size: 13px;
+          line-height: 1.6;
+        }
+
+        img {
+          width: 80px;
+          height: auto;
+          padding: 3px 0;
+          margin-inline: auto;
+        }
+
+        strong {
+          font-weight: 600;
+          white-space: nowrap;
+        }
+
+        small {
+          font-size: 60%;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 37px;
+      line-height: 1.9;
+      margin: 70px auto;
+
+      &::after {
+        transform: translateX(-50%);
+        right: 8px;
+        bottom: -4px;
+        width: 100%;
+      }
+    }
+
+    ul {
+      li {
+        width: 220px;
+        height: auto;
+        aspect-ratio: 1/1;
+
+        margin: 0 3%;
+
+        > div {
+          width: 220px;
+          height: auto;
+          aspect-ratio: 1/1;
+
+          p {
+            width: 140px;
+            font-size: 18px;
+          }
+
+          img {
+            width: 100px;
+            padding: 5px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.care__terms {
+  border: 1px solid #06082b;
+  max-width: 860px;
+  margin: 70px 5% 0;
+  padding: 0 7% 30px;
+
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    width: 280px;
+    background-color: white;
+    margin: -23px auto 13px;
+  }
+
+  p {
+    font-family: var(--font-base);
+    font-size: 13px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  @media (min-width: 768px) {
+    margin: 90px 5% 0;
+    padding: 0 3% 40px;
+
+    h3 {
+      margin: -26px auto 20px;
+      line-height: 1.9;
+    }
+  }
+
+  @media (min-width: 860px) {
+    margin: 90px auto 0;
+  }
+}

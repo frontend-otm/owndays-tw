@@ -700,7 +700,7 @@
       }
 
       span {
-        font-family: "Founders Grotesk","Aktiv Grotesk TWHK",sans-serif;
+        font-family: var(--font-base);
         width: fit-content;
         height: auto;
         border-right: none;
