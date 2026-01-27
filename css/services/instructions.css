@@ -1,0 +1,118 @@
+.instructions__container {
+  width: 100%;
+  height: auto;
+  padding: 0px 5%;
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    padding: 50px 0 28px;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    line-height: 1.6;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #e3e3e3;
+    margin-block: 40px;
+  }
+
+  @media (min-width: 768px) {
+    width: 80%;
+    max-width: 1152px;
+    margin: 0px auto 60px auto;
+
+    h1 {
+      padding: 80px 0 40px;
+      line-height: 1.9;
+    }
+
+    h2, h3, h4 {
+      line-height: 1.9;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    margin-bottom: 120px;
+  }
+}
+
+.instructions__icon_b {
+  display: block;
+  width: 7px;
+  height: auto;
+  margin: 20px auto 10px;
+}
+
+.instructions__icon_1 {
+  display: block;
+  width: 100px;
+  height: auto;
+  margin: 20px auto 10px;
+}
+
+.instructions__icon_2 {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 20px auto 10px;
+}
+
+.instructions__icon_3 {
+  display: block;
+  width: 250px;
+  height: auto;
+  margin: 20px auto 10px;
+}
+
+.instructions__steps {
+  margin: 30px 0 50px;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-top: 30px;
+  }
+
+  @media (min-width: 768px) {
+    h4 {
+      line-height: 1.9;
+    }
+  }
+}
+
+.instructions__container--inner {
+  margin: 30px 0 50px;
+
+  p {
+    &.comment {
+      color: #999;
+      font-size: 11px;
+      line-height: 1.7;
+      margin-top: 5px;
+    }
+  }
+}
