@@ -1,0 +1,118 @@
+.l-environment {
+  max-width: 768px;
+  margin: 0 auto 120px;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 2;
+  font-size: 14px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    margin: 0 auto 60px !important;
+    line-height: 2;
+  }
+}
+@media (min-width: 768px) {
+  .l-environment {
+    padding: 0 15px;
+    max-width: 798px;
+  }
+}
+.l-environment section {
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .l-environment section {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .l-environment section p {
+    margin: 0 5%;
+  }
+}
+.l-environment h1 {
+  padding: 60px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .l-environment h1 {
+    padding: 40px 0;
+  }
+}
+.l-environment h2,
+.l-environment h3 {
+  font-size: 14px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  margin: 0 auto;
+  line-height: 1.9;
+}
+@media (max-width: 767px) {
+  .l-environment h2,
+  .l-environment h3 {
+    margin: 0 5%;
+  }
+}
+.l-environment h2.no-border {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.l-environment table {
+  border-bottom: 1px solid #e3e3e3;
+  margin: 0 auto;
+  width: 100%;
+}
+.l-environment table th {
+  border-top: 1px solid #e3e3e3;
+  padding: 15px 20px;
+  width: 200px;
+  font-weight: 300;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .l-environment table th {
+    display: block;
+    background: #e3e3e3;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    border-top: none;
+  }
+}
+.l-environment table td {
+  border-top: 1px solid #e3e3e3;
+  padding: 15px 20px;
+}
+@media (max-width: 767px) {
+  .l-environment table td {
+    border-top: none;
+    display: block;
+    padding: 10px 5% 20px;
+  }
+}
+.l-environment .indent {
+  padding: 15px 0 10px 20px;
+}
+@media (max-width: 767px) {
+  .l-environment .indent {
+    padding-left: 20px;
+    margin: 0 5%;
+  }
+  .l-environment .indent p {
+    margin: 0;
+  }
+}
+.l-environment .c-attention i::before {
+  padding-right: 0.3rem;
+  content: '※';
+  font-style: normal;
+}
+.u-mt__30 {
+  margin-top: 30px !important;
+}
+.u-mb__10 {
+  margin-bottom: 10px !important;
+}
