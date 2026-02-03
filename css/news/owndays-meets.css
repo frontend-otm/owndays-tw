@@ -633,7 +633,11 @@
 }
 
 .l-owndays-meets {
-    color: #666
+    color: #666;
+    padding-bottom: 60px;
+    @media (min-width: 768px) {
+        padding-bottom: 120px;
+    }
 }
 
 .l-owndays-meets .p-main__bg picture {
