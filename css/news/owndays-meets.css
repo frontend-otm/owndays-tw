@@ -1,0 +1,1330 @@
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Niradei;
+    src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Niradei;
+    src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Niradei;
+    src: url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk TWHK;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk TWHK;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk TWHK;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk CNSG;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk CNSG;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk CNSG;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+.ff-primary {
+    font-family: Founders Grotesk, sans-serif
+}
+
+.ff-fallback,
+.ff-headline {
+    font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif
+}
+
+.fs-0 {
+    font-size: 0 !important
+}
+
+.fs-1 {
+    font-size: 1px !important
+}
+
+.fs-2 {
+    font-size: 2px !important
+}
+
+.fs-3 {
+    font-size: 3px !important
+}
+
+.fs-4 {
+    font-size: 4px !important
+}
+
+.fs-5 {
+    font-size: 5px !important
+}
+
+.fs-6 {
+    font-size: 6px !important
+}
+
+.fs-7 {
+    font-size: 7px !important
+}
+
+.fs-8 {
+    font-size: 8px !important
+}
+
+.fs-9 {
+    font-size: 9px !important
+}
+
+.fs-10 {
+    font-size: 10px !important
+}
+
+.fs-11 {
+    font-size: 11px !important
+}
+
+.fs-12 {
+    font-size: 12px !important
+}
+
+.fs-13 {
+    font-size: 13px !important
+}
+
+.fs-14 {
+    font-size: 14px !important
+}
+
+.fs-15 {
+    font-size: 15px !important
+}
+
+.fs-16 {
+    font-size: 16px !important
+}
+
+.fs-17 {
+    font-size: 17px !important
+}
+
+.fs-18 {
+    font-size: 18px !important
+}
+
+.fs-19 {
+    font-size: 19px !important
+}
+
+.fs-20 {
+    font-size: 20px !important
+}
+
+.fs-21 {
+    font-size: 21px !important
+}
+
+.fs-22 {
+    font-size: 22px !important
+}
+
+.fs-23 {
+    font-size: 23px !important
+}
+
+.fs-24 {
+    font-size: 24px !important
+}
+
+.fs-25 {
+    font-size: 25px !important
+}
+
+.fs-26 {
+    font-size: 26px !important
+}
+
+.fs-27 {
+    font-size: 27px !important
+}
+
+.fs-28 {
+    font-size: 28px !important
+}
+
+.fs-29 {
+    font-size: 29px !important
+}
+
+.fs-30 {
+    font-size: 30px !important
+}
+
+.fs-31 {
+    font-size: 31px !important
+}
+
+.fs-32 {
+    font-size: 32px !important
+}
+
+.fs-33 {
+    font-size: 33px !important
+}
+
+.fs-34 {
+    font-size: 34px !important
+}
+
+.fs-35 {
+    font-size: 35px !important
+}
+
+.fs-36 {
+    font-size: 36px !important
+}
+
+.fs-37 {
+    font-size: 37px !important
+}
+
+.fs-38 {
+    font-size: 38px !important
+}
+
+.fs-39 {
+    font-size: 39px !important
+}
+
+.fs-40 {
+    font-size: 40px !important
+}
+
+.fs-41 {
+    font-size: 41px !important
+}
+
+.fs-42 {
+    font-size: 42px !important
+}
+
+.fs-43 {
+    font-size: 43px !important
+}
+
+.fs-44 {
+    font-size: 44px !important
+}
+
+.fs-45 {
+    font-size: 45px !important
+}
+
+.fs-46 {
+    font-size: 46px !important
+}
+
+.fs-47 {
+    font-size: 47px !important
+}
+
+.fs-48 {
+    font-size: 48px !important
+}
+
+.fs-49 {
+    font-size: 49px !important
+}
+
+.fs-50 {
+    font-size: 50px !important
+}
+
+.fs-51 {
+    font-size: 51px !important
+}
+
+.fs-52 {
+    font-size: 52px !important
+}
+
+.fs-53 {
+    font-size: 53px !important
+}
+
+.fs-54 {
+    font-size: 54px !important
+}
+
+.fs-55 {
+    font-size: 55px !important
+}
+
+.fs-56 {
+    font-size: 56px !important
+}
+
+.fs-57 {
+    font-size: 57px !important
+}
+
+.fs-58 {
+    font-size: 58px !important
+}
+
+.fs-59 {
+    font-size: 59px !important
+}
+
+.fs-60 {
+    font-size: 60px !important
+}
+
+.fs-61 {
+    font-size: 61px !important
+}
+
+.fs-62 {
+    font-size: 62px !important
+}
+
+.fs-63 {
+    font-size: 63px !important
+}
+
+.fs-64 {
+    font-size: 64px !important
+}
+
+.fs-65 {
+    font-size: 65px !important
+}
+
+.fs-66 {
+    font-size: 66px !important
+}
+
+.fs-67 {
+    font-size: 67px !important
+}
+
+.fs-68 {
+    font-size: 68px !important
+}
+
+.fs-69 {
+    font-size: 69px !important
+}
+
+.fs-70 {
+    font-size: 70px !important
+}
+
+.fs-71 {
+    font-size: 71px !important
+}
+
+.fs-72 {
+    font-size: 72px !important
+}
+
+.fs-73 {
+    font-size: 73px !important
+}
+
+.fs-74 {
+    font-size: 74px !important
+}
+
+.fs-75 {
+    font-size: 75px !important
+}
+
+.fs-76 {
+    font-size: 76px !important
+}
+
+.fs-77 {
+    font-size: 77px !important
+}
+
+.fs-78 {
+    font-size: 78px !important
+}
+
+.fs-79 {
+    font-size: 79px !important
+}
+
+.fs-80 {
+    font-size: 80px !important
+}
+
+.fs-81 {
+    font-size: 81px !important
+}
+
+.fs-82 {
+    font-size: 82px !important
+}
+
+.fs-83 {
+    font-size: 83px !important
+}
+
+.fs-84 {
+    font-size: 84px !important
+}
+
+.fs-85 {
+    font-size: 85px !important
+}
+
+.fs-86 {
+    font-size: 86px !important
+}
+
+.fs-87 {
+    font-size: 87px !important
+}
+
+.fs-88 {
+    font-size: 88px !important
+}
+
+.fs-89 {
+    font-size: 89px !important
+}
+
+.fs-90 {
+    font-size: 90px !important
+}
+
+.fs-91 {
+    font-size: 91px !important
+}
+
+.fs-92 {
+    font-size: 92px !important
+}
+
+.fs-93 {
+    font-size: 93px !important
+}
+
+.fs-94 {
+    font-size: 94px !important
+}
+
+.fs-95 {
+    font-size: 95px !important
+}
+
+.fs-96 {
+    font-size: 96px !important
+}
+
+.fs-97 {
+    font-size: 97px !important
+}
+
+.fs-98 {
+    font-size: 98px !important
+}
+
+.fs-99 {
+    font-size: 99px !important
+}
+
+.fw-100 {
+    font-weight: 100 !important
+}
+
+.fw-200 {
+    font-weight: 200 !important
+}
+
+.fw-300 {
+    font-weight: 300 !important
+}
+
+.fw-400 {
+    font-weight: 400 !important
+}
+
+.fw-500 {
+    font-weight: 500 !important
+}
+
+.fw-600 {
+    font-weight: 600 !important
+}
+
+.fw-700 {
+    font-weight: 700 !important
+}
+
+.fw-800 {
+    font-weight: 800 !important
+}
+
+.fw-900 {
+    font-weight: 900 !important
+}
+
+.l-owndays-meets .p-main__title {
+    width: 80%;
+    max-width: 1152px;
+    margin: 0 auto
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets .p-main__title {
+        width: 100%;
+        padding: 0 5%
+    }
+}
+
+.l-owndays-meets .p-main__bg:before,
+.l-owndays-meets .p-main__title .meets-title__name>span>span:after,
+.l-owndays-meets .p-main__title .meets-title__name>span>span:before,
+.l-owndays-meets__interview .interview__question>span>span:before {
+    content: "";
+    display: block;
+    position: absolute
+}
+
+.l-owndays-meets__guestselect .guestselect__photos,
+.l-owndays-meets__latestpost .latestpost__list,
+.l-owndays-meets__profile {
+    display: inline-table
+}
+
+.l-owndays-meets__guestselect .guestselect__photos:after,
+.l-owndays-meets__latestpost .latestpost__list:after,
+.l-owndays-meets__profile:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.l-owndays-meets__guestselect .guestselect__product p a,
+.l-owndays-meets__guestselect h2 a,
+.l-owndays-meets__profile .profile__link a {
+    color: #0094c8
+}
+
+.l-owndays-meets__guestselect .guestselect__product p a.is-active,
+.l-owndays-meets__guestselect .guestselect__product p a:active,
+.l-owndays-meets__guestselect .guestselect__product p a:focus,
+.l-owndays-meets__guestselect .guestselect__product p a:hover,
+.l-owndays-meets__guestselect h2 a.is-active,
+.l-owndays-meets__guestselect h2 a:active,
+.l-owndays-meets__guestselect h2 a:focus,
+.l-owndays-meets__guestselect h2 a:hover,
+.l-owndays-meets__profile .profile__link a.is-active,
+.l-owndays-meets__profile .profile__link a:active,
+.l-owndays-meets__profile .profile__link a:focus,
+.l-owndays-meets__profile .profile__link a:hover {
+    color: #007eaa;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.modal-content {
+    border-radius: 0
+}
+
+.modal-body {
+    padding: 0
+}
+
+.modal-backdrop {
+    background-color: #fff
+}
+
+.modal-backdrop .show {
+    opacity: .8
+}
+
+.l-owndays-meets {
+    color: #666
+}
+
+.l-owndays-meets .p-main__bg picture {
+    max-width: 1440px;
+    margin: 0 auto
+}
+
+.l-owndays-meets .p-main__bg:before {
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.l-owndays-meets .p-main__title {
+    max-width: 762px;
+    text-align: center;
+    top: 58%;
+    left: 50%
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets .p-main__title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+        background-color: transparent;
+        padding: 0 10%;
+        top: 65%
+    }
+}
+
+.l-owndays-meets .p-main__title h1 {
+    position: static
+}
+
+.l-owndays-meets .p-main__title .meets-title__vol {
+    font-size: 25px;
+    display: block;
+    width: auto;
+    text-align: center;
+    color: #fff;
+    font-family: daniel-regular;
+    font-weight: 400;
+    margin: 25px auto 0;
+    max-width: none
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets .p-main__title .meets-title__vol {
+        font-size: 15px;
+        margin-top: 10px
+    }
+}
+
+.l-owndays-meets .p-main__title .meets-title__name {
+    font-family: Founders Grotesk, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .2em;
+    display: inline-block;
+    margin-top: 40px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets .p-main__title .meets-title__name {
+        padding: 0 5%;
+        margin-top: 18px
+    }
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span:after,
+.l-owndays-meets .p-main__title .meets-title__name>span:before {
+    border-top: 1px solid #fff;
+    content: "";
+    width: 95px
+}
+
+@media (max-width:767px) {
+
+    .l-owndays-meets .p-main__title .meets-title__name>span:after,
+    .l-owndays-meets .p-main__title .meets-title__name>span:before {
+        width: 40px
+    }
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span:before {
+    margin-right: 1rem
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span:after {
+    margin-left: 1rem
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span>span {
+    padding: 0 20px;
+    position: relative;
+    line-height: 1.4
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets .p-main__title .meets-title__name>span>span {
+        padding: 0 5px
+    }
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span>span:after,
+.l-owndays-meets .p-main__title .meets-title__name>span>span:before {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: calc(50% - 2px)
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span>span:before {
+    left: -14px
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span>span:after {
+    right: -14px
+}
+
+.l-owndays-meets .p-main__title .meets-title__name>span>span>span {
+    margin-left: 10px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets .p-main__title .meets-title__name>span>span>span {
+        display: block;
+        margin-left: 0;
+        font-size: 11px;
+        margin-top: 5px
+    }
+}
+
+.l-owndays-meets .l-content--inner {
+    max-width: 764px
+}
+
+.l-owndays-meets h2 {
+    text-align: center
+}
+
+.l-owndays-meets h3 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.l-owndays-meets h3.strong {
+    font-size: 18px;
+    color: #c7002e;
+    margin-top: 30px
+}
+
+.l-owndays-meets__information {
+    margin-top: 50px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__information {
+        margin-top: 25px
+    }
+}
+
+.l-owndays-meets__profile {
+    max-width: 764px;
+    background-color: #f4f4f4;
+    padding: 35px 30px;
+    margin: 50px auto 0;
+    display: block
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile {
+        margin-top: 30px;
+        padding: 5% 5% 7%
+    }
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile>div {
+        display: table;
+        width: 100%
+    }
+}
+
+.l-owndays-meets__profile>div figure {
+    width: 190px;
+    float: left
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile>div figure {
+        width: 140px;
+        float: none;
+        display: table-cell
+    }
+}
+
+.l-owndays-meets__profile>div>div {
+    float: right;
+    width: calc(100% - 190px);
+    padding-left: 20px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile>div>div {
+        width: calc(100% - 140px);
+        display: table-cell;
+        vertical-align: middle;
+        float: none
+    }
+}
+
+.l-owndays-meets__profile>p {
+    float: right;
+    width: calc(100% - 190px);
+    padding-left: 20px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile>p {
+        float: none;
+        width: 100%
+    }
+}
+
+.l-owndays-meets__profile .profile__name {
+    text-align: left;
+    font-size: 16px
+}
+
+.l-owndays-meets__profile .profile__name span {
+    margin-left: 15px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile .profile__name span {
+        display: block;
+        margin-left: 0
+    }
+}
+
+.l-owndays-meets__profile .profile__job {
+    font-size: 12px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile .profile__job {
+        margin-top: 10px
+    }
+}
+
+.l-owndays-meets__profile .profile__text {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 13px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile .profile__text {
+        padding-left: 0;
+        margin-top: 20px
+    }
+}
+
+.l-owndays-meets__profile .profile__link {
+    font-size: 12px;
+    padding-top: 8px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__profile .profile__link {
+        padding-left: 0
+    }
+}
+
+.l-owndays-meets__profile .profile__link a {
+    display: inline-block
+}
+
+.l-owndays-meets__interview {
+    padding-bottom: 80px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview {
+        padding-bottom: 50px
+    }
+}
+
+.l-owndays-meets__interview .interview__question {
+    margin-top: 50px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview .interview__question {
+        margin-top: 30px
+    }
+}
+
+.l-owndays-meets__interview .interview__question>span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.l-owndays-meets__interview .interview__question>span:before {
+    border-top: 1px solid #000;
+    content: "";
+    width: 55px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview .interview__question>span:before {
+        width: 30px;
+        position: absolute;
+        top: 8px
+    }
+}
+
+.l-owndays-meets__interview .interview__question>span:before {
+    margin-right: 1rem
+}
+
+.l-owndays-meets__interview .interview__question>span>span {
+    padding: 0 20px;
+    position: relative;
+    line-height: 1.4
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview .interview__question>span>span {
+        padding: 0 5px 0 45px
+    }
+}
+
+.l-owndays-meets__interview .interview__question>span>span:before {
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+    top: calc(50% - 2px)
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview .interview__question>span>span:before {
+        top: 6.7px
+    }
+}
+
+.l-owndays-meets__interview .interview__question>span>span:before {
+    left: -14px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview .interview__question>span>span:before {
+        left: 30px
+    }
+}
+
+.l-owndays-meets__interview .interview__question>span>span>span {
+    margin-left: 10px
+}
+
+.l-owndays-meets__interview .interview__answer {
+    margin-top: 20px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__interview .interview__answer {
+        margin-top: 15px
+    }
+}
+
+.l-owndays-meets__interview .interview__movie,
+.l-owndays-meets__interview .interview__photos {
+    margin-top: 50px
+}
+
+@media (max-width:767px) {
+
+    .l-owndays-meets__interview .interview__movie,
+    .l-owndays-meets__interview .interview__photos {
+        margin-top: 30px
+    }
+}
+
+.l-owndays-meets__interview .interview__movie a.is-active,
+.l-owndays-meets__interview .interview__movie a:active,
+.l-owndays-meets__interview .interview__movie a:focus,
+.l-owndays-meets__interview .interview__movie a:hover {
+    opacity: .8
+}
+
+.l-owndays-meets__guestselect {
+    background-color: #f4f4f4;
+    padding-top: 60px;
+    padding-bottom: 80px
+}
+
+.l-owndays-meets__guestselect .l-content--inner {
+    max-width: 784px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect {
+        padding-top: 40px;
+        padding-bottom: 50px
+    }
+}
+
+.l-owndays-meets__guestselect p {
+    font-size: 12px;
+    margin-top: 35px;
+    padding: 0 10px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect p {
+        margin-top: 25px;
+        padding: 0
+    }
+}
+
+.l-owndays-meets__guestselect h2 {
+    font-family: daniel-regular;
+    letter-spacing: normal
+}
+
+.l-owndays-meets__guestselect h2 a {
+    display: block;
+    font-family: Founders Grotesk, sans-serif;
+    font-size: 14px;
+    padding-top: 3px
+}
+
+.l-owndays-meets__guestselect h2 .guestselect__name {
+    display: block;
+    font-family: Founders Grotesk, sans-serif;
+    color: #666;
+    font-size: 14px;
+    padding-top: 10px
+}
+
+.l-owndays-meets__guestselect .guestselect__photos {
+    padding-top: 30px;
+    display: block
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__photos {
+        padding-top: 25px
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li {
+    width: 33.3333%;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    position: relative
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li:nth-child(3n) {
+    margin-right: 0
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li>div {
+    padding: 0 10px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__photos li>div {
+        padding: 0 5px
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li:first-child {
+    position: relative
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li:first-child>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li:first-child>div:after {
+    content: "";
+    top: 0;
+    left: 50%;
+    width: calc(100% - 20px);
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__photos li:first-child>div:after {
+        width: calc(100% - 10px)
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__photos li:first-child>div img {
+    z-index: 2;
+    position: relative;
+    padding: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__photos li:first-child>div {
+        padding: 0 3px
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__photos.-ver2 li:first-child {
+    width: 33.333%
+}
+
+.l-owndays-meets__guestselect .guestselect__photos.-ver2 li:last-child {
+    width: 66.666%
+}
+
+.l-owndays-meets__guestselect .guestselect__product {
+    margin-top: 15px;
+    padding: 0 10px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__product {
+        padding: 0
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__product p {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 30px
+}
+
+.l-owndays-meets__guestselect .guestselect__product p a {
+    display: inline-block
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__product p {
+        display: block;
+        margin-top: 20px;
+        margin-right: 0
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__product dl {
+    display: inline-block
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__product dl {
+        width: 100%
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__product dl dt {
+    margin-right: 8px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__product dl dt {
+        width: 85px
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__product dl dd {
+    margin-right: 30px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__guestselect .guestselect__product dl dd {
+        width: calc(100% - 85px)
+    }
+}
+
+.l-owndays-meets__guestselect .guestselect__product dl dd,
+.l-owndays-meets__guestselect .guestselect__product dl dt {
+    display: inline-block;
+    font-weight: 400
+}
+
+@media (max-width:767px) {
+
+    .l-owndays-meets__guestselect .guestselect__product dl dd,
+    .l-owndays-meets__guestselect .guestselect__product dl dt {
+        margin-right: 0
+    }
+}
+
+.l-owndays-meets__latestpost {
+    padding-top: 60px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__latestpost {
+        padding-top: 40px
+    }
+}
+
+.l-owndays-meets__latestpost h2 {
+    font-family: daniel-regular;
+    letter-spacing: normal
+}
+
+.l-owndays-meets__latestpost .latestpost__list {
+    padding-top: 40px
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__latestpost .latestpost__list {
+        padding-top: 30px
+    }
+}
+
+.l-owndays-meets__latestpost .latestpost__list a {
+    background-color: #f4f4f4;
+    width: 48%;
+    float: left;
+    margin-right: 4%
+}
+
+.l-owndays-meets__latestpost .latestpost__list a:last-child {
+    margin-right: 0
+}
+
+.l-owndays-meets__latestpost .latestpost__list a>div {
+    padding: 15px 15px 35px;
+    line-height: 1.5
+}
+
+@media (max-width:767px) {
+    .l-owndays-meets__latestpost .latestpost__list a>div {
+        padding: 10px 15px 25px;
+        font-size: 12px
+    }
+}
+
+.l-owndays-meets__latestpost .latestpost__list-vol {
+    font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif;
+    font-weight: 400
+}
+
+.l-owndays-meets__latestpost .latestpost__list-name {
+    color: #666;
+    min-height: 40px
+}
+
+@font-face {
+    font-family: 'daniel-regular';
+    src: url('https://storage.owndays.com/fonts/Daniel-Regular-webfont.eot') format('embedded-opentype'),
+        url('https://storage.owndays.com/fonts/Daniel-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Founders Grotesk', 'Aktiv Grotesk TWHK', sans-serif;
+}
