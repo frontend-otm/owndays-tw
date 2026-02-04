@@ -226,23 +226,3 @@ $(".l-accordion__item-q").click(function () {
     );
   }
 });
-
-$("a[href^='#']").on("mousedown", function (e) {
-  e.preventDefault();
-});
-
-$("a[href^='#']").on("click", function (e) {
-  const targetId = $(this).attr("href");
-  const $target = $(targetId);
-
-  if ($target.length === 0) return;
-
-  const marginTop = 60;
-  const targetPos = $target.offset().top - marginTop;
-
-  $("html, body")
-    .stop(true)
-    .animate({ scrollTop: targetPos }, 600, function () {
-      history.pushState(null, "", targetId);
-    });
-});
