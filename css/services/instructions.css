@@ -39,6 +39,10 @@
     margin-block: 40px;
   }
 
+  p {
+    margin-bottom: 0 !important;
+  }
+
   @media (min-width: 768px) {
     width: 80%;
     max-width: 1152px;
@@ -63,28 +67,28 @@
   display: block;
   width: 7px;
   height: auto;
-  margin: 20px auto 10px;
+  margin: 20px auto 10px !important;
 }
 
 .instructions__icon_1 {
   display: block;
   width: 100px;
   height: auto;
-  margin: 20px auto 10px;
+  margin: 20px auto 10px !important;
 }
 
 .instructions__icon_2 {
   display: block;
   width: 150px;
   height: auto;
-  margin: 20px auto 10px;
+  margin: 20px auto 10px !important;
 }
 
 .instructions__icon_3 {
   display: block;
   width: 250px;
   height: auto;
-  margin: 20px auto 10px;
+  margin: 20px auto 10px !important;
 }
 
 .instructions__steps {

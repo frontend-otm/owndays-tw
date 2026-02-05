@@ -124,6 +124,7 @@
 
 .lens-replacement__set__services {
   width: 18%;
+  min-width: 74px;
   height: auto;
   vertical-align: middle;
   text-align: center;
@@ -143,7 +144,7 @@
   &::after {
     content: "";
     position: absolute;
-    top: 48%;
+    top: 40%;
     right: -5px;
     width: 11px;
     height: 1px;
@@ -155,11 +156,13 @@
     height: auto;
     margin-inline: auto;
     display: block;
+    margin-bottom: 0;
   }
 
   p {
     font-size: 11px;
     letter-spacing: 1px;
+    margin-bottom: 0;
   }
 
   &[data-key="last"] {
@@ -202,10 +205,13 @@
       font-family: var(--font-founders);
       line-height: 1;
       text-align: right;
+      margin-bottom: 0;
     }
   }
 
   @media (min-width: 768px) {
+    width: 94px;
+    
     &::before {
       top: 25px;
       right: 0;
@@ -332,6 +338,7 @@
       position: relative;
 
       a {
+        display: inline-block !important;
         outline: none;
         transition: .5s;
         cursor: pointer;
