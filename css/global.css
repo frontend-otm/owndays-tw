@@ -308,6 +308,7 @@ picture img {
   p {
     display: flex;
     font: inherit;
+    margin-bottom: 0;
   }
 
   a {
