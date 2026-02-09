@@ -4,7 +4,7 @@
   position: absolute;
 }
 @media screen and (max-width: 767px) {
-  .kdDjVi p {
+  .l-owndays-contactlens .howto_archive p {
     margin-bottom: 0 !important;
   }
 }
@@ -681,7 +681,7 @@
 @media (max-width: 767px) {
   .l-owndays-contactlens .cursor:after {
     right: 3px;
-    margin-top: -1rem;
+    margin-top: -20px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
   }
