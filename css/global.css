@@ -321,9 +321,7 @@ picture img {
   }
 
   @media (min-width: 1296px) {
-    ul {
-      padding-inline: 50px;
-      max-width: 2020px;
-    }
+    padding-inline: 50px;
+    max-width: 2020px;
   }
 }
