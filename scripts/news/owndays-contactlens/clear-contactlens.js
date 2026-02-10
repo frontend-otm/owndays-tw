@@ -6,13 +6,8 @@ $(function () {
   });
   document.querySelectorAll('img').forEach((img) => img.addEventListener('load', () => AOS.refresh()));
 
-  new Swiper('.contactlens__slider', {
-    slidesPerView: 'auto',
+  new Swiper('.main-slider', {
     loop: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
   });
 });
 
