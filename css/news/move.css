@@ -90,7 +90,7 @@
     outline: none;
     transition: .5s;
     color: black;
-    display: flex !important;
+    display: inherit !important;
   }
 
   p {
