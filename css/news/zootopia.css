@@ -50,6 +50,15 @@ html {
   margin-right: auto
 }
 
+.max-w-\[720px\] {
+  max-width: 720px !important;
+  margin-bottom: 0 !important;
+}
+
+.\[\&_\.swiper-pagination-bullets\]\:w-fit .swiper-pagination-bullets {
+  width: fit-content !important;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -58,10 +67,11 @@ html {
 
 .l-zootopia p {
   text-box-trim: trim-both;
+  margin-bottom: 0;
 }
 
 .l-zootopia .button {
-  display: flex;
+  display: flex !important;
   align-items: center;
   width: 100%;
   max-width: 440px;
@@ -371,4 +381,9 @@ html {
   .c-top-btn {
     bottom: 120px !important
   }
+}
+
+#footer {
+  position: relative;
+  z-index: 5;
 }

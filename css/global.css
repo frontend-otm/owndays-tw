@@ -308,6 +308,7 @@ picture img {
   p {
     display: flex;
     font: inherit;
+    margin-bottom: 0;
   }
 
   a {
@@ -320,9 +321,7 @@ picture img {
   }
 
   @media (min-width: 1296px) {
-    ul {
-      padding-inline: 50px;
-      max-width: 2020px;
-    }
+    padding-inline: 50px;
+    max-width: 2020px;
   }
 }
