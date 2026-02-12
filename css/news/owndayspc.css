@@ -51,6 +51,7 @@ a {
   outline: none;
   transition: 0.5s;
   color: black;
+  display: flex !important;
 }
 p {
   line-height: inherit;
@@ -71,14 +72,14 @@ p {
   letter-spacing: 0;
 }
 .l-owndayspc p {
-  margin-bottom: var(--mb);
+  margin-bottom: 0 !important;
 }
 @media (min-width: 1024px) {
   .l-owndayspc {
     font-size: 16px;
   }
   .l-owndayspc p {
-    margin-bottom: var(--mb-lg, var(--mb));
+    margin-bottom: 0 !important;
   }
 }
 .l-owndayspc__container {
