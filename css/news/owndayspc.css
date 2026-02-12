@@ -49,9 +49,6 @@
 .l-owndayspc a.l-owndayspc__btn {
   display: flex !important;
 }
-.l-owndayspc img {
-  margin-bottom: 0 !important;
-}
 p {
   line-height: inherit;
   margin-bottom: inherit;
