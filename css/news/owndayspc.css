@@ -46,11 +46,11 @@
     background-position: 16px;
   }
 }
-a {
-  text-decoration: none;
-  outline: none;
-  transition: 0.5s;
-  color: black;
+.l-owndayspc a.l-owndayspc__btn {
+  display: flex !important;
+}
+.l-owndayspc img {
+  margin-bottom: 0 !important;
 }
 p {
   line-height: inherit;
