@@ -46,12 +46,11 @@
     background-position: 16px;
   }
 }
-a {
-  text-decoration: none;
-  outline: none;
-  transition: 0.5s;
-  color: black;
+.l-owndayspc a.l-owndayspc__btn {
   display: flex !important;
+}
+.l-owndayspc img {
+  margin-bottom: 0 !important;
 }
 p {
   line-height: inherit;
@@ -72,14 +71,14 @@ p {
   letter-spacing: 0;
 }
 .l-owndayspc p {
-  margin-bottom: 0 !important;
+  margin-bottom: var(--mb);
 }
 @media (min-width: 1024px) {
   .l-owndayspc {
     font-size: 16px;
   }
   .l-owndayspc p {
-    margin-bottom: 0 !important;
+    margin-bottom: var(--mb-lg, var(--mb));
   }
 }
 .l-owndayspc__container {
