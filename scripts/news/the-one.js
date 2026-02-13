@@ -217,7 +217,7 @@ $(function () {
   /* GET HEADER HEIGHT */
   function getHeaderHeight() {
     const $header = $("#header");
-    const $breadcrumb = $(".c-breadcrumb");
+    const $breadcrumb = $(".breadcrumbs");
 
     if ($header.length && $breadcrumb.length) {
       const headerHeight = $header.outerHeight();
@@ -263,10 +263,10 @@ $(function () {
     var $scrollBarContainer = $(".scroll-bar");
     var $scrollBarLine = $(".scroll-bar-line");
     var $sectionShareH = $(".share").outerHeight();
-    var $sectionFooterH = $(".l-footer").outerHeight();
+    var $sectionFooterH = $("#footerContent").outerHeight();
     var $scrollBarTrackCloneTop = $(".scroll-bar-track-clone-top");
     var $scrollBarTrackCloneBottom = $(".scroll-bar-track-clone-bottom");
-    var $topInformationH = $("#top-information").outerHeight();
+    var $topInformationH = $("#header").outerHeight();
 
     if ($scrollBarTrack.length && $scrollBarContainer.is(":visible")) {
       var containerHeight = $(window).height();
