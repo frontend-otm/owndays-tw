@@ -1,0 +1,2148 @@
+/*----------------
+ Base
+----------------*/
+body {
+  font-weight: 400;
+}
+
+.zh-tw--none,
+.u-ec-only {
+  display: none !important;
+}
+
+.tw-only {
+  display: block;
+}
+
+.th-only,
+.au-only,
+.sg-only,
+.ph-only,
+.jp-only,
+.my-only,
+.hk-only,
+.vn-only,
+.id-only,
+.kh-only,
+.in-only {
+  display: none;
+}
+
+.c-list-decoration--asterisk li:before,
+.c-list-decoration--asterisk p:before {
+  padding-right: 0.3rem;
+  content: '※';
+}
+
+.l-cart {
+  padding-bottom: 70px;
+}
+
+@media (max-width: 767px) {
+.l-cart {
+  padding-bottom: 40px;
+}
+}
+
+@media (max-width: 767px) {
+  .c-list-decoration li:before,
+  .c-list-decoration p:before {
+    top: 4px;
+  }
+}
+
+/*----------------
+ PRIVACY POLICY
+----------------*/
+.l-privacy__content h2 {
+  padding-bottom: 10px;
+}
+
+.l-privacy__content .l-parent-ul {
+  padding-left: 0;
+}
+
+.l-parent-ul li>p,
+.l-parent-ul li>div,
+.l-parent-ul li>ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.l-parent-ul li>div p,
+.l-parent-ul li>div ul {
+  padding-bottom: 14px;
+}
+
+.l-privacy__content .l-parent-ul li {
+  padding-bottom: 0;
+}
+
+/*----------------
+ Header
+----------------*/
+
+.l-header__links {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .l-header .country-selector {
+    padding: 9px 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .l-header__submenu__category-informations li:nth-child(-n + 2):after {
+    display: none;
+  }
+
+  .l-header .country-selector {
+    padding: 9px 0 0;
+  }
+}
+
+/*----------------
+Footer
+----------------*/
+@media (min-width: 1024px) {
+  .l-footer__contact-tel a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .l-footer__contact-tel a {
+    font-size: 20px;
+  }
+  .l-footer__contact-tel {
+    padding-top: 5px;
+  }
+}
+
+
+@media screen and (max-width: 1023px) {
+  .l-footer__agreement li:nth-child(-n + 1) a:after {
+    display: none;
+  }
+
+  .l-footer--2 .l-footer__contact .c-btn {
+    margin-top: 10px;
+  }
+
+  .l-footer__contact {
+    padding: 26px 0 5px;
+  }
+
+  .l-footer__sns-link .fab {
+    vertical-align: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .l-footer__language {
+    margin-left: 12px;
+  }
+}
+
+/*----------------
+ Top
+----------------*/
+/* .l-season-information ul li {
+  width: 24.4%;
+} */
+
+@media screen and (max-width: 1023px) {
+  /* .l-season-information ul li {
+    width: 49%;
+  } */
+
+  /* .l-season-information ul li:first-child {
+    width: 100%;
+  } */
+}
+
+#zh-tw--none {
+  display: none;
+}
+
+/*----------------
+ Service
+----------------*/
+
+.l-services-lens-replacement .l-base-price__content .l-set__services:before {
+  top: 25px;
+}
+
+.l-services-lens-replacement .l-base-price__content .l-set__services.-price:after {
+  top: 31px;
+}
+
+.l-services-lens-replacement .l-base-price__content .l-set__services.-price:before {
+  top: 39px;
+}
+
+.l-services-lens-replacement .l-lens-list-inner .l-lens-name__price .c-tag-no-prescription span {
+  width: 80px;
+}
+
+.l-services-lens .p-lens-tab .c-lens-type {
+  width: 430px;
+}
+
+.l-product-details .details-info__list-warranty li {
+  justify-content: left;
+  padding: 8px 20px;
+}
+
+/* .l-services-lens .p-lens-tab a:before {
+  background: url("https://storage.owndays.com/images/services/lens/detail_4-lens.webp") center center no-repeat;
+} */
+
+@media screen and (min-width: 641px) {
+  .l-airultem2015mid #technology {
+    min-height: 710px;
+  }
+}
+
+/*----------------
+ Products
+----------------*/
+
+.l-product-details__details-info .p-product__colortext {
+  position: relative;
+}
+
+.l-product-details .l-modal-try-on__list li {
+  width: 260px;
+}
+
+.l-try-on .c-btn-group {
+  justify-content: center;
+}
+
+.l-try-on .c-btn-group li {
+  flex-basis: 100%;
+}
+
+.l-memorymetal__main-title p {
+  font-size: 17.4px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 767px) {
+  .l-product-details .l-modal-try-on__list {
+    margin-top: -144px;
+  }
+
+  .l-memorymetal__main-title p {
+    font-size: 20px;
+  }
+
+  .l-memorymetal__main-title {
+    max-width: 70%;
+  }
+}
+
+.l-memorymetal__main-title p {
+  font-size: 20px;
+}
+
+.l-memorymetal__main-title {
+  max-width: 70%;
+}
+
+/*----------------
+ OWNDAYS PC
+----------------*/
+
+.l-owndayspc .main_photo {
+  background-image: url(/images/specials/products/owndayspc/tw/owndayspc_imgcnv.jpg);
+}
+
+.ultem-model .feature {
+  background-image: url("/images/specials/products/owndayspc/tw/splite.png");
+}
+
+@media screen and (max-width: 930px) {
+  .ultem-model .feature {
+    background-image: url("/images/specials/products/owndayspc/tw/splite_tb.png");
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .ultem-model .feature {
+    background-image: none;
+  }
+}
+/*----------------
+ Warranty
+----------------*/
+.l-services-warranty .p-attention-list li {
+  padding-left: 13px;
+  top: 5px;
+}
+
+.l-services-warranty .p-attention-list li:before {
+  content: '※';
+  font-size: 12px;
+}
+
+.l-account__service ul li:nth-child(3) .l-account__icon img {
+  margin-left: -6px;
+  margin-top: 4px;
+}
+
+/*----------------
+ Warranty
+----------------*/
+.l-services-warranty .p-attention-list li {
+  padding-left: 13px;
+  top: 5px;
+}
+
+.l-services-warranty .p-attention-list li:before {
+  content: '※';
+  font-size: 12px;
+}
+/*----------------
+ Account
+----------------*/
+.l-account__icon span {
+  line-height: 1;
+  font-size: 10px;
+  padding-top: 22px;
+  width: 58px;
+  height: 58px;
+}
+
+.l-account__icon span i {
+  font-size: 13px;
+}
+
+.l-account__warranty ul {
+  justify-content: space-around;
+}
+
+.l-account__warranty ul li {
+  width: 36%;
+}
+
+.l-account__icon span {
+  padding-top: 23px;
+}
+
+.l-account__warranty ul li:nth-child(4) .l-account__icon span {
+  padding-top: 16px;
+}
+
+.l-account__registration ul li:nth-child(2) {
+  border-right: unset;
+}
+
+.l-account__registration ul li:first-child {
+  flex-basis: 50%;
+  border-right: 1px solid #000;
+  border-bottom: unset;
+}
+
+.l-account__registration ul li:first-child>div {
+  flex-basis: 100%;
+}
+
+@media (max-width: 767px) {
+  .l-account__service ul li {
+    width: 100%;
+  }
+
+  .l-account__registration ul li:first-child {
+    flex-basis: 100%;
+    border-right: unset;
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  .l-account__warranty ul li {
+    width: 100%;
+  }
+}
+/*----------------
+ Specials Poupelle
+----------------*/
+.l-poupelle .jp-title {
+  font-family: ar-udjingxiheib5, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.l-poupelle__main + div {
+  padding-bottom: 110px;
+}
+
+.l-poupelle__main-title {
+  position: relative;
+  z-index: 20;
+  padding: 152px 0 315px;
+}
+
+.l-poupelle__main-title h1 img {
+  width: 98%;
+  margin: auto;
+}
+
+.l-poupelle__main-badge {
+  width: 503px;
+  position: absolute;
+  bottom: -98px;
+  right: -29px;
+  z-index: 10;
+}
+
+.l-poupelle__visual-block img {
+  width: 78px;
+}
+
+.l-poupelle__lineup-slider > img {
+  width: 110px;
+}
+
+.l-poupelle__lineup .slick-dots li button:before {
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: right;
+  font-size: 30px;
+}
+
+.l-poupelle__trailer {
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+.l-poupelle__trailer .title > span {
+  font-family: vdl-yotag, sans-serif;
+  letter-spacing: 0;
+  line-height: 1.7;
+  display: block;
+}
+
+.l-poupelle__trailer .title > span:nth-child(1) {
+  font-size: 30px;
+}
+
+.l-poupelle__trailer .title > span:nth-child(2) {
+  font-size: 23px;
+}
+
+.l-poupelle__trailer a {
+  position: relative;
+  display: block;
+  max-width: 850px;
+  margin: 65px auto 0;
+}
+
+.l-poupelle__trailer .play-button {
+  display: block;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: -30px;
+  top: 45%;
+  z-index: 3;
+}
+
+.l-poupelle__number {
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.l-poupelle__number span {
+  font-family: neuzeit-grotesk,sans-serif;
+}
+
+.l-poupelle__number a[href^="tel:"] {
+  display: inline;
+  color: inherit;
+  cursor: auto;
+  transition: none;
+  pointer-events: none;
+}
+
+.l-gundam-snap .l-gundam__information-inner .disabled {
+  top: -53%;
+  padding: 16px;
+}
+
+.l-gundam-snap .l-gundam__time p {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .l-poupelle__main + div {
+    padding-bottom: 50px;
+  }
+
+  .l-poupelle__main-title {
+    margin-right: 4%;
+    padding: 80px 0 90px;
+  }
+
+  .l-poupelle__main-badge {
+    width: 256px;
+    bottom: -35px;
+    left: -25px;
+    right: auto;
+    transform: rotate(350deg);
+  }
+
+  .l-poupelle__visual-block img {
+    width: 53px;
+  }
+
+  .l-poupelle__lineup-slider > img {
+    width: 64px;
+  }
+
+  .l-poupelle__lineup .slick-dots li button:before {
+    font-size: 16px;
+  }
+
+  .l-poupelle__trailer {
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .l-poupelle__trailer .title > span:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .l-poupelle__trailer .title > span:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .l-poupelle__trailer a {
+    margin: 30px auto 0;
+  }
+
+  .l-poupelle__trailer .play-button {
+      width: 50px;
+      height: 50px;
+      top: 50%;
+  }
+
+  .l-poupelle__about {
+    margin: 70px auto 10px;
+  }
+
+  .l-poupelle__number {
+    position: static;
+  }
+}
+
+/*----------------
+ Cart/Lens
+----------------*/
+.l-cart-lens__types .l-cart-lens__select:nth-child(odd) i {
+  display:block;
+}
+
+/*----------------
+Kimetsu
+----------------*/
+@media (min-width: 768px){
+  .l-kimetsu__sub__nav-item {
+      width: calc(100% / 6);
+  }
+}
+@media (max-width: 1023px){
+  .l-kimetsu__main__heading{
+    justify-content: center;
+    margin: 15px 16px 12px;
+  }
+  .l-kimetsu__main__heading h1{
+    margin-right: 0;
+  }
+  .l-kimetsu__main__heading-bg{
+    left: 60%;
+    transform: translateX(-50%);
+  }
+  .l-kimetsu__main__reservation{
+    text-align: center;
+  }
+}
+
+/*----------------
+ Specials SUNGLASSES 2021
+----------------*/
+
+.l-sunglasses__main > p {
+  padding: 0;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.l-sunglasses__main > p i {
+  font-size: inherit;
+  font-family: Sathu, "Segoe UI", "Hiragino Kaku Gothic ProN", HelveticaNeue, "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, sans-serif;
+}
+
+.l-sunglasses__main > p small {
+  font-size: inherit;
+}
+
+.l-sunglasses__main > p strong {
+  padding: 0.08em 0;
+}
+
+.l-sunglasses__about > div > p {
+  display: flex;
+  justify-content: center;
+}
+
+.l-sunglasses__about ul {
+  align-items: stretch;
+}
+
+.l-sunglasses__about ul li {
+  height: auto;
+  padding: 2% 3% 6%;
+}
+.l-kimetsu__sec-details-btn-wrap[disabled] {
+  pointer-events: none;
+  position: relative;
+}
+
+.l-kimetsu__sec-details-btn-wrap[disabled]::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128 128 128 / 0.9);
+  position: absolute;
+  z-index: 2;
+}
+
+/*----------------
+ Specials SUNGLASSES 2021
+----------------*/
+
+.l-sunglasses__main > p {
+  padding: 0;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.l-sunglasses__main > p i {
+  font-size: inherit;
+  font-family: Sathu, "Segoe UI", "Hiragino Kaku Gothic ProN", HelveticaNeue, "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, Osaka, sans-serif;
+}
+
+.l-sunglasses__main > p small {
+  font-size: inherit;
+}
+
+.l-sunglasses__main > p strong {
+  padding: 0.08em 0;
+}
+
+.l-sunglasses__about > div > p {
+  display: flex;
+  justify-content: center;
+}
+
+.l-sunglasses__about ul {
+  align-items: stretch;
+}
+
+.l-sunglasses__about ul li {
+  height: auto;
+  padding: 2% 3% 6%;
+}
+
+/*----------------
+mi-mollet
+----------------*/
+
+.l-mi-mollet__message-text,
+.l-mi-mollet__case-text,
+.l-mi-mollet__bottom-stylist-details p,
+.l-mi-mollet__bottom-about p,
+.l-mi-mollet__bottom-notes-details,
+.l-mi-mollet__story-text,
+.l-mi-mollet__point-item-text,
+.l-mi-mollet__case-subtitle,
+.l-mi-mollet__top-subtitle span,
+.l-mi-mollet__lineup-title small,
+.l-mi-mollet__lineup-item p,
+.l-mi-mollet__story-modal-details p,
+.l-mi-mollet__point-title small,
+.l-mi-mollet__bottom-notes-title small {
+  font-family: source-han-serif-tc, serif;
+}
+
+/*----------------
+cinnamoroll
+----------------*/
+.l-cinnamoroll .concept__text,
+.l-cinnamoroll .concept__text span,
+.l-cinnamoroll .lineup__nav__item a h5,
+.l-cinnamoroll .lineup__subtitle span,
+.l-cinnamoroll .lineup__item__character__word p,
+.l-cinnamoroll .accessory__set__text span + span,
+.l-cinnamoroll .accessory__subtitle,
+.l-cinnamoroll .recommend__list li h5,
+.l-cinnamoroll .accessory__set__text {
+  font-family: GenSenRounded-B, tbudrgothic-std, sans-serif;
+}
+
+.l-cinnamoroll .recommend__list li h5 {
+  margin-top: 15px;
+}
+
+.l-cinnamoroll .accessory__character-subtitle i {
+  font-family: tbudrgothic-std, sans-serif;
+  font-weight: 800;
+}
+
+.l-cinnamoroll .concept__text {
+  font-size: 25px;
+}
+
+.l-cinnamoroll .concept::before {
+  height: 1080px;
+}
+
+.l-cinnamoroll .concept__cloud-character {
+  margin-top: 9%;
+}
+
+@media (max-width: 1024px) {
+  .l-cinnamoroll .concept::before {
+    height: 900px;
+    width: 900px;
+  }
+
+  .l-cinnamoroll .concept__text {
+    font-size: 21px;
+  }
+
+  .l-cinnamoroll .concept__cloud-character {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-cinnamoroll .concept__text {
+    font-size: 16px;
+  }
+
+  .l-cinnamoroll .concept::before {
+    height: 1200px;
+  }
+}
+
+/*----------------
+7th
+----------------*/
+.l-7th .box-text {
+  font-family: 'Noto Serif CJK TC', serif;
+}
+
+.l-7th__products-heading .heading-subtitle {
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1024px) {
+  .l-7th .box-tex {
+    width: 510px;
+  }
+  .l-7th__products-heading .heading-subtitle::before {
+    height: 1.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-7th__products-heading .heading-subtitle::before {
+    height: 1px;
+  }
+}
+
+.l-7th a{
+  color: #fff;
+}
+
+.l-7th .box-btn:nth-child(n+4)::before {
+  background: none;
+}
+
+/*----------------
+AIR Ultem Classic 2021
+----------------*/
+.l-airultemclassic2021__subtitle,
+.l-airultemclassic2021 .feature .l-airultemclassic2021__subtitle,
+.l-airultemclassic2021 .lineup__title small {
+  font-family: ‘游明朝’,’Yu Mincho’,YuMincho,’Hiragino Mincho Pro’,serif;
+}
+
+@media (min-width: 1024px) {
+  .l-airultemclassic2021__subtitle {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-airultemclassic2021 .lineup__title small {
+    line-height: 1.5;
+  }
+}
+
+
+/*----------------
+盧廣仲 × OWNDAYS new-visual
+----------------*/
+.l-new-visual .sold-out:hover {
+  border: 1px solid #000;
+  color: #000;
+}
+
+.l-new-visual .sold-out::after {
+  display: none;
+}
+
+.l-new-visual .sold-out::before {
+  background-color: #fff;
+}
+
+
+/*----------------
+OWNDAYS SNAP 2021
+----------------*/
+.l-owndays-snap .main__title__text {
+  background: none;
+}
+
+@media (min-width: 1024px) {
+  .l-owndays-snap__btn {
+    font-size: 14px;
+  }
+
+  .l-owndays-snap .concept__details__right {
+    max-width: 460px;
+  }
+
+  .l-owndays-snap .memory-metal__details--top h2 img {
+    max-width: 235px;
+  }
+
+  .l-owndays-snap .memory-metal__details--top p {
+    font-size: 11px;
+  }
+
+  .l-owndays-snap .notes__list {
+    max-width: 710px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-owndays-snap .memory-metal__details--top h2 img {
+    max-width: 210px;
+  }
+}
+
+/*----------------
+eco2xy
+----------------*/
+.l-eco2xy .concept__text {
+  font-family: neuzeit-grotesk;
+  font-weight: 400;
+}
+
+.l-eco2xy .sdg__grid {
+  align-items: center;
+}
+
+.l-eco2xy .main__details-title span {
+  letter-spacing: 1px;
+}
+
+@media (min-width: 1024px) {
+  .l-eco2xy .concept__img--circle {
+    bottom: -40px;
+  }
+
+  .l-eco2xy .sdg__grid {
+    max-width: 770px;
+  }
+
+  .l-eco2xy .main__details {
+    max-width: 860px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-eco2xy .concept__img--circle {
+    bottom: -10px;
+  }
+}
+
+/*----------------
+2022盧廣仲×OWNDAYS
+----------------*/
+@media (min-width: 1024px) {
+  .l-visual .store__text {
+    font-size: 22px;
+  }
+}
+
+.l-visual .about-1 {
+  padding-right: 10px;
+}
+
+/*----------------
+OWNDAYS SNAP 2022
+----------------*/
+.l-owndays-snap__note > li,
+.l-owndays-snap .feature__list-item p {
+  letter-spacing: .5px;
+}
+
+.l-owndays-snap__title small,
+.l-owndays-snap__btn {
+  letter-spacing: 1px;
+}
+
+.l-owndays-snap .notice::before {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .l-owndays-snap__btn {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .l-owndays-snap .main__heading {
+    left: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-owndays-snap .main__heading span {
+    writing-mode: horizontal-tb;
+    margin-bottom: 30px;
+  }
+
+  .l-owndays-snap .main__heading {
+    display: inline;
+    top: 50%;
+    letter-spacing: .2em;
+  }
+
+  .l-owndays-snap .main__heading span mark {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) -15%, #FFF100 20%, #FFF100 95%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .l-owndays-snap .concept__heading {
+    letter-spacing: .05em;
+  }
+}
+
+/*----------------
+SUNGLASSES COLLECTION 2022
+----------------*/
+
+.l-sunglasses,
+.l-sunglasses .cahnge h2,
+.l-sunglasses .line-up__info-detail h2,
+.l-sunglasses .line-up__sub-title--1 small,
+.l-sunglasses .line-up__sub-title--2 small,
+.l-sunglasses .about__note,
+.l-sunglasses .about__list h3 {
+  font-family: noto-sans-cjk-jp, sans-serif;
+}
+
+/*----------------
+千一作
+----------------*/
+.l-senichisaku .bs__text,
+.l-senichisaku .craftsmen__block-title {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.l-senichisaku .process__block-title,
+.l-senichisaku .process__block-text {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.l-senichisaku .main__text{
+  font-family: Aktiv-grotesk TWHK, sans-serif !important;
+}
+
+
+/*----------------
+OWNDAYS+
+----------------*/
+.l-owndays-plus .main__text,
+.l-owndays-plus .feature__item-title-text {
+  font-family: source-han-sans-hong-kong, PingFang SC, sans-serif;
+}
+
+.l-owndays-plus .concept__description,
+.l-owndays-plus .feature__item-description,
+.l-owndays-plus .lineup__item-facetype,
+.l-owndays-plus__btn,
+.l-owndays-plus .lineup__description {
+  font-family: source-han-serif-tc, serif;
+}
+
+.l-owndays-plus .lineup__nav {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 1024px) {
+  .l-owndays-plus {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-owndays-plus .main {
+    padding: 105px 0 0;
+  }
+
+  .l-owndays-plus .main__text {
+    right: 15px;
+    justify-content: end;
+  }
+}
+
+/*----------------
+OWNDAYS PC 2022
+----------------*/
+.l-owndayspc .main__text {
+  letter-spacing: 1.05px;
+}
+.l-owndayspc .main__heading {
+  font-family: Aktiv-grotesk TWHK, sans-serif !important;
+}
+
+@media (min-width: 1024px) {
+  .l-owndayspc .lineup {
+    padding-bottom: 0;
+  }
+
+  .l-owndayspc .l-owndayspc__twtext {
+    padding-bottom: 150px;
+    padding-right: 9%;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .l-owndayspc .lineup {
+    padding-bottom: 0;
+  }
+
+  .l-owndayspc .l-owndayspc__twtext {
+    padding-bottom: 100px;
+    padding-right: 7%;
+  }
+}
+
+/*----------------
+Pokemon
+----------------*/
+@font-face {
+  font-family: "Unifont";
+  src: url("../../../fonts/Unifont/UnifontMedium.woff2") format("woff2"),
+      url("../../../fonts/Unifont/UnifontMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.l-pokemon .main__title,
+.l-pokemon .lineup__top-title,
+.l-pokemon__lineup-des,
+.l-pokemon__lineup-frame-details p,
+.l-pokemon .merchandise__label,
+.l-pokemon .merchandise__main-text span,
+.l-pokemon__lineup-title small i {
+  font-family: "Unifont";
+  font-weight: 500;
+}
+
+.l-pokemon .collection p {
+  font-family: ar-yuanb5std, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.l-pokemon__lineup-title small {
+  margin-bottom: 10px;
+}
+
+/* @media (min-width: 1296px) {
+  .l-pokemon .merchandise__button-group {
+    grid-template-columns: unset;
+  }
+
+  .l-pokemon .merchandise__button-group .l-pokemon__button:first-child {
+    margin-right: auto;
+  }
+} */
+
+@media (min-width: 1024px) {
+  .l-pokemon__lineup-title small i {
+    font-size: 25px;
+  }
+
+  .l-pokemon .lineup__top-title i {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-pokemon .lineup__top-title i {
+    font-size: 12px;
+  }
+}
+
+
+
+/*----------------
+AIR Ultem 2022
+----------------*/
+.l-airultem .concept__top-text,
+.l-airultem .concept__bottom-text,
+.l-airultem .concept__bottom-item p,
+.l-airultem .point__list {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*----------------
+SEO記事
+----------------*/
+.l-top .l-information {
+  border-top: none;
+}
+
+.p-information-details h1 {
+  font-weight: 400;
+}
+
+/*----------------
+Kuromi
+----------------*/
+
+.l-kuromi,
+.l-kuromi .intro__content-2 p,
+.l-kuromi .lineup__top-detail,
+.l-kuromi .lineup__point p ,
+.l-kuromi .accessory__detail,
+.l-kuromi .novelty__detail,
+.l-kuromi .about__detail {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif!important;
+  font-weight: bold;
+}
+
+.l-kuromi .intro__content-2-title {
+  letter-spacing: 0.06em;
+  background-repeat: repeat-x;
+  display: inline-table;
+}
+
+.l-kuromi .lineup__top-name span {
+  font: 900 48px/1 "gill sans nova";
+}
+
+.l-kuromi .lineup__top-name span::before {
+  top: 0px;
+}
+
+.l-kuromi .lineup__top-name small {
+  letter-spacing: 0.01em;
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .accessory__detail {
+    width: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .intro__content-2-title {
+    line-height: 1.3;
+    background-image: none;
+    margin-bottom: 10px;
+  }
+
+  .l-kuromi .lineup__top-name span {
+    font: 900 38px/1 "gill sans nova";
+  }
+
+  .l-kuromi .lineup__top-name {
+    margin-bottom: 10px;
+  }
+}
+
+/*----------------
+Memory Metal 2023
+----------------*/
+.l-memorymetal2023 .main__heading-text,
+.l-memorymetal2023__title span,
+.l-memorymetal2023 .main .point__details-title,
+.l-memorymetal2023 .main .point__details-text,
+.l-memorymetal2023 .concept__text,
+.l-memorymetal2023 .testing__content,
+.l-memorymetal2023 .lineup__text,
+.l-memorymetal2023 .recommend__text {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .l-memorymetal2023 .main__points {
+    padding: 50px 100px;
+  }
+  
+  .l-memorymetal2023 .main__points-list {
+    max-width: 770px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-memorymetal2023 .main__points {
+    padding: 40px 45px;
+  }
+}
+
+/*----------------
+OWNDAYS SNAP 2023
+----------------*/
+.l-owndays-snap2023 .owndays-tips__card p {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .l-owndays-snap2023 .notice__list {
+    padding: 0 120px;
+  }
+}
+
+.l-owndays-snap2023 .concept__details-note::before {
+  content: '※';
+}
+
+/*----------------
+OWNDAYS care+
+----------------*/
+@media (min-width: 1024px) {
+  .l-care .l-content--inner {
+    max-width: 1100px;
+  }
+  
+  .l-care__main > div {
+    padding: 200px 0;
+  }
+
+  .l-care__features p {
+    font-size: 18px;
+  }
+
+  .l-care__features ul li div p img {
+    width: 100px;
+    padding: 5px 0;
+  }
+
+  .l-care__features ul li div {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-care__features p {
+    font-size: 13px;
+  }
+
+  .l-care__features ul li div p img {
+    width: 80px;
+    padding: 3px 0;
+  }
+
+  .l-care__features ul li div {
+    width: 170px;
+    height: 170px;
+    padding: 30px;
+  }
+}
+/*----------------
+Asterisk
+----------------*/
+.l-account__warranty .u-text-comment::before,
+.l-guide-faq .u-text-information.c-list-decoration li:before,
+.l-guide-faq__list .u-text-information li:before,
+.l-environment .c-attention i::before,
+.l-services-lens-replacement i::before,
+.l-services-warranty i::before,
+.l-line .u-text-comment::before,
+.l-services-lens i::before,
+.l-kuromi i::before,
+.l-sunglasses i::before,
+.l-owndays-contactlens i::before,
+.l-owndays-contactlens i::before,
+.p-articles .article-asterisk::before {
+  padding-right: 0.3rem;
+  content: '※';
+}
+.l-services-lens-replacement .p-attention-list li:before {
+  content: '※';
+  font-size: 14px;
+}
+/*----------------
+500店舗達成記念
+----------------*/
+
+.l-500stores,
+.l-500stores .main__des h1,
+.l-500stores .link__list > li a,
+.l-500stores .anniversary__top-des h2,
+.l-500stores .anniversary__made-in-jp h3,
+.l-500stores .anniversary__special h2 small,
+.l-500stores__btn,
+.l-500stores__heading,
+.l-500stores .store__top p,
+.l-500stores__heading small,
+.l-500stores .history__timeline-text small,
+.l-500stores .bottom__title {
+  font-family: 'Noto Sans TC', serif;
+}
+
+@media (max-width: 767px) {
+.l-500stores .link__list li {
+  width: 44%;
+}
+.l-500stores .link__list > li a {
+  margin: 0 auto 19px;
+}
+.l-500stores .link {
+  padding: 63px 0 0;
+}
+}
+
+@media (max-width: 413px) {
+  .l-500stores .link__list > li a {
+    width: 126px;
+    height: 126px;
+}
+}
+
+@media (min-width: 768px) {
+  .l-500stores .csr__list {
+    grid-template-columns: auto;
+    width: 50%;
+    margin: 0 auto;
+}
+}
+
+/*----------------
+Asterisk
+----------------*/
+.l-account__warranty .u-text-comment::before,
+.l-guide-faq .u-text-information.c-list-decoration li:before,
+.l-guide-faq__list .u-text-information li:before {
+  content: '※';
+}
+
+/*----------------
+SHINGO AIBA × OWNDAYS EYEWEAR COLLECTION
+----------------*/
+
+.l-shingo-aiba__shops {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  max-width: 900px;
+}
+
+.l-shingo-aiba__shops li {
+  width: 33%;
+}
+.l-shingo-aiba__shops li a {
+  color: #fff;
+}
+.l-shingo-aiba__shops li a:hover {
+  opacity: 0.6 ;
+}
+.c-list-decoration li:before{
+  content: "・";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .l-shingo-aiba__shops li {
+      width: 100%;
+  }
+}
+
+
+.l-guide-faq__list--question h3 {
+  max-width: 94%;
+  font-weight: normal!important;
+  font-size: 14px!important;
+  margin: 0px!important;
+}
+
+.l-guide-faq__list--question h3:before {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  content: 'Q';
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-size: rem(14px);
+  padding: 0 7px;
+  margin-right: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .l-guide-faq__list--question h3 {
+    max-width: 88%;
+  }
+
+  .l-guide-faq__list--question h3:before {
+    top: 18px;
+    left: 0;
+  }
+}
+
+/*----------------
+OWNDAYS SNAP2024
+----------------*/
+.l-snap .main__messages__tag--black{
+  padding: 0 10px 0 23px;
+}
+.l-snap .main__messages__tag--white {
+  font-size: 15px;
+}
+@media (max-width: 1024px) {
+  .l-snap .main__messages__tag--black{
+    width: 310px;
+  }
+  .l-snap .main__messages__tag--white{
+    width: 320px;
+  }
+}
+.l-snap .notice__layout{
+  padding-bottom: 50px;
+}
+
+
+/*----------------
+OWNDAYS+ 2024
+----------------*/
+.option__item .option__item-title .option__item-price strong{
+  font-size: 22px;
+}
+.l-op .lineup-top__body-content__text-layout__title{
+  text-align: center;
+}
+
+/*----------------
+FREAK’S STORE
+----------------*/
+.l-freaks .concept__title {
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+.l-freaks .lineup .color-glass-snap .glass-detail .glass-detail-txt p:nth-child(2) span:nth-child(2) {
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: 4%;
+}
+.l-freaks .lineup .detail-glass-snap .circle-color span{
+  font-size: 17px;
+}
+.l-freaks .lineup .list-section .detail-tabs .c-tab-lens .tab-content .step-lens ul {
+  gap: 164px;
+  padding-left: 12px;
+}
+@media (max-width: 1024px) {
+  .l-freaks .lineup .list-section .detail-tabs .c-tab-lens .tab-content .step-lens ul {
+    gap: 36px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  .l-freaks .lineup .list-section .detail-tabs .c-tab-lens .tab-content .step-lens ul::after {
+    width: 103%;
+  }
+}
+
+
+/*----------------
+GUNDAM5 ZAKUHEAD
+----------------*/
+.l-gundam5 .concept__desc{
+  padding: 40px;
+}
+
+.l-gundam5 .limited .c-accordion__content-inner dl{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 40px;
+  
+}
+
+.l-gundam5 .limited .c-accordion__content-inner a{
+  color: #fff;
+  transition: 0.5s;
+}
+
+.l-gundam5 .limited .c-accordion__content-inner a:hover{
+  color: #999;
+}
+
+.l-gundam5 .stores__list-os ul{
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.l-gundam5 .stores__list-os li{
+  padding: 10px;
+}
+
+.l-gundam5 .stores__list-os ul li a{
+  color: #fff;
+  transition: 0.5s;
+}
+
+.l-gundam5 .stores__list-os ul li a:hover{
+  color: #999999;
+}
+
+@media (max-width: 768px) {
+  .l-gundam5 .stores__list-os li{
+      width: 100%;
+      padding: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .l-gundam5 .limited .c-accordion__content-inner{
+    padding-left: 38px;
+  }
+}
+
+/*----------------
+GUNDAM5 ZEON
+----------------*/
+
+.l-zeon .stores__notes li{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.l-zeon .limited__shipping-body dl{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 40px;
+  
+}
+
+.l-zeon .limited__shipping-body a{
+  color: #fff;
+  transition: 0.5s;
+}
+
+.l-zeon .limited__shipping-body a:hover{
+  color: #999;
+}
+
+@media (min-width: 1024px){
+  .l-zeon .main__period-wrap span.y{
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 1024px){
+  .l-zeon .main__period-wrap span.y{
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+  .l-zeon .main__heading h1 span{
+    text-align: center;
+    line-height: 1.8em;
+  }
+}
+
+.l-zeon .limited__item-discount-price.is-discount span::before{
+    display: none;
+}
+
+
+/*----------------
+OWNDAYS SUNGLASSES COLLECTION 2024
+----------------*/
+
+
+@media (min-width: 768px) {
+  .l-sun .lineup-nav__ul > li a {
+      padding: 0px 5px 5px;
+      width: 235px;
+      height: 200px;
+  }
+  .l-sun .lineup-nav__ul > li a::after {
+      margin-top: 5px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-sun .lineup-nav .l-sun__container {
+      column-gap: 50px;
+  }
+}
+
+@media (min-width: 1246px) {
+  .l-sun .lineup-nav__ul > li a {
+      padding: 0px 5px 0px;
+      width: 300px;
+      height: 220px;
+  }
+  .l-sun .lineup-nav__ul > li a::after {
+      margin-top: 5px;
+  }
+}
+/*----------------
+contact page
+----------------*/
+.l-contact__tel--number:before{
+  width: 16px;
+  height: 23px;
+}
+.l-contact__tel--number{
+  font-size: 23px;
+  padding-bottom: 3px;
+}
+@media (max-width: 767px) {
+  .l-contact__tel--number:before {
+    margin-right: 5px;
+  }
+}
+/*----------------
+DITA Lancier
+----------------*/
+
+.l-dita__shops {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.l-dita__shops li {
+  width: 33%;
+}
+.l-dita__shops li a {
+  color: #fff;
+}
+.l-dita__shops li a:hover {
+  opacity: 0.6 ;
+}
+.c-list-decoration li:before{
+  content: "・";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  font-size: 12px;
+}
+
+.l-dita .l-dita__button-gp .l-dita__button{
+  max-width: 300px;
+  width: 300px;
+}
+.l-dita .stores__header {
+  padding: 100px 0 0px 0;
+}
+.l-dita .stores::before {
+  opacity: 0;
+}
+.l-dita .stores {
+  border-bottom: 1px solid rgba(69, 72, 80, 0);
+}
+
+@media (max-width: 767px) {
+  .l-dita__shops li {
+      width: 100%;
+  }
+  
+  .l-dita__btn-gp-store{
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-dita__container .l-content--inner {
+    width: 100%;
+  }
+}
+
+/*----------------
+contact page
+----------------*/
+.l-contact__tel--number:before{
+  width: 16px;
+  height: 23px;
+}
+.l-contact__tel--number{
+  font-size: 23px;
+  padding-bottom: 3px;
+}
+@media (max-width: 767px) {
+  .l-contact__tel--number:before {
+    margin-right: 5px;
+  }
+}
+
+/*----------------
+owndays-contactlens clear vision
+----------------*/
+@media (min-width: 768px) {
+  .main ul li:last-child a:last-child {
+    background-image: url("https://storage.owndays.com/news/owndays-contactlens/color-bg-tb.webp");
+  }
+}
+
+@media (min-width: 1024px) {
+  .main ul li:last-child a:last-child {
+    background-image: url("https://storage.owndays.com/news/owndays-contactlens/color-bg-pc.webp");
+  }
+}
+
+/*----------------
+Harry Potter
+----------------*/
+.l-hp .main__sticker-date{
+  line-height: 6px;
+}
+.l-hp .merchandise__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .ph-none {
+    padding: 0 20px;
+    padding-bottom: 80px;
+  }
+}
+
+/*----------------
+topologie
+----------------*/
+
+@media (min-width: 1023px) {
+  .l-topologie .concept .l-topologie__btn {
+    margin: 100px 0 0 123px;
+  }
+
+  .l-topologie .notes__btn-gp {
+    width: 314px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .l-topologie .concept .l-topologie__btn {
+    margin: 100px 0 0 40px;
+  }
+}
+
+
+/*----------------
+BLACK COLLECTION
+----------------*/
+
+.l-bc .reservation{
+  background-color: #fff;
+}
+
+.l-bc .reservation .l-bc__title{
+  color: #000;
+  text-align: center;
+}
+
+.l-bc .reservation__summary{
+  padding: 23.5px 20px;
+}
+
+.l-bc .reservation__summary::before,
+.l-bc .reservation__summary::after{
+  background-color: #000;
+}
+
+.l-bc .reservation__details{
+  max-width: 668px;
+  margin: 47px auto 0;
+  background-color: #fff;
+  color: #000;
+  border-top: #000 1px solid;
+  border-bottom: #000 1px solid;
+
+}
+
+
+.l-bc .reservation dt{
+  float: left;
+}
+
+.l-bc .reservation dd{
+  margin-left: 60px;
+}
+
+
+@media (min-width: 1024px) {
+  .l-bc .reservation .l-bc__title {
+      font-size: 74px;
+      line-height: 89px;
+  }
+
+  .l-bc .reservation__summary{
+    padding: 30px 40px;
+  }
+}
+
+/*----------------
+TOM and JERRY
+----------------*/
+.l-tomandjerry .about__content p,
+.l-tomandjerry .about__content em,
+.l-tomandjerry .lineup__main__header-desc p,
+.l-tomandjerry .lineup__main__slider__points__desc p,
+.l-tomandjerry .case__content__text p,
+.l-tomandjerry .accessories__container__details__content__description,
+.l-tomandjerry .notes__list li{
+  font-family: Aktiv-grotesk TWHK, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .l-tomandjerry .case__content__cleaning-decoration {
+    top: 250px;
+  }
+}
+
+/*----------------
+SUN
+----------------*/
+.l-sun .main__text h2,
+.l-sun .about__text p,
+.l-sun .check__title,
+.l-sun .check p,
+.l-sun .styles__top-text h2,
+.l-sun .styles__top-text-details p,
+.l-sun .styles__top-text-details .l-sun__btn,
+.l-sun .styles__lineup .product__btn .l-sun__btn,
+.l-sun .styles__option-sub-title,
+.l-sun .styles__option-desc,
+.l-sun .styles__option-step p,
+.l-sun .styles__option-recommended-title,
+.l-sun .styles__option-recommended-footer-title,
+.l-sun .styles__option-recommended-footer-more,
+.l-sun .styles__option-note > li,
+.l-sun .styles__features ul li p,
+.l-sun .styles__option-desc-link,
+.l-sun .tips__more,
+.l-sun .tips__slider ul > li p,
+.nav-bottom__btn {
+    font-family: 'Aktiv Grotesk TWHK'!important;
+}
+
+.l-sun .styles__option-step > li:nth-child(2),
+.l-sun .styles__option-step > li:nth-child(3) {
+  display: none;
+}
+
+.l-sun .add-num-tw {
+  background-color: #F7F6F2;
+  padding: 0 100px 40px;
+  text-align: right;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .l-sun .add-num-tw {
+    padding: 0 20px 40px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-sun .styles__option-step > li:nth-child(4):has(.icon-plus) {
+      margin-right: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .l-sun .styles__option-step {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 387px) {
+  .l-sun .tips__tab .nav-link {
+      font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .l-sun .styles__option-title {
+      font-size: 26px;
+  }
+  .l-sun .styles__option-step > li:nth-child(4):has(.icon-plus) {
+    margin-right: 12px;
+  }
+}
+
+
+
+/*----------------
+SQUID GAME × OWNDAYS
+----------------*/
+.l-sg .novelty__card-date span,
+.l-sg .novelty__card-date,
+.l-sg__nav-title small span,
+.l-sg__title span,
+.l-sg .main__heading,
+.l-sg .novelty__card-title,
+.l-sg .stores__schedule span,
+.l-sg .stores__schedule,
+.l-sg .stores__title,
+.l-sg .stores__shops__list a{
+    font-family: aktiv-grotesk TWHK, sans-serif;
+}
+
+.l-sg .lineup__nav-item-name small {
+    font-family: founders grotesk, sans-serif;
+}
+
+
+.l-sg .main__schedule-date{
+        font-size: 16px;
+        align-items: center;
+    }
+
+.l-sg .main__schedule-date small{
+    font-size: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.l-sg__title span{
+        padding: 4px 15px;
+    }
+
+@media (min-width: 1024px) {
+    .l-sg .main__schedule-date{
+        font-size: 24px;
+    }
+    .l-sg .main__schedule-date small{
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+    }
+    .l-sg__title span{
+        padding: 2px 20px;
+    }
+}
+
+
+
+/*----------------
+FREAK’S STORE 2025
+----------------*/
+.l-freaks .style-nav__item-sub{
+  font-size: 14px;
+}
+
+.l-freaks .styles__title-text--ja{
+  font-size: 20px;
+}
+
+.l-freaks .accessories__title{
+  font-family: Aktiv Grotesk TWHK, sans-serif;
+}
+
+@media (min-width: 1296px) {
+  .l-freaks .style-nav__item-sub {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-freaks .styles__title-text--ja{
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .l-freaks .accessories__title{
+    margin-top: 0px;
+  }
+}
+
+/*----------------
+AIR 2025
+----------------*/
+.l-air .styles__lineup .product__tag {
+  padding-top: 0px;
+}
+.l-air .hot-topic__title {
+  font-family: "Founders Grotesk", 'Aktiv Grotesk TWHK'!important;
+}
+
+
+/*----------------
+Junni 2025
+----------------*/
+.l-junni h1, .l-junni h2, .l-junni h3, .l-junni h4, .l-junni h5, .l-junni h6, .l-junni .title small, .l-junni .button {
+  font-family: 'Founders Grotesk', 'Aktiv Grotesk TWHK', sans-serif;
+}
+
+/*----------------
+autumn-styling
+----------------*/
+.l-autumn-styling .main__text__small::before {
+  width: 90px;
+}
+@media (min-width: 1024px) {
+.l-autumn-styling .lens-guide__item:nth-last-child(3) {
+  border-radius: 0 0 0 10px;
+}
+.l-autumn-styling .lens-guide__item:nth-last-child(2) {
+  border-radius: 0;
+}
+.l-autumn-styling .main__text__small::before {
+  width: 132px;
+}
+}
+
+/* FAQ */
+.l-qa {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-inline: 0;
+  border: 1px solid #e3e3e3;
+  position: relative;
+}
+
+.l-qa-title {
+  font-size: 18px;
+  text-align: center;
+  padding: 18px 0 13px;
+  line-height: 1;
+}
+
+.l-qa .l-accordion__item-q {
+  padding: 20px 0;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-top: 1px solid #e3e3e3;
+}
+
+.l-qa .l-accordion__item-q:hover {
+  background-color: #f4f4f4;
+}
+
+.l-qa .l-accordion__item-q h3 {
+  font-size: 14px;
+  text-align: left;
+  padding: 0 24px 0 48px;
+  position: relative;
+}
+
+.l-qa .l-accordion__item-q h3::before {
+  content: "Q";
+  position: absolute;
+  left: 24px;
+  top: 50%;
+  margin-top: -13px;
+  font-family: neuzeit-grotesk;
+  font-weight: 600;
+  color: #0094c8;
+}
+
+.l-qa .l-accordion__item-q .c-open-navigate {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  line-height: 1;
+  margin-top: -7px;
+}
+
+.l-qa .l-accordion__item-a {
+  display: none;
+  border-top: 1px dashed #e3e3e3;
+  padding: 20px 0;
+}
+
+.l-qa .l-accordion__item-a p {
+  padding: 0 24px 0 48px;
+  position: relative;
+}
+
+.l-qa .l-accordion__item-a .l-qa-a::before {
+  content: "A";
+  position: absolute;
+  left: 24px;
+  top: 0;
+  font-family: neuzeit-grotesk;
+  font-weight: 600;
+  color: #c7002e;
+}
+/*----------------
+FROZEN
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+.l-frozen .c-title {
+  font-family: "Noto Serif TC", serif !important;
+  font-weight: 600 !important;
+}
+
+.b-lang {
+  font-family: Aktiv-grotesk TWHK, sans-serif !important;
+}
+@media (min-width: 1024px){
+  .l-frozen h2 .c-title {
+    font-size: 23px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1023px) {
+  .l-frozen h2 .c-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 959px) {
+  .l-frozen h2 .c-title {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .l-frozen h2 .c-title {
+    font-size: 22px;
+  }
+}

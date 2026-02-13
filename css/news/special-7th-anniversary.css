@@ -1,0 +1,1601 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap);
+@import url(https://fonts.cdnfonts.com/css/kepler-std-3?styles=45481,45433,45458);
+@import url(https://fonts.cdnfonts.com/css/antro-vectra);
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Founders Grotesk;
+    src: url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Niradei;
+    src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Niradei;
+    src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Niradei;
+    src: url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk TWHK;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk TWHK;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk TWHK;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk CNSG;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk CNSG;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Aktiv Grotesk CNSG;
+    src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+.ff-primary {
+    font-family: Founders Grotesk, sans-serif
+}
+
+.ff-fallback,
+.ff-headline {
+    font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif
+}
+
+.fs-0 {
+    font-size: 0 !important
+}
+
+.fs-1 {
+    font-size: 1px !important
+}
+
+.fs-2 {
+    font-size: 2px !important
+}
+
+.fs-3 {
+    font-size: 3px !important
+}
+
+.fs-4 {
+    font-size: 4px !important
+}
+
+.fs-5 {
+    font-size: 5px !important
+}
+
+.fs-6 {
+    font-size: 6px !important
+}
+
+.fs-7 {
+    font-size: 7px !important
+}
+
+.fs-8 {
+    font-size: 8px !important
+}
+
+.fs-9 {
+    font-size: 9px !important
+}
+
+.fs-10 {
+    font-size: 10px !important
+}
+
+.fs-11 {
+    font-size: 11px !important
+}
+
+.fs-12 {
+    font-size: 12px !important
+}
+
+.fs-13 {
+    font-size: 13px !important
+}
+
+.fs-14 {
+    font-size: 14px !important
+}
+
+.fs-15 {
+    font-size: 15px !important
+}
+
+.fs-16 {
+    font-size: 16px !important
+}
+
+.fs-17 {
+    font-size: 17px !important
+}
+
+.fs-18 {
+    font-size: 18px !important
+}
+
+.fs-19 {
+    font-size: 19px !important
+}
+
+.fs-20 {
+    font-size: 20px !important
+}
+
+.fs-21 {
+    font-size: 21px !important
+}
+
+.fs-22 {
+    font-size: 22px !important
+}
+
+.fs-23 {
+    font-size: 23px !important
+}
+
+.fs-24 {
+    font-size: 24px !important
+}
+
+.fs-25 {
+    font-size: 25px !important
+}
+
+.fs-26 {
+    font-size: 26px !important
+}
+
+.fs-27 {
+    font-size: 27px !important
+}
+
+.fs-28 {
+    font-size: 28px !important
+}
+
+.fs-29 {
+    font-size: 29px !important
+}
+
+.fs-30 {
+    font-size: 30px !important
+}
+
+.fs-31 {
+    font-size: 31px !important
+}
+
+.fs-32 {
+    font-size: 32px !important
+}
+
+.fs-33 {
+    font-size: 33px !important
+}
+
+.fs-34 {
+    font-size: 34px !important
+}
+
+.fs-35 {
+    font-size: 35px !important
+}
+
+.fs-36 {
+    font-size: 36px !important
+}
+
+.fs-37 {
+    font-size: 37px !important
+}
+
+.fs-38 {
+    font-size: 38px !important
+}
+
+.fs-39 {
+    font-size: 39px !important
+}
+
+.fs-40 {
+    font-size: 40px !important
+}
+
+.fs-41 {
+    font-size: 41px !important
+}
+
+.fs-42 {
+    font-size: 42px !important
+}
+
+.fs-43 {
+    font-size: 43px !important
+}
+
+.fs-44 {
+    font-size: 44px !important
+}
+
+.fs-45 {
+    font-size: 45px !important
+}
+
+.fs-46 {
+    font-size: 46px !important
+}
+
+.fs-47 {
+    font-size: 47px !important
+}
+
+.fs-48 {
+    font-size: 48px !important
+}
+
+.fs-49 {
+    font-size: 49px !important
+}
+
+.fs-50 {
+    font-size: 50px !important
+}
+
+.fs-51 {
+    font-size: 51px !important
+}
+
+.fs-52 {
+    font-size: 52px !important
+}
+
+.fs-53 {
+    font-size: 53px !important
+}
+
+.fs-54 {
+    font-size: 54px !important
+}
+
+.fs-55 {
+    font-size: 55px !important
+}
+
+.fs-56 {
+    font-size: 56px !important
+}
+
+.fs-57 {
+    font-size: 57px !important
+}
+
+.fs-58 {
+    font-size: 58px !important
+}
+
+.fs-59 {
+    font-size: 59px !important
+}
+
+.fs-60 {
+    font-size: 60px !important
+}
+
+.fs-61 {
+    font-size: 61px !important
+}
+
+.fs-62 {
+    font-size: 62px !important
+}
+
+.fs-63 {
+    font-size: 63px !important
+}
+
+.fs-64 {
+    font-size: 64px !important
+}
+
+.fs-65 {
+    font-size: 65px !important
+}
+
+.fs-66 {
+    font-size: 66px !important
+}
+
+.fs-67 {
+    font-size: 67px !important
+}
+
+.fs-68 {
+    font-size: 68px !important
+}
+
+.fs-69 {
+    font-size: 69px !important
+}
+
+.fs-70 {
+    font-size: 70px !important
+}
+
+.fs-71 {
+    font-size: 71px !important
+}
+
+.fs-72 {
+    font-size: 72px !important
+}
+
+.fs-73 {
+    font-size: 73px !important
+}
+
+.fs-74 {
+    font-size: 74px !important
+}
+
+.fs-75 {
+    font-size: 75px !important
+}
+
+.fs-76 {
+    font-size: 76px !important
+}
+
+.fs-77 {
+    font-size: 77px !important
+}
+
+.fs-78 {
+    font-size: 78px !important
+}
+
+.fs-79 {
+    font-size: 79px !important
+}
+
+.fs-80 {
+    font-size: 80px !important
+}
+
+.fs-81 {
+    font-size: 81px !important
+}
+
+.fs-82 {
+    font-size: 82px !important
+}
+
+.fs-83 {
+    font-size: 83px !important
+}
+
+.fs-84 {
+    font-size: 84px !important
+}
+
+.fs-85 {
+    font-size: 85px !important
+}
+
+.fs-86 {
+    font-size: 86px !important
+}
+
+.fs-87 {
+    font-size: 87px !important
+}
+
+.fs-88 {
+    font-size: 88px !important
+}
+
+.fs-89 {
+    font-size: 89px !important
+}
+
+.fs-90 {
+    font-size: 90px !important
+}
+
+.fs-91 {
+    font-size: 91px !important
+}
+
+.fs-92 {
+    font-size: 92px !important
+}
+
+.fs-93 {
+    font-size: 93px !important
+}
+
+.fs-94 {
+    font-size: 94px !important
+}
+
+.fs-95 {
+    font-size: 95px !important
+}
+
+.fs-96 {
+    font-size: 96px !important
+}
+
+.fs-97 {
+    font-size: 97px !important
+}
+
+.fs-98 {
+    font-size: 98px !important
+}
+
+.fs-99 {
+    font-size: 99px !important
+}
+
+.fw-100 {
+    font-weight: 100 !important
+}
+
+.fw-200 {
+    font-weight: 200 !important
+}
+
+.fw-300 {
+    font-weight: 300 !important
+}
+
+.fw-400 {
+    font-weight: 400 !important
+}
+
+.fw-500 {
+    font-weight: 500 !important
+}
+
+.fw-600 {
+    font-weight: 600 !important
+}
+
+.fw-700 {
+    font-weight: 700 !important
+}
+
+.fw-800 {
+    font-weight: 800 !important
+}
+
+.fw-900 {
+    font-weight: 900 !important
+}
+
+@font-face {
+    font-family: Academy Engraved LET;
+    src: url("https://storage.owndays.com/fonts/Academy-Engraved-LET/Academ-Engraved-LET-Fonts.ttf") format("woff2"), url("https://storage.owndays.com/fonts/Academy-Engraved-LET/Academ-Engraved-LET-Fonts.ttf") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.l-7th {
+    position: relative;
+    font-family: futura-pt, source-han-serif-tc, serif;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 2.3
+}
+
+@media (min-width:768px) {
+    .l-7th {
+        font-size: calc(2.5px + 1.125vw)
+    }
+}
+
+@media (min-width:768px) and (min-width:1200px) {
+    .l-7th {
+        font-size: 16px
+    }
+}
+
+.l-7th__header {
+    position: relative
+}
+
+.l-7th__box-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+@media (max-width:767px) {
+    .l-7th__box-logo {
+        padding-top: 33px
+    }
+}
+
+@media (min-width:768px) {
+    .l-7th__box-logo {
+        max-width: calc(1200px + 10%);
+        padding: 0 5%;
+        margin: 0 auto;
+        bottom: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+}
+
+.l-7th__header-logo {
+    max-width: 295px
+}
+
+@media (max-width:767px) {
+    .l-7th__header-logo {
+        margin: 0 auto;
+        padding-left: 14px
+    }
+}
+
+@media (min-width:768px) {
+    .l-7th__header-logo {
+        max-width: 250px
+    }
+}
+
+@media (min-width:1024px) {
+    .l-7th__header-logo {
+        max-width: 323px
+    }
+}
+
+.l-7th__about-bg--text {
+    font-family: garamond-premier-pro;
+    font-size: 80px
+}
+
+@media (max-width:767px) {
+    .l-7th__about-bg--text {
+        font-size: 60px
+    }
+}
+
+.l-7th__about-text {
+    margin-bottom: 15px
+}
+
+@media (max-width:767px) {
+    .l-7th__about-text {
+        margin-bottom: 30px
+    }
+}
+
+.l-7th__about-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative
+}
+
+.l-7th__about-grid .left {
+    margin-top: 9%
+}
+
+@media (max-width:767px) {
+    .l-7th__about-grid .left {
+        margin-top: 16%
+    }
+}
+
+.l-7th__about-grid img {
+    width: 49%
+}
+
+.l-7th__about .anniversary-text {
+    width: 340px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    top: unset;
+    bottom: 3%
+}
+
+@media (max-width:767px) {
+    .l-7th__about .anniversary-text {
+        width: 240px;
+        bottom: -1%
+    }
+}
+
+@media (min-width:768px) {
+    .l-7th__about .l-7th__content {
+        padding: calc(13.9px + 9.675vw) 0 calc(7.9px + 5.175vw)
+    }
+}
+
+@media (min-width:768px) and (min-width:1200px) {
+    .l-7th__about .l-7th__content {
+        padding: 130px 0 70px
+    }
+}
+
+@media (min-width:768px) {
+    .l-7th__about-bg--text {
+        font-size: calc(9.9px + 6.675vw);
+        letter-spacing: 3px
+    }
+}
+
+@media (min-width:768px) and (min-width:1200px) {
+    .l-7th__about-bg--text {
+        font-size: 90px
+    }
+}
+
+@media (min-width:768px) {
+    .l-7th__about-text {
+        max-width: 554px;
+        letter-spacing: 1px;
+        margin-bottom: 52px
+    }
+}
+
+.l-7th__content {
+    position: relative
+}
+
+.l-7th__main {
+    padding: 150px 0
+}
+
+@media (max-width:767px) {
+    .l-7th__main {
+        padding: 50px 0
+    }
+}
+
+.l-7th .fram-img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, .01) 0 1px 4px, rgba(0, 0, 0, .01) 0 0 0 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .01), 0 0 0 3px rgba(0, 0, 0, .01)
+}
+
+@media only screen and (max-width:1024px) {
+    .l-7th .fram-img {
+        max-width: 220px;
+        padding: 5px
+    }
+}
+
+@media (max-width:767px) {
+    .l-7th .fram-img {
+        width: 100%;
+        max-width: 221px;
+        padding: 5px
+    }
+}
+
+.l-7th .fram-img--pos1 {
+    -webkit-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+    position: relative;
+    z-index: 1
+}
+
+@media (max-width:767px) {
+    .l-7th .fram-img--pos1 {
+        margin-top: 0
+    }
+}
+
+.l-7th .fram-img--pos2 {
+    -webkit-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg);
+    margin-left: 160px;
+    position: relative;
+    z-index: 0
+}
+
+@media (max-width:767px) {
+    .l-7th .fram-img--pos2 {
+        margin-left: 90px;
+        margin-top: 0
+    }
+}
+
+.l-7th__products {
+    padding: 120px 0
+}
+
+@media (max-width:767px) {
+    .l-7th__products {
+        padding: 32px 0
+    }
+}
+
+.l-7th__products-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 100px
+}
+
+@media (max-width:767px) {
+    .l-7th__products-block {
+        display: block;
+        margin-bottom: 0
+    }
+}
+
+.l-7th__products-image {
+    width: 55%
+}
+
+@media (max-width:767px) {
+    .l-7th__products-image {
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    .l-7th__products-item.l-content--inner {
+        padding: 0
+    }
+}
+
+.l-7th__products-heading .heading-title {
+    font-family: garamond-premier-pro;
+    font-size: 87px;
+    text-align: center;
+    line-height: .6;
+    letter-spacing: 3px
+}
+
+@media (max-width:767px) {
+    .l-7th__products-heading .heading-title {
+        font-size: 60px
+    }
+}
+
+.l-7th__products-heading .heading-subtitle {
+    font-family: futura-pt, source-han-serif-tc, serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px
+}
+
+@media (max-width:767px) {
+    .l-7th__products-heading .heading-subtitle {
+        font-size: 13px;
+        margin-bottom: 42px;
+        letter-spacing: 1px !important
+    }
+}
+
+.l-7th__products-des {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 125px;
+    font-family: Noto Sans TC, sans-serif;
+    font-family: Noto Serif TC, serif;
+    font-size: 20px
+}
+
+@media (max-width:767px) {
+    .l-7th__products-des {
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+}
+
+.l-7th__products-des--subttitle {
+    position: relative;
+    display: inline-block;
+    padding: 0 13px;
+    text-align: center;
+    font-weight: 600
+}
+
+@media (max-width:767px) {
+    .l-7th__products-des--subttitle {
+        font-size: 13px
+    }
+}
+
+.l-7th__products-des--subttitle:before {
+    content: "";
+    width: 100%;
+    left: 0;
+    height: 17px;
+    bottom: 6px;
+    background-color: #231815;
+    position: absolute;
+    z-index: -1
+}
+
+@media (max-width:767px) {
+    .l-7th__products-des--subttitle:before {
+        height: 12px;
+        bottom: 2px
+    }
+}
+
+.l-7th__products-gallery {
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+    position: relative
+}
+
+.l-7th__products-gallery--title {
+    font-family: Academy Engraved LET, serif;
+    font-size: 46px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -45px;
+    z-index: 1
+}
+
+@media (max-width:767px) {
+    .l-7th__products-gallery--title {
+        font-size: 32px;
+        top: 0;
+        position: relative;
+        line-height: 1.5
+    }
+}
+
+@media (max-width:767px) {
+    .l-7th__products-gallery .slick-current .caption {
+        opacity: 1
+    }
+}
+
+.l-7th__products-version {
+    width: 45%;
+    position: relative;
+    margin-bottom: -6%
+}
+
+@media (max-width:767px) {
+    .l-7th__products-version {
+        width: 100%;
+        margin-bottom: 0
+    }
+}
+
+.l-7th .box-text {
+    width: 481px;
+    font-family: Noto Sans TC, sans-serif;
+    font-family: Noto Serif TC, serif;
+    font-size: 20px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    font-weight: 400
+}
+
+@media only screen and (max-width:991px) {
+    .l-7th .box-text {
+        width: 100%
+    }
+}
+
+.l-7th .img-size {
+    width: 100%;
+    max-width: 300px
+}
+
+.l-7th .display-block {
+    display: block
+}
+
+.l-7th .gallery-for {
+    width: 100%;
+    position: relative
+}
+
+@media (min-width:768px) {
+    .l-7th .gallery-for img {
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        margin-bottom: 4px
+    }
+}
+
+.l-7th .caption {
+    font-family: futura-pt, source-han-serif-tc, serif;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400
+}
+
+@media (max-width:767px) {
+    .l-7th .caption {
+        font-size: 13px;
+        line-height: normal;
+        position: absolute;
+        bottom: -20px;
+        width: 125%;
+        text-align: center;
+        left: -12.5%;
+        opacity: 0;
+        -webkit-transition: opacity .6s ease;
+        transition: opacity .6s ease
+    }
+}
+
+.l-7th .gallery-nav .slick-dots li button {
+    display: none !important
+}
+
+.l-7th .nav-thumb {
+    width: 100% !important;
+    position: relative;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    margin-right: 6px
+}
+
+.l-7th .nav-thumb:last-child {
+    margin-right: 0
+}
+
+.l-7th .nav-thumb:before {
+    content: "";
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .36);
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+.l-7th .nav-thumb:hover {
+    cursor: pointer
+}
+
+.l-7th .nav-thumb:hover:before,
+.l-7th .slick-current:before {
+    background-color: transparent
+}
+
+.l-7th .img-nav {
+    width: 100%;
+    position: relative
+}
+
+.l-7th .slick-dots li button {
+    display: none !important
+}
+
+.l-7th .gallery-pc .slick-list,
+.l-7th .gallery-pc .slick-track {
+    padding: 0 !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.l-7th .slider-version {
+    position: absolute;
+    top: 195px;
+    left: 0;
+    right: 0
+}
+
+@media (min-width:768px) {
+    .l-7th .slider-version {
+        top: 223px
+    }
+}
+
+.l-7th .slider-version .slick-track {
+    -webkit-transform: none !important;
+    transform: none !important;
+    width: 100px !important
+}
+
+.l-7th .nav-version {
+    width: 25px !important;
+    height: 25px !important;
+    border: none !important;
+    margin: 0 4px !important
+}
+
+.l-7th .slider-version2-for img,
+.l-7th .slider-version-for img {
+    width: 100%;
+    height: 195px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin-bottom: 50px
+}
+
+@media (min-width:768px) {
+
+    .l-7th .slider-version2-for img,
+    .l-7th .slider-version-for img {
+        height: 223px
+    }
+}
+
+.l-7th .nav-version-btn {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border: 1px solid #fff;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer
+}
+
+.l-7th .nav-version-btn:hover,
+.l-7th .slider-version .slick-current .nav-version-btn {
+    border: 1px solid #000
+}
+
+.l-7th .caption-nav {
+    font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center
+}
+
+.l-7th .caption-nav span {
+    display: block;
+    font-size: 12px;
+    line-height: .7;
+    color: #999
+}
+
+.l-7th .slider-version .slick-current {
+    border: 1px solid #664841;
+    -webkit-transition: all .5s;
+    transition: all .5s
+}
+
+.l-7th .box-page {
+    width: 15px;
+    height: 140px;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    margin: auto;
+    left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media (max-width:767px) {
+    .l-7th .box-page {
+        width: 95px;
+        height: unset;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+        top: inherit
+    }
+}
+
+.l-7th .box-page img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.l-7th__share {
+    background-color: #231815;
+    padding: 60px 0 70px;
+    text-align: center
+}
+
+@media (max-width:767px) {
+    .l-7th__share {
+        padding: 50px;
+        margin-top: 40px
+    }
+}
+
+.l-7th__share-title {
+    color: #fff;
+    font-size: 60px;
+    font-family: garamond-premier-pro;
+    line-height: normal;
+    margin-bottom: 20px
+}
+
+@media (max-width:767px) {
+    .l-7th__share-title {
+        font-size: 40px;
+        margin-bottom: 20px
+    }
+}
+
+.l-7th__share-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.l-7th__share-list .share-list-item {
+    width: 60px;
+    height: 60px;
+    margin: 0 16px
+}
+
+.l-7th__share-list .share-list-item--1 {
+    background-image: url("https://storage.owndays.com/images/specials/products/7th-anniversary/share-1.svg");
+    background-size: 100%
+}
+
+.l-7th__share-list .share-list-item--2 {
+    background-image: url("https://storage.owndays.com/images/specials/products/7th-anniversary/share-2.svg");
+    background-size: 100%
+}
+
+.l-7th__share-list .share-list-item--3 {
+    background-image: url("https://storage.owndays.com/images/specials/products/7th-anniversary/share-3.svg");
+    background-size: 100%
+}
+
+@media (max-width:767px) {
+    .l-7th__share-list .share-list-item {
+        width: 48px;
+        height: 48px;
+        margin: 0 20px
+    }
+}
+
+.l-7th .box-btn {
+    display: block;
+    font-family: Noto Sans TC, sans-serif;
+    font-family: Noto Serif TC, serif;
+    text-align: center;
+    font-family: futura-pt, source-han-serif-tc, serif;
+    width: 260px;
+    margin: auto;
+    color: #fff;
+    background-color: #231815;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 40px;
+    height: 60px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative
+}
+
+.l-7th .box-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 20px;
+    bottom: 0;
+    pointer-events: none;
+    background: url("https://storage.owndays.com/images/specials/products/7th-anniversary/arrow-right.svg") no-repeat 100%/auto;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease
+}
+
+@media (min-width:768px) {
+    .l-7th .box-btn:hover {
+        background-color: #000
+    }
+
+    .l-7th .box-btn:hover:before {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px)
+    }
+}
+
+.l-7th .box-btn.disabled {
+    pointer-events: none;
+    background-color: #a5a5a5
+}
+
+.l-7th .u-mt-meduim {
+    margin-top: 100px
+}
+
+.l-7th .u-mt-large {
+    margin-top: 80px
+}
+
+@media (min-width:768px) {
+    .l-7th .u-mt-large {
+        margin-top: 0
+    }
+}
+
+.l-7th .ms-blcok {
+    display: none
+}
+
+@media (max-width:767px) {
+    .l-7th .ms-blcok {
+        display: block
+    }
+}
+
+@media (max-width:767px) {
+    .l-7th .ms-hidden {
+        display: none
+    }
+}
+
+.l-7th .m-20 {
+    display: block;
+    margin: 10px;
+    position: relative
+}
+
+@media (max-width:767px) {
+    .l-7th .m-20 {
+        padding-bottom: 68px;
+        margin: 0 4px 14px
+    }
+}
+
+.l-7th__gift {
+    background-color: hsla(35, 36%, 56%, .1);
+    position: relative;
+    padding: 80px 0;
+    margin-top: 83px
+}
+
+.l-7th__gift-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: calc(1040px + 10%)
+}
+
+.l-7th__gift-title {
+    text-align: center;
+    font-family: garamond-premier-pro;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.l-7th__gift-list {
+    display: grid;
+    grid-gap: 50px
+}
+
+.l-7th__gift-item__img {
+    position: relative;
+    z-index: 2
+}
+
+.l-7th__gift-item__img-inner {
+    position: relative;
+    margin: 0 auto
+}
+
+.l-7th__gift-item__img--fg {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3
+}
+
+.l-7th__gift-item__img--word {
+    background-color: #72141f;
+    display: inline-block;
+    padding: 9px 14px;
+    position: absolute;
+    z-index: 1;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%)
+}
+
+.l-7th__gift-item__title {
+    color: #72141f;
+    font-family: futura-pt, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.l-7th__gift-item__title span {
+    display: inline-block;
+    position: relative
+}
+
+.l-7th__gift-item__title small {
+    font-size: 20px;
+    font-weight: inherit
+}
+
+.l-7th__gift-item__title img {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.l-7th__gift-item__title img.birthday {
+    max-width: 84px
+}
+
+.l-7th__gift-item__title img.anniversary {
+    max-width: 119px
+}
+
+.l-7th__gift-item__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.875;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.l-7th__gift-item--1 .l-7th__gift-item__img {
+    max-width: 193px
+}
+
+.l-7th__gift-item--1 .l-7th__gift-item__img-inner {
+    max-width: 198px
+}
+
+.l-7th__gift-item--2 .l-7th__gift-item__img {
+    max-width: 263px
+}
+
+.l-7th__gift-item--2 .l-7th__gift-item__img-inner {
+    max-width: 300px
+}
+
+.l-7th__gift-item--2 .l-7th__gift-item__img--fg {
+    top: 14px
+}
+
+.l-7th__gift-item--2 .l-7th__gift-item__img--word {
+    top: 32px;
+    right: 60px
+}
+
+.l-7th__gift-item--2 .l-7th__gift-item__img--word img {
+    max-width: 75px
+}
+
+@media (min-width:768px) {
+    .l-7th__gift {
+        padding: 95px 0 120px;
+        margin-top: -55px
+    }
+
+    .l-7th__gift-title {
+        font-size: 90px
+    }
+
+    .l-7th__gift-list {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px
+    }
+
+    .l-7th__gift-item__img-block {
+        min-height: 301px
+    }
+
+    .l-7th__gift-item__img--fg {
+        width: 86px;
+        height: 86px
+    }
+
+    .l-7th__gift-item__img--word {
+        padding: 11px 17px
+    }
+
+    .l-7th__gift-item__text {
+        font-size: 16px
+    }
+
+    .l-7th__gift-item--1 .l-7th__gift-item__img {
+        max-width: 244px
+    }
+
+    .l-7th__gift-item--1 .l-7th__gift-item__img-inner {
+        max-width: 250px
+    }
+
+    .l-7th__gift-item--2 .l-7th__gift-item__img {
+        max-width: 332px
+    }
+
+    .l-7th__gift-item--2 .l-7th__gift-item__img-inner {
+        max-width: 379px
+    }
+
+    .l-7th__gift-item--2 .l-7th__gift-item__img--fg {
+        top: 17px
+    }
+
+    .l-7th__gift-item--2 .l-7th__gift-item__img--word {
+        top: 41px;
+        right: 78px
+    }
+
+    .l-7th__gift-item--2 .l-7th__gift-item__img--word img {
+        max-width: 95px
+    }
+}
+
+.l-content,
+.l-content--high {
+    margin-bottom: 0 !important
+}
