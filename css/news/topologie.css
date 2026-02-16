@@ -1527,8 +1527,15 @@
   position: relative;
 }
 
+.l-topologie .lineup__group-body-img picture {
+  display: block;
+  will-change: transform;
+}
+
 .l-topologie .lineup__group-body-img img {
-  -webkit-transform: scale(1.25);
+  width: 100%;
+  height: auto;
+  display: block;
   transform: scale(1.25);
 }
 
