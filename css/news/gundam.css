@@ -1,0 +1,1270 @@
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+.l-gundam__project1-inner,
+.l-gundam__project2-inner,
+.l-gundam__project3-inner {
+  width: 80%;
+  max-width: 1152px;
+  margin: 0 auto
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__project1-inner,
+  .l-gundam__project2-inner,
+  .l-gundam__project3-inner {
+    width: 100%;
+    padding: 0 5%
+  }
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0 auto
+}
+
+.l-gundam {
+  color: #fff;
+  overflow: hidden;
+
+  a {
+    outline: none;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    display: block !important;
+    text-align: center;
+
+    &:hover {
+      color: #999;
+
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  p {
+    line-height: 2;
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    display: block;
+  }
+
+  h3 {
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 768px) {
+  h3 {
+    line-height: 1.9;
+  }
+}
+
+.c-btn a {
+  padding: 18px 0;
+}
+
+.c-btn--primary-center {
+  margin-inline: auto !important;
+  display: block;
+}
+
+.c-btn--primary {
+  transition: .5s;
+}
+
+.c-btn--primary.is-active, .c-btn--primary:active, .c-btn--primary:focus, .c-btn--primary:hover {
+  background-color: #666;
+}
+
+@media (max-width:767px) {
+  .l-gundam {
+    font-size: 12px
+  }
+}
+
+.l-gundam h2 {
+  font-size: 127px;
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  letter-spacing: 9px;
+  line-height: 1.1
+}
+
+@media (max-width:767px) {
+  .l-gundam h2 {
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 1.2
+  }
+}
+
+.l-gundam h2 strong {
+  font-size: 200px;
+  font-weight: 400
+}
+
+@media (max-width:767px) {
+  .l-gundam h2 strong {
+    font-size: 88px
+  }
+}
+
+.l-gundam h2 small {
+  display: block;
+  font-size: 16px;
+  font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif;
+  letter-spacing: 2px
+}
+
+@media (max-width:767px) {
+  .l-gundam h2 small {
+    font-size: 12px;
+    line-height: 1.4
+  }
+}
+
+.l-gundam__form-btn {
+  width: 500px;
+  line-height: 2.4;
+  position: relative;
+  margin-top: 40px;
+}
+
+.l-gundam__form-btn:after,.l-gundam__form-btn:before {
+  content: "";
+  display: block;
+  position: absolute
+}
+
+.l-gundam__form-btn:before {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background-image: url("https://www.owndays.com/images/svg/triangle-2.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/svg/triangle-2.svg");
+  height: 20px;
+  width: 20px;
+  top: -1px;
+  right: -1px
+}
+
+.l-gundam .l-gundam__form-btn--white a {
+  font-family: input-sans, sans-serif;
+  font-size: 16px
+}
+
+@media (max-width:767px) {
+  .l-gundam .l-gundam__form-btn--white a {
+    font-size: 13px
+  }
+}
+
+.l-gundam .l-gundam__form-btn--white:after {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  width: 19px;
+  height: 22px;
+  -webkit-transform: unset;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 6%;
+}
+
+@media (max-width: 767px) {
+  .l-gundam__form-btn:after {
+    width:19px;
+    height: 16px;
+    background-position: 100%;
+    background-size: 70%;
+    background-repeat: no-repeat
+  }
+}
+
+.l-gundam .l-gundam__form-btn--white:before {
+  background-image: url("https://www.owndays.com/images/svg/triangle-3.svg")
+}
+
+.l-gundam .l-gundam__form .corner {
+  background-image: unset
+}
+
+.l-gundam .c-btn--primary {
+  border: 1px solid #fff
+}
+
+@media (max-width:767px) {
+  .l-gundam .c-btn--primary {
+    width: 260px
+  }
+}
+
+.l-gundam .c-btn--primary a {
+  color: #fff
+}
+
+.l-gundam__main {
+  position: relative
+}
+
+.l-gundam__main h1 {
+  width: 600px;
+  margin: 0 auto
+}
+
+@media (max-width:1023px) {
+  .l-gundam__main h1 {
+    width: 403px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__main h1 {
+    width: 66%
+  }
+}
+
+.l-gundam__main .bk {
+  width: 100%
+}
+
+.l-gundam__main-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  top: 24%
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-inner {
+    width: 72%;
+    top: 36%
+  }
+}
+
+.l-gundam__main-title {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 350px;
+  margin: 30px auto 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-title {
+    font-size: 9px
+  }
+}
+
+.l-gundam__main-title p {
+  text-align: right;
+  margin-right: 20px;
+  line-height: 1.5
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-title p {
+    margin-right: 10px
+  }
+}
+
+.l-gundam__main-title img {
+  width: 40px
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-title img {
+    width: 30px
+  }
+}
+
+.l-gundam .scroll {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 55%;
+  right: 0;
+  cursor: pointer;
+  font-family: input-sans, sans-serif;
+  font-weight: 400
+}
+
+@media (max-width:767px) {
+  .l-gundam .scroll {
+    width: 61%;
+    top: 67%
+  }
+}
+
+.l-gundam .fix-bk {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/bk-01.jpg");
+  position: relative;
+  width: 100%;
+  padding-top: 158%;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: -820px 0 0;
+  z-index: -1
+}
+
+@media (max-width:1295px) {
+  .l-gundam .fix-bk {
+    margin: -660px 0 0;
+    padding-top: 144%
+  }
+}
+
+@media (max-width:1023px) {
+  .l-gundam .fix-bk {
+    margin: -460px 0 0;
+    padding-top: 154%;
+    background-image: url("https://www.owndays.com/images/specials/products/gundam/bk-01-sp.jpg")
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam .fix-bk {
+    padding-top: 215%;
+    margin: -272px 0 0
+  }
+}
+
+@media (max-width:375px) {
+  .l-gundam .fix-bk {
+    padding-top: 225%;
+    margin: -219px 0 0
+  }
+}
+
+.l-gundam__time {
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 49px;
+  line-height: 1;
+  margin: 30px 0;
+  font-weight: 400
+}
+
+@media (max-width:767px) {
+  .l-gundam__time {
+    font-size: 32px;
+    margin: 32px 0;
+    line-height: 1.1
+  }
+}
+
+.l-gundam__time span {
+  font-size: 16px;
+  display: inline-block;
+  text-align: initial;
+  line-height: 1.2;
+  margin-left: 10px
+}
+
+@media (max-width:767px) {
+  .l-gundam__time span {
+    font-size: 12px;
+    margin-left: 5px
+  }
+}
+
+.l-gundam__time small {
+  font-size: 16px;
+  display: block;
+  margin-top: 12px
+}
+
+.l-gundam__project1 {
+  position: relative
+}
+
+.l-gundam__project1 .triangle {
+  position: absolute;
+  bottom: -17.3%
+}
+
+@media (max-width:1023px) {
+  .l-gundam__project1 .triangle {
+    bottom: -12.4%
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1 .triangle {
+    bottom: -7.6%
+  }
+}
+
+.l-gundam__project1-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1-frame {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+}
+
+.l-gundam__project1-frame li {
+  max-width: 280px;
+  min-height: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin: 0 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000
+}
+
+@media (max-width:1023px) {
+  .l-gundam__project1-frame li {
+    min-height: 280px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1-frame li {
+    max-width: 100%;
+    min-height: 280px;
+    margin: 0 3px 6px;
+    width: 46%
+  }
+}
+
+@media (max-width:375px) {
+  .l-gundam__project1-frame li {
+    min-height: 220px
+  }
+}
+
+.l-gundam__project1-frame li p {
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 36px;
+  letter-spacing: 7px;
+  text-align: center;
+  line-height: 1.3;
+  height: 80px
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1-frame li p {
+    font-size: 18px;
+    letter-spacing: 4px;
+    height: 60px
+  }
+}
+
+.l-gundam__project1-frame li p small {
+  display: block;
+  font-size: 13px
+}
+
+.l-gundam__project1-frame li img {
+  max-width: 86%;
+  margin: 0 auto 12px
+}
+
+.l-gundam__project1-frame li:first-child {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/gundam.jpg")
+}
+
+.l-gundam__project1-frame li:nth-child(2) {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/char-zaku.jpg")
+}
+
+.l-gundam__project1-frame li:nth-child(3) {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/zaku.jpg")
+}
+
+.l-gundam__project1-frame li:last-child {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/dom.jpg")
+}
+
+.l-gundam__project1 .l-gundam__time {
+  text-align: center
+}
+
+.l-gundam__project1 .l-gundam__time span {
+  text-align: left
+}
+
+.l-gundam__project1 .l-gundam__time span i {
+  letter-spacing: 13.4px;
+  display: block
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1 .l-gundam__time span i {
+    letter-spacing: 10.5px
+  }
+}
+
+.l-gundam__project1-inner {
+  margin: -126% auto 120px;
+  z-index: 6;
+  position: relative
+}
+
+@media (max-width:1023px) {
+  .l-gundam__project1-inner {
+    margin: -140% auto 120px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1-inner {
+    padding: 0 9%;
+    margin: -204% auto 70px
+  }
+}
+
+@media (max-width:375px) {
+  .l-gundam__project1-inner {
+    margin: -209% auto 70px
+  }
+}
+
+.l-gundam__project1-inner>p {
+  max-width: 500px;
+  margin: 40px 0 60px auto !important;
+  line-height: 2.5
+}
+
+@media (max-width:767px) {
+  .l-gundam__project1-inner>p {
+    line-height: 2.2;
+    margin-top: 30px;
+    margin-bottom: 40px !important;
+  }
+}
+
+@media (max-width:375px) {
+  .l-gundam__project1-inner>p {
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+  }
+}
+
+.l-gundam__project1 h2 {
+  text-align: right
+}
+
+.l-gundam__project2 {
+  background-color: #000;
+  position: relative
+}
+
+.l-gundam__project2 .l-gundam__form-btn {
+  margin-top: 20px
+}
+
+@media (max-width:767px) {
+  .l-gundam__project2 .l-gundam__form-btn {
+    margin: 32px auto 0;
+    display: block
+  }
+
+  .l-gundam__form-btn {
+    padding: 0 10px;
+  }
+}
+
+.l-gundam__project2 .l-gundam__time i {
+  font-size: 40px
+}
+
+@media (max-width:767px) {
+  .l-gundam__project2 .l-gundam__time i {
+    font-size: 26px
+  }
+}
+
+.l-gundam__project2 .l-gundam__time small {
+  font-size: 16px;
+  display: block;
+  margin-top: 12px
+}
+
+.l-gundam__project2 .l-gundam__time strong {
+  font-weight: 400
+}
+
+@media (max-width:767px) {
+  .l-gundam__project2 .l-gundam__time {
+    text-align: center
+  }
+
+  .l-gundam__project2 .l-gundam__time span {
+    text-align: left
+  }
+}
+
+.l-gundam__project2-head {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/head.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 86% top
+}
+
+@media (max-width:767px) {
+  .l-gundam__project2-head {
+    background-repeat: no-repeat;
+    background-size: 86%;
+    background-position: top
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__project2-inner {
+    padding: 73% 9% 0
+  }
+}
+
+.l-gundam__project2-inner>p {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: 0;
+  margin-top: 40px;
+  line-height: 2.5
+}
+
+@media (max-width:767px) {
+  .l-gundam__project2-inner>p {
+    line-height: 2.2;
+    margin-top: 30px
+  }
+}
+
+.l-gundam__project3 {
+  background-color: #000;
+  padding: 120px 0 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3 {
+    padding: 70px 0 0
+  }
+}
+
+.l-gundam__project3-gundam {
+  background: url("https://www.owndays.com/images/specials/products/gundam/bk-gundam.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 15% bottom
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3-gundam {
+    background-size: 100%;
+    background-position: 0 0
+  }
+}
+
+.l-gundam__project3 .l-gundam__form-btn {
+  margin: 40px 0 0 auto;
+  display: block
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3 .l-gundam__form-btn {
+    margin: 32px auto 0;
+    display: block
+  }
+}
+
+.l-gundam__project3 .l-gundam__time {
+  max-width: 500px;
+  margin-right: 0;
+  margin-left: auto
+}
+
+.l-gundam__project3 .l-gundam__time p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.l-gundam__project3 .l-gundam__time em {
+  font-size: 49px;
+  line-height: 0;
+  margin-top: -9px
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3 .l-gundam__time em {
+    font-size: 32px;
+    margin-top: -5px
+  }
+}
+
+.l-gundam__project3 .l-gundam__time small {
+  font-size: 35px;
+  color: #ffd800;
+  font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif;
+  letter-spacing: 3px
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3 .l-gundam__time small {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px
+  }
+}
+
+.l-gundam__project3 .l-gundam__time span {
+  border: 1px solid #fff;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  border-radius: 30px;
+  line-height: 1.9
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3 .l-gundam__time span {
+    width: 27px;
+    height: 27px
+  }
+}
+
+.l-gundam__project3 .l-gundam__time i {
+  font-size: 13px;
+  margin: 0 14px
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3 .l-gundam__time i {
+    margin: 0 10px;
+    font-size: 11px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3-inner {
+    padding: 63% 9% 0
+  }
+}
+
+.l-gundam__project3-inner img {
+  max-width: 500px;
+  margin: 60px 0 0 auto
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3-inner img {
+    margin: 30px 0 0 auto
+  }
+}
+
+.l-gundam__project3-inner h2 {
+  text-align: right
+}
+
+.l-gundam__project3-inner>p {
+  max-width: 500px;
+  margin: 40px 0 30px auto !important;
+  line-height: 2.5
+}
+
+@media (max-width:767px) {
+  .l-gundam__project3-inner>p {
+    line-height: 2.2;
+    margin-bottom: 32px !important;
+  }
+}
+
+.l-gundam__share {
+  background-color: #000;
+  padding: 120px 0
+}
+
+.l-gundam__form-share {
+  border-bottom: 1px solid #999;
+  color: #999;
+}
+
+.l-gundam__form-share ul {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 12px 0 34px
+}
+
+.l-gundam__form-share ul li {
+  line-height: 2;
+}
+
+.l-gundam__form-share ul li a.is-active,.l-gundam__form-share ul li a:active,.l-gundam__form-share ul li a:focus,.l-gundam__form-share ul li a:hover {
+  opacity: .6
+}
+
+.l-gundam__form-share ul li i {
+  font-size: 23px;
+  padding: 0 30px;
+  color: #999
+}
+
+.l-gundam__form-share h3 {
+  text-align: center;
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  letter-spacing: 6px
+}
+
+.l-gundam__form-share h3:after,.l-gundam__form-share h3:before {
+  border-top: 1px solid;
+  content: "";
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1
+}
+
+.l-gundam__form-share h3:after {
+  margin-left: 1rem
+}
+
+.l-gundam__form-share h3:before {
+  margin-right: 1rem
+}
+
+@media (max-width:767px) {
+  .l-gundam__share {
+    padding: 70px 0 120px
+  }
+
+  .l-gundam__form-share h3 {
+    font-size:40px
+  }
+}
+
+.l-gundam__form-share {
+  max-width: 840px;
+  margin: 0 auto
+}
+
+@media (max-width:767px) {
+  .l-gundam__form-share {
+    margin: 0 9%
+  }
+}
+
+.l-gundam__teaser {
+  animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+  -webkit-font-smoothing: antialiased;
+  background-attachment: fixed;
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk.jpg");
+  background-position: top;
+  background-size: contain
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser {
+    background-size: cover
+  }
+}
+
+.l-gundam__teaser .l-content--inner {
+  padding-bottom: 60px
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .l-content--inner {
+    padding: 0
+  }
+}
+
+.l-gundam__teaser h2 {
+  font-family: acumin-pro-extra-condensed, sans-serif;
+  font-size: 80px;
+  line-height: 1.05;
+  margin-bottom: 15px
+}
+
+@media (max-width:1023px) {
+  .l-gundam__teaser h2 {
+    font-size: 100px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser h2 {
+    font-size: 52px
+  }
+}
+
+.l-gundam__teaser h2 span {
+  display: block;
+  font-size: 40px
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser h2 span {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 5px
+  }
+}
+
+.l-gundam__teaser .l-gundam__width {
+  width: 910px;
+  margin: 0 auto
+}
+
+.l-gundam__teaser .l-gundam__content {
+  width: 400px;
+  color: #fff;
+  text-align: center
+}
+
+.l-gundam__teaser .l-gundam__content p {
+  font-size: 16px
+}
+
+.l-gundam__teaser .l-gundam__content small {
+  display: block;
+  margin-top: 4px
+}
+
+.l-gundam__teaser .right {
+  margin: 110px auto 0 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .right {
+    margin: 0 auto
+  }
+}
+
+.l-gundam__teaser .left {
+  margin: 0 0 110px auto
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .left {
+    margin: 0 auto
+  }
+}
+
+.l-gundam__teaser p.release {
+  font-size: 26px;
+  margin-top: 15px;
+  letter-spacing: 2px
+}
+
+.l-gundam__teaser .l-gundam__main {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_top.jpg");
+  background-size: cover;
+  min-height: 1300px;
+  padding-top: 26%
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .l-gundam__main h1 {
+    width: 100%
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .l-gundam__main {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 1100px
+  }
+}
+
+.l-gundam__teaser .l-gundam__title {
+  background-color: rgba(0, 0, 0, .5);
+  padding: 40px 0;
+  font-family: acumin-pro-extra-condensed, sans-serif
+}
+
+.l-gundam__teaser .l-gundam__title img {
+  width: 500px;
+  margin: 0 auto
+}
+
+.l-gundam__teaser .l-gundam__title p {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  margin-top: 30px
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .l-gundam__title p {
+    font-size: 23px;
+    margin-top: 20px
+  }
+}
+
+.l-gundam__teaser .l-gundam__head {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_head.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: -44%;
+  position: relative
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .l-gundam__head {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_head_sp.png");
+    min-height: 1200px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 20%;
+    background-size: 100%
+  }
+}
+
+.l-gundam__teaser .l-gundam__frame {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_frame.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: -16%
+}
+
+@media (max-width:767px) {
+  .l-gundam__teaser .l-gundam__frame {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_frame_sp.png");
+    min-height: 1200px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-top: 20%;
+    background-size: 100%
+  }
+}
+
+@media (max-width:440px) {
+  .l-gundam__teaser h2 .l-gundam__title {
+    padding: 30px 0
+  }
+
+  .l-gundam__teaser h2 .l-gundam__title img {
+    width: 85%
+  }
+
+  .l-gundam__teaser h2 .l-gundam__title p {
+    font-size: 23px;
+    margin-top: 20px
+  }
+
+  .l-gundam__teaser h2 .l-gundam__main {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_top_sp.jpg");
+    height: 650px;
+    min-height: unset;
+    padding-top: 26%
+  }
+
+  .l-gundam__teaser h2 .l-gundam__head {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_head_sp.png");
+    height: 700px;
+    min-height: unset;
+    margin-top: -54%;
+    padding-top: 9%
+  }
+
+  .l-gundam__teaser h2 .l-gundam__frame {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam/teaser/bk_frame_sp.png");
+    height: 700px;
+    min-height: unset;
+    margin-top: -26%;
+    padding-top: 9%
+  }
+}
+
+@media (max-width:670px) {
+  .l-gundam__teaser .l-gundam__main {
+    min-height: 960px
+  }
+
+  .l-gundam__teaser .l-gundam__frame,
+  .l-gundam__teaser .l-gundam__head {
+    min-height: 1100px
+  }
+
+  .l-gundam__teaser .l-gundam__title img {
+    width: 85%
+  }
+}
+
+@media (max-width:600px) {
+  .l-gundam__teaser .l-gundam__main {
+    min-height: 850px
+  }
+
+  .l-gundam__teaser .l-gundam__frame,
+  .l-gundam__teaser .l-gundam__head {
+    min-height: 950px
+  }
+}
+
+@media (max-width:520px) {
+  .l-gundam__teaser .l-gundam__main {
+    min-height: 600px
+  }
+
+  .l-gundam__teaser .l-gundam__frame,
+  .l-gundam__teaser .l-gundam__head {
+    min-height: 660px
+  }
+}
+
+@media (max-width:340px) {
+  .l-gundam__teaser .l-gundam__main {
+    min-height: 536px
+  }
+
+  .l-gundam__teaser .l-gundam__frame,
+  .l-gundam__teaser .l-gundam__head {
+    min-height: 560px
+  }
+
+  .l-gundam__teaser h2 {
+    font-size: 44px
+  }
+
+  .l-gundam__teaser h2 span {
+    font-size: 26px
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: .5
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  50% {
+    opacity: .5
+  }
+
+  to {
+    opacity: 1
+  }
+}
