@@ -1,0 +1,2429 @@
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap);
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2") format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2") format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2") format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2") format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2") format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2") format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Corporate Logo Rounded";
+  src: url("https://static.lenskart.com/media/owndays/fonts/corporate-logo-rounded/Corporate-Logo-Rounded.ttf") format("truetype"),
+      url("https://static.lenskart.com/media/owndays/fonts/corporate-logo-rounded/Corporate-Logo-Rounded.woff2") format("woff2"),
+      url("https://static.lenskart.com/media/owndays/fonts/corporate-logo-rounded/Corporate-Logo-Rounded.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Katakanaboy;
+  src: url("https://static.lenskart.com/media/owndays/fonts/katakanaboy/Katakanaboy-R.ttf") format("truetype"),
+    url("https://static.lenskart.com/media/owndays/fonts/katakanaboy/Katakanaboy-R.woff2") format("woff2"),
+    url("https://static.lenskart.com/media/owndays/fonts/katakanaboy/Katakanaboy-R.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Eveleth Clean;
+  src: url("https://static.lenskart.com/media/owndays/fonts/eveleth-clean/EvelethCleanRegular.woff2") format("woff2"),
+    url("https://static.lenskart.com/media/owndays/fonts/eveleth-clean/EvelethCleanRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.l-kuromi {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  color: #2b2045;
+  --corner-space: 14px;
+  --corner-size: 10px;
+  overflow: hidden;
+
+  a {
+    outline: none;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    display: flex !important;
+
+    &:hover {
+      color: #999;
+
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  p {
+    line-height: 2;
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    display: block;
+  }
+}
+
+.u-text-center {
+  text-align: center !important;
+}
+
+.u-sp-only {
+  display: block;
+}
+
+.u-pc-only {
+  display: none !important;
+}
+
+.tab-content>.tab-pane {
+  display: none
+}
+
+.tab-content>.active {
+  display: block
+}
+
+@media (min-width: 768px) {
+  .u-pc-only {
+    display: inherit !important;
+  }
+
+  .u-sp-only {
+    display: none;
+  }
+}
+
+.l-kuromi__important a {
+  color: #2b2045 !important;
+  display: block !important;
+  background-color: #fef89fa8;
+  width: 100%;
+  padding: 8px 5% 6px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi__important a {
+    font-size: 14px;
+  }
+}
+
+.l-kuromi__important a span {
+  color: #553882 !important;
+}
+
+.l-kuromi__important a:hover {
+  color: #2b2045 !important;
+}
+
+.l-kuromi__important a:hover span {
+  color: #bcadd3 !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.l-kuromi__container {
+  max-width: 1264px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi__container {
+    max-width: 1224px;
+    padding-left: 73px;
+    padding-right: 73px;
+  }
+}
+
+.l-kuromi__checkered-pattern {
+  position: relative;
+  overflow: hidden;
+}
+
+.l-kuromi__checkered-pattern:before {
+  content: "";
+  position: absolute;
+  top: -50vw;
+  bottom: -50vw;
+  left: -50vw;
+  right: -50vw;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/checkered-pattern.svg") 50%/43px;
+  -webkit-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.l-kuromi__title {
+  font: 400 42px/1 Eveleth Clean;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke: 2px #2b2045;
+  padding-bottom: 0.6em;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/title-bg.svg") bottom/58px auto no-repeat;
+  position: relative;
+  z-index: 9;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi__title {
+    font-size: 60px;
+    -webkit-text-stroke-width: 3px;
+    background-size: 72px auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi__title {
+    font-size: 80px;
+    background-size: 92px auto;
+  }
+}
+
+.l-kuromi__button {
+  font: 700 15px/1 Corporate Logo Rounded;
+  color: #2b2045;
+  position: relative;
+  padding: 0 14px 0 30px;
+  margin: 0 auto 8px;
+  height: 66px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 3;
+}
+
+.l-kuromi__button:after,
+.l-kuromi__button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 3px solid currentColor;
+  border-radius: 5em;
+  background-color: #fff;
+}
+
+.l-kuromi__button:before {
+  z-index: -1;
+}
+
+.l-kuromi__button:after {
+  -webkit-transform: translate(8px, 8px);
+  transform: translate(8px, 8px);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: -2;
+}
+
+.l-kuromi__button span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/arrow-right.svg") 100%/29px 29px no-repeat;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi__button {
+    height: 62px;
+    max-width: 281px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi__button:hover {
+    opacity: 1;
+    color: currentColor;
+    -webkit-transform: translate(3px, 3px);
+    transform: translate(3px, 3px);
+  }
+
+  .l-kuromi__button:hover:after {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.l-kuromi__button.disabled {
+  pointer-events: none;
+  color: #e3e3e3;
+  border-color: #e3e3e3;
+}
+
+.l-kuromi__button.disabled span {
+  background: none;
+}
+
+.l-kuromi__button-group {
+  display: grid;
+  row-gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi__button-group {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.l-kuromi .item-corner-bottom:after,
+.l-kuromi .item-corner-bottom:before,
+.l-kuromi .item-corner-top:after,
+.l-kuromi .item-corner-top:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #2b2045;
+  width: var(--corner-size);
+  height: var(--corner-size);
+}
+
+.l-kuromi .item-corner-top:after,
+.l-kuromi .item-corner-top:before {
+  top: var(--corner-space);
+}
+
+.l-kuromi .item-corner-bottom:after,
+.l-kuromi .item-corner-bottom:before {
+  bottom: var(--corner-space);
+}
+
+.l-kuromi .item-corner-bottom:before,
+.l-kuromi .item-corner-top:before {
+  left: var(--corner-space);
+}
+
+.l-kuromi .item-corner-bottom:after,
+.l-kuromi .item-corner-top:after {
+  right: var(--corner-space);
+}
+
+.l-kuromi .main {
+  padding-top: 67px;
+  padding-bottom: 30%;
+  position: relative;
+}
+
+.l-kuromi .main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(308deg, #a69cca, #b8d5e7, #f99bb8);
+  background-size: 600% 600%;
+  -webkit-animation: BackgroundAnimation 60s ease infinite;
+  animation: BackgroundAnimation 60s ease infinite;
+  z-index: -1;
+}
+
+.l-kuromi .main__content {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 55px;
+  position: relative;
+  z-index: 2;
+}
+
+.l-kuromi .main h1 {
+  grid-area: h1;
+}
+
+.l-kuromi .main h1 img {
+  width: 66.3%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.l-kuromi .main figure {
+  grid-area: img;
+}
+
+.l-kuromi .main figure img {
+  width: 87.5%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.l-kuromi .main__release-date {
+  text-align: left;
+  display: table;
+  margin: 0 auto;
+  grid-area: date;
+}
+
+.l-kuromi .main__release-date h3 {
+  font: 600 29px/1 Corporate Logo Rounded;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 12px;
+  -moz-column-gap: 12px;
+  column-gap: 12px;
+}
+
+.l-kuromi .main__release-date h3:after,
+.l-kuromi .main__release-date h3:before {
+  content: "";
+  width: 18px;
+  height: 24px;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/star.svg") 50% / contain no-repeat;
+}
+
+.l-kuromi .main__release-date p {
+  font-size: 14px;
+  line-height: 2.2em;
+  letter-spacing: 0.07em;
+}
+
+.l-kuromi .main__hashtag {
+  position: absolute;
+  top: 50%;
+  right: -13px;
+  min-width: 14px;
+  width: 4.3%;
+  max-width: 25px;
+  -webkit-transform: translateY(calc(-50% + 13px));
+  transform: translateY(calc(-50% + 13px));
+}
+
+.l-kuromi .main__scroll-button {
+  font-size: 14px;
+  padding: 8px 30px 8px 13px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex !important;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #bcadd3;
+  color: #fff;
+  border-radius: 3em;
+  margin-top: 55px;
+  position: relative;
+  z-index: 2;
+}
+
+.l-kuromi .main__scroll-button:before {
+  content: "";
+  width: 29px;
+  height: 29px;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/arrow-down.svg") 50% / contain no-repeat;
+  margin-right: 11px;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .main {
+    padding-top: 120px;
+    padding-bottom: 75px;
+  }
+
+  .l-kuromi .main:before {
+    background-image: url("https://www.owndays.com/images/specials/products/kuromi/main-bg-lg.webp");
+    width: 100vw;
+  }
+
+  .l-kuromi .main__content {
+    display: grid;
+    grid-template-columns: 32% auto;
+    grid-template-areas: "h1 img" "date img";
+    gap: 0 60px;
+  }
+
+  .l-kuromi .main h1 {
+    -ms-flex-item-align: end;
+    align-self: end;
+  }
+
+  .l-kuromi .main figure img,
+  .l-kuromi .main h1 img {
+    width: 100%;
+    max-width: none;
+  }
+
+  .l-kuromi .main__release-date {
+    margin-top: 30px;
+  }
+
+  .l-kuromi .main__hashtag {
+    right: -67px;
+    width: 25px;
+    max-width: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .main__content {
+    display: grid;
+    grid-template-columns: auto 559px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 0 60px;
+  }
+
+  .l-kuromi .main h1 img {
+    width: 346px;
+  }
+
+  .l-kuromi .main__release-date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: start;
+    align-self: start;
+    -webkit-column-gap: 3px;
+    -moz-column-gap: 3px;
+    column-gap: 3px;
+    margin-top: 39px;
+  }
+
+  .l-kuromi .main__release-date:after,
+  .l-kuromi .main__release-date:before {
+    content: "";
+    width: 13px;
+    height: 18px;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/star.svg") 50% / contain no-repeat;
+  }
+
+  .l-kuromi .main__release-date h3 {
+    font-size: 16px;
+    line-height: 1;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 12px;
+    -moz-column-gap: 12px;
+    column-gap: 12px;
+  }
+
+  .l-kuromi .main__release-date h3:after,
+  .l-kuromi .main__release-date h3:before {
+    content: none;
+  }
+
+  .l-kuromi .main__release-date p {
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+  }
+
+  .l-kuromi .main__scroll-button {
+    font-size: 17px;
+    padding: 10px 21px 9px 14px;
+    margin-top: 41px;
+  }
+}
+
+@media (min-width: 1224px) {
+  .l-kuromi .main:before {
+    left: calc((1224px - 100vw) / 2);
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .main__hashtag {
+    right: -110px;
+  }
+}
+
+.l-kuromi .intro {
+  background-color: #bcadd3;
+  padding-top: 60px;
+  padding-bottom: 300px;
+  position: relative;
+  color: #000;
+}
+
+.l-kuromi .intro:before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 0;
+  right: 0;
+  height: 22.6vw;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/intro-top-shape.svg") top/cover no-repeat;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .intro {
+    padding-top: 310px;
+    padding-bottom: 370px;
+  }
+
+  .l-kuromi .intro:before {
+    height: 54px;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/intro-top-shape-pc.webp") bottom/100% 100% no-repeat;
+  }
+
+  .l-kuromi .intro:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/intro-bg-pc.webp") top 100px center/140% auto no-repeat;
+    z-index: 2;
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .intro {
+    padding-bottom: 400px;
+  }
+
+  .l-kuromi .intro:after {
+    background-size: 1478px auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .l-kuromi .intro {
+    padding-bottom: 500px;
+  }
+}
+
+.l-kuromi .intro__content-1 {
+  position: relative;
+  padding: 0 0 10px 7px;
+  z-index: 4;
+}
+
+.l-kuromi .intro__content-1:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 3px;
+  left: 0;
+  right: 7px;
+  background-color: #fcbbc2;
+  border: 3px solid #000;
+  border-radius: 3px;
+}
+
+.l-kuromi .intro__content-1-inner {
+  background-color: #fff;
+  padding: 64px 30px 45px 22px;
+  border: 3px solid #2b2045;
+  border-radius: 3px;
+  position: relative;
+  z-index: 2;
+}
+
+.l-kuromi .intro__content-1-top {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 90%;
+  max-width: 770px;
+  -webkit-transform: translate(-50%, -52%);
+  transform: translate(-50%, -52%);
+  pointer-events: none;
+}
+
+.l-kuromi .intro__content-1-title {
+  width: 245px;
+  margin: 0 auto 34px;
+}
+
+.l-kuromi .intro__content-1-highlight-text {
+  display: inline-block;
+  width: auto;
+  height: 24px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.l-kuromi .intro__content-1 p {
+  font-size: 15px;
+  line-height: 2.5;
+}
+
+.l-kuromi .intro__content-1-character {
+  width: 190px;
+  margin: 10px auto 0;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .intro__content-1 {
+    max-width: 883px;
+    margin: 0 auto;
+    padding: 0 0 20px 16px;
+  }
+
+  .l-kuromi .intro__content-1:before {
+    top: 25px;
+    right: 18px;
+    border-width: 6px;
+  }
+
+  .l-kuromi .intro__content-1-inner {
+    padding: 112px 92px 50px;
+    border-width: 6px;
+  }
+
+  .l-kuromi .intro__content-1-title {
+    width: 330px;
+    margin-bottom: 50px !important;
+  }
+
+  .l-kuromi .intro__content-1-highlight-text {
+    height: 34px;
+  }
+
+  .l-kuromi .intro__content-1 p {
+    font-size: 20px;
+  }
+
+  .l-kuromi .intro__content-1-character {
+    position: absolute;
+    bottom: -3px;
+    right: -70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .intro__content-1-inner {
+    padding-bottom: 90px;
+  }
+
+  .l-kuromi .intro__content-1-title {
+    width: 431px;
+    margin-bottom: 57px !important;
+  }
+
+  .l-kuromi .intro__content-1-highlight-text {
+    height: 36px;
+  }
+
+  .l-kuromi .intro__content-1 p {
+    font-size: 22px;
+  }
+
+  .l-kuromi .intro__content-1-character {
+    width: 258px;
+    bottom: -7px;
+    right: -118px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .intro__content-1-character {
+    width: 318px;
+    right: -198px;
+  }
+}
+
+.l-kuromi .intro__content-2 {
+  margin-top: 105px;
+  position: relative;
+  z-index: 4;
+}
+
+.l-kuromi .intro__content-2-inner {
+  background-color: #fff;
+  padding: 50px 30px 1px;
+  -webkit-box-shadow: 10px 10px 0 #2b2045;
+  box-shadow: 10px 10px 0 #2b2045;
+  position: relative;
+}
+
+.l-kuromi .intro__content-2-img {
+  width: 95px;
+  margin: 0 auto 45px;
+}
+
+.l-kuromi .intro__content-2-title {
+  font: 700 23px/1 Corporate Logo Rounded;
+  letter-spacing: 0.073em;
+  margin-bottom: 20px !important;
+  padding-bottom: 18px;
+  text-align: center;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/intro-2-dot-sp.svg") bottom no-repeat;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .intro__content-2-title {
+    margin-bottom: 30px !important;
+  }
+}
+
+.l-kuromi .intro__content-2 p {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 2.5;
+  letter-spacing: 0.04em;
+}
+
+.l-kuromi .intro__content-2-character {
+  width: 190px;
+  margin: 15px auto -36px;
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .intro__content-2 {
+    margin-top: 200px;
+  }
+
+  .l-kuromi .intro__content-2-inner {
+    padding: 53px 16px 53px 89px;
+    -webkit-box-shadow: 14px 14px 0 #2b2045;
+    box-shadow: 14px 14px 0 #2b2045;
+    display: grid;
+    grid-template-columns: 108px auto;
+    -webkit-column-gap: 70px;
+    -moz-column-gap: 70px;
+    column-gap: 70px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .l-kuromi .intro__content-2-detail {
+    position: relative;
+  }
+
+  .l-kuromi .intro__content-2-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .l-kuromi .intro__content-2-title {
+    font-size: 26px;
+    padding-bottom: 18px;
+    text-align: left;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/intro-2-dot-pc.svg") 0 100% no-repeat;
+  }
+
+  .l-kuromi .intro__content-2 p {
+    font-size: 14px;
+    width: 63%;
+    max-width: 545px;
+  }
+
+  .l-kuromi .intro__content-2-character {
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .intro__content-2 p {
+    width: 100%;
+  }
+}
+
+.l-kuromi .lineup {
+  margin-top: -170px;
+  position: relative;
+  z-index: 4;
+}
+
+.l-kuromi .lineup .l-kuromi__title {
+  margin-bottom: 65px !important;
+}
+
+.l-kuromi .lineup__content {
+  padding: 20px 0 100px;
+  position: relative;
+}
+
+.l-kuromi .lineup__content:before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 0;
+  right: 0;
+  height: 122px;
+  background: top/100% 100% no-repeat;
+  pointer-events: none;
+}
+
+.l-kuromi .lineup--pink {
+  background-color: #edbad8;
+  padding-bottom: 200px;
+}
+
+.l-kuromi .lineup--pink:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/lineup-top-shape-pink.webp");
+}
+
+.l-kuromi .lineup--pink .lineup__slider-product-title h4 {
+  background-color: #e5a3d5;
+}
+
+.l-kuromi .lineup--purple {
+  background-color: #a68fbd;
+}
+
+.l-kuromi .lineup--purple:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/lineup-top-shape-purple.webp");
+}
+
+.l-kuromi .lineup--purple .lineup__slider-product-title h4 {
+  background-color: #2b2045;
+}
+
+.l-kuromi .lineup--purple .lineup__slider-pagination .swiper-pagination-bullet:before,
+.l-kuromi .lineup--purple .lineup__slider-product-title h4 {
+  background-color: #846f98;
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .lineup {
+    margin-top: -193px;
+  }
+
+  .l-kuromi .lineup__content {
+    padding: 1px 0 100px;
+  }
+
+  .l-kuromi .lineup__content:before {
+    height: 19vw;
+  }
+
+  .l-kuromi .lineup--pink {
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .l-kuromi .lineup .l-kuromi__title {
+    top: -135px;
+  }
+
+  .l-kuromi .lineup__content:before {
+    height: 437px;
+  }
+
+  .l-kuromi .lineup--pink {
+    padding-bottom: 370px;
+  }
+}
+
+.l-kuromi .lineup__top {
+  position: relative;
+  z-index: 4;
+}
+
+.l-kuromi .lineup__top-name {
+  text-align: center;
+  grid-area: name;
+}
+
+.l-kuromi .lineup__top-name span {
+  font: 400 55px/1 Katakanaboy;
+  letter-spacing: 0;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.l-kuromi .lineup__top-name span:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2b2045;
+  z-index: -1;
+}
+
+.l-kuromi .lineup__top-name small {
+  font: 700 28px/1 Corporate Logo Rounded;
+  letter-spacing: 0.08em;
+  display: block;
+  color: #2b2045;
+  margin-top: 10px;
+}
+
+.l-kuromi .lineup__top-character {
+  margin-top: -37px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: img;
+}
+
+.l-kuromi .lineup__top-character img {
+  aspect-ratio: 727/794;
+}
+
+.l-kuromi .lineup__top-detail {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 30px;
+  line-height: 2.5;
+  grid-area: detail;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .lineup__top {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "name img" "detail img";
+  }
+
+  .l-kuromi .lineup__top-name {
+    text-align: left;
+    -ms-flex-item-align: end;
+    align-self: end;
+  }
+
+  .l-kuromi .lineup__top-name span {
+    font-size: 60px;
+    vertical-align: text-bottom;
+    padding: 13px 23px;
+  }
+
+  .l-kuromi .lineup__top-name small {
+    font-size: 33px;
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .l-kuromi .lineup__top-character {
+    max-width: none;
+  }
+
+  .l-kuromi .lineup__top-character img {
+    width: auto;
+    max-width: 100%;
+    aspect-ratio: 538/457;
+  }
+
+  .l-kuromi .lineup__top-detail {
+    margin-top: 10px;
+    -ms-flex-item-align: start;
+    align-self: start;
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .lineup__top {
+    grid-template-columns: 538px auto;
+  }
+
+  .l-kuromi .lineup__top-name span {
+    font-size: 81px;
+  }
+
+  .l-kuromi .lineup__top-name small {
+    font-size: 54px;
+    margin-left: 22px;
+  }
+
+  .l-kuromi .lineup__top-detail {
+    font-size: 19px;
+    margin-top: 47px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .l-kuromi .lineup__top {
+    margin-top: -110px;
+  }
+}
+
+.l-kuromi .lineup__slider {
+  margin-top: 80px;
+}
+
+.l-kuromi .lineup__slider~.lineup__slider {
+  padding-top: 30px;
+}
+
+.l-kuromi .lineup__slider-header {
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.l-kuromi .lineup__slider-header:after {
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 17px;
+  right: 17px;
+  height: 6px;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/dot.svg") bottom repeat-X;
+}
+
+.l-kuromi .lineup__slider-product {
+  margin-top: 45px;
+  --corner-space: 11px;
+  --corner-size: 6px;
+}
+
+.l-kuromi .lineup__slider-product-no h3 {
+  font: 400 20px/1 Eveleth Clean;
+  letter-spacing: 0.12em;
+  text-align: center;
+  margin-bottom: 26px !important;
+}
+
+.l-kuromi .lineup__slider-product-title h4 {
+  font: 400 13px/1 Eveleth Clean;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 9px 15px;
+  margin-bottom: 13px !important;
+  color: #fff;
+  display: inline-block;
+}
+
+.l-kuromi .lineup__slider-product-code {
+  font: 700 20px/1 Dosis, sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.l-kuromi .lineup__slider-product-price {
+  font: 700 23px/1 Dosis, sans-serif;
+  letter-spacing: 0.07em;
+  display: inline-block;
+  float: right;
+}
+
+.l-kuromi .lineup__slider-product-price small {
+  font: 800 14px/1 heisei-maru-gothic-std, sans-serif;
+  letter-spacing: 0.07em;
+}
+
+.l-kuromi .lineup__slider-product .swiper-wrapper {
+  padding-bottom: 15px;
+}
+
+.l-kuromi .lineup__slider-product .swiper-slide {
+  width: 81%;
+  max-width: 648px;
+}
+
+.l-kuromi .lineup__slider-product-inner {
+  border: 3px solid #2b2045;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.l-kuromi .lineup__slider-product-inner img {
+  aspect-ratio: 601/358;
+}
+
+.l-kuromi .lineup__slider-product .swiper-slide-active .lineup__slider-product-inner {
+  -webkit-transform: translateY(15px);
+  transform: translateY(15px);
+}
+
+.l-kuromi .lineup__slider-pagination {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+  -webkit-column-gap: 3px;
+  -moz-column-gap: 3px;
+  column-gap: 3px;
+  margin-top: 29px;
+}
+
+.l-kuromi .lineup__slider-pagination .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background: none;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+}
+
+.l-kuromi .lineup__slider-pagination .swiper-pagination-bullet:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #e5a3d5;
+  border-radius: 50%;
+}
+
+.l-kuromi .lineup__slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  -webkit-box-shadow: #2b2045;
+  box-shadow: #2b2045;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 2px;
+}
+
+.l-kuromi .lineup__slider-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+  background-color: #2b2045;
+}
+
+.l-kuromi .lineup__slider-color {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.l-kuromi .lineup__slider-color.u-sp-only {
+  margin-top: 20px;
+}
+
+.l-kuromi .lineup__slider-color .nav-item {
+  margin: 0 4px;
+}
+
+.l-kuromi .lineup__slider-color .nav-link {
+  width: 29px;
+  height: 29px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.l-kuromi .lineup__slider-color .nav-link:before {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: var(--cl);
+  border-radius: 50%;
+}
+
+.l-kuromi .lineup__slider-color .nav-link.active {
+  -webkit-box-shadow: #2b2045;
+  box-shadow: #2b2045;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .lineup__slider-header {
+    padding-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .l-kuromi .lineup__slider-header:after {
+    content: none;
+  }
+
+  .l-kuromi .lineup__slider-product {
+    margin-top: 30px;
+    --corner-space: 24px;
+    --corner-size: 12px;
+  }
+
+  .l-kuromi .lineup__slider-product-no h3 {
+    font-size: 30px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 37px !important;
+  }
+
+  .l-kuromi .lineup__slider-product-no h3:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid currentColor;
+  }
+
+  .l-kuromi .lineup__slider-product-title {
+    display: inline-block;
+  }
+
+  .l-kuromi .lineup__slider-product-title h4 {
+    font-size: 15px;
+    margin-bottom: 20px !important;
+  }
+
+  .l-kuromi .lineup__slider-product-code {
+    font-size: 25px;
+    margin-left: 15px;
+  }
+
+  .l-kuromi .lineup__slider-product-price {
+    font-size: 27px;
+    display: block;
+    float: none;
+  }
+
+  .l-kuromi .lineup__slider-product-price small {
+    font-size: 17px;
+  }
+
+  .l-kuromi .lineup__slider-product .swiper-slide {
+    width: 65%;
+  }
+
+  .l-kuromi .lineup__slider-product-inner {
+    border-width: 5px;
+    border-radius: 30px;
+  }
+
+  .l-kuromi .lineup__slider-product .swiper-slide-active .lineup__slider-product-inner {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  .l-kuromi .lineup__slider-pagination {
+    margin-top: 43px;
+  }
+
+  .l-kuromi .lineup__slider-color {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .l-kuromi .lineup__slider-color:before {
+    content: attr(data-title);
+    letter-spacing: 0.06em;
+    font: 700 22px/1 Dosis, sans-serif;
+    margin-right: 28px;
+  }
+
+  .l-kuromi .lineup__slider-color .nav-link {
+    width: 42px;
+    height: 42px;
+  }
+
+  .l-kuromi .lineup__slider-color .nav-link:before {
+    width: 24px;
+    height: 24px;
+  }
+
+  .l-kuromi .lineup__slider-color .nav-link.active {
+    -webkit-box-shadow: #2b2045;
+    box-shadow: #2b2045;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .lineup__slider-color.u-pc-only {
+    margin-right: -36.5px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .lineup__slider-color.u-pc-only {
+    margin-right: -73px;
+  }
+}
+
+.l-kuromi .lineup__point {
+  margin: 60px auto 65px;
+  display: grid;
+  row-gap: 82px;
+}
+
+.l-kuromi .lineup__point-img-wrap {
+  position: relative;
+  margin-bottom: 28px !important;
+  padding: 0 30px;
+}
+
+.l-kuromi .lineup__point-img-wrap img {
+  max-width: 450px;
+  max-height: 280px;
+  margin: 0 auto;
+  aspect-ratio: 334/313;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .l-kuromi .lineup__point-img-wrap img {
+    max-height: 280px;
+  }
+}
+
+.l-kuromi .lineup__point-title {
+  font: 700 45px/1 Dosis, sans-serif;
+  letter-spacing: 0.05em;
+  text-align: center;
+  position: absolute;
+  top: -23px;
+  bottom: auto;
+  left: 0;
+  right: 0;
+}
+
+.l-kuromi .lineup__point-title small {
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0.15em;
+  position: relative;
+}
+
+.l-kuromi .lineup__point-title small:after {
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  border-bottom: 4px solid #2b2045;
+  border-radius: 4px;
+}
+
+.l-kuromi .lineup__point>li:first-child .lineup__point-title {
+  top: 0;
+}
+
+.l-kuromi .lineup__point p {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .lineup__point {
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
+    column-gap: 35px;
+    margin-top: 85px;
+    margin-bottom: 100px !important;
+  }
+
+  .l-kuromi .lineup__point-img-wrap {
+    margin-bottom: 40px !important;
+    padding: 0;
+  }
+
+  .l-kuromi .lineup__point-img-wrap img {
+    max-width: none;
+  }
+
+  .l-kuromi .lineup__point-title {
+    position: static;
+    margin-bottom: 34px !important;
+  }
+
+  .l-kuromi .lineup__point p {
+    text-align: left;
+    line-height: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .lineup__point {
+    -webkit-column-gap: 52px;
+    -moz-column-gap: 52px;
+    column-gap: 52px;
+  }
+
+  .l-kuromi .lineup__point-img-wrap {
+    margin-bottom: 53px !important;
+  }
+
+  .l-kuromi .lineup__point p {
+    font-size: 14px;
+  }
+}
+
+.l-kuromi .accessory {
+  background-color: #bcadd3;
+  padding-top: 118px;
+}
+
+.l-kuromi .accessory__inner {
+  background-color: #fff;
+  padding: 1px 30px 65px;
+  border: 5px solid #2b2045;
+  border-radius: 20px;
+  position: relative;
+}
+
+.l-kuromi .accessory__character {
+  width: 190px;
+  margin: -80px auto 33px;
+  aspect-ratio: 65/63;
+}
+
+.l-kuromi .accessory__title {
+  font: 400 20px/1.7 Eveleth Clean;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.l-kuromi .accessory__img {
+  margin: 33px auto 45px;
+  max-width: 450px;
+  aspect-ratio: 315/302;
+}
+
+.l-kuromi .accessory__detail {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 2.5;
+  letter-spacing: 0.04em;
+  position: relative;
+  padding-top: 35px;
+}
+
+.l-kuromi .accessory__detail:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/dot.svg") top repeat-x;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .accessory__inner {
+    padding: 20px 30px 10px 80px;
+    display: grid;
+    grid-template-areas: "title img" "detail img";
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+  }
+
+  .l-kuromi .accessory__character {
+    width: 140px;
+    position: absolute;
+    left: -80px;
+    bottom: 0;
+  }
+
+  .l-kuromi .accessory__title {
+    text-align: left;
+    grid-area: title;
+    -ms-flex-item-align: end;
+    align-self: end;
+  }
+
+  .l-kuromi .accessory__img {
+    grid-area: img;
+    margin: 0;
+    aspect-ratio: 280/201;
+  }
+
+  .l-kuromi .accessory__detail {
+    padding-top: 20px;
+    grid-area: detail;
+  }
+
+  .l-kuromi .accessory__detail:before {
+    content: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .accessory {
+    --corner-space: 24px;
+    --corner-size: 12px;
+    padding-top: 139px;
+  }
+
+  .l-kuromi .accessory__inner {
+    padding: 20px 15px 10px 100px;
+    border-radius: 30px;
+  }
+
+  .l-kuromi .accessory__character {
+    width: 210px;
+    left: -130px;
+  }
+
+  .l-kuromi .accessory__title {
+    font-size: 28px;
+  }
+
+  .l-kuromi .accessory__img {
+    max-width: none;
+  }
+
+  .l-kuromi .accessory__detail {
+    font-size: 14px;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .accessory__inner {
+    padding-right: 5px;
+    grid-template-columns: auto 560px;
+  }
+}
+
+.l-kuromi .novelty {
+  background-color: #bcadd3;
+  padding-top: 73px;
+}
+
+.l-kuromi .novelty__ec {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -45px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .novelty__ec {
+    font-size: 12px;
+    margin-top: -61px;
+    padding-bottom: 20px;
+  }
+}
+
+.l-kuromi .novelty__inner {
+  background-color: #fff;
+  padding: 50px 30px 65px;
+  margin-top: 25px;
+  border: 5px solid #2b2045;
+  border-radius: 20px;
+  position: relative;
+}
+
+.l-kuromi .novelty__inner>small {
+  font: 700 14px/1 heisei-maru-gothic-std, sans-serif;
+  letter-spacing: 0.17em;
+  padding: 11px 18px 7px;
+  background-color: #2b2045;
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+}
+
+.l-kuromi .novelty__title {
+  font: 700 28px/1 Corporate Logo Rounded;
+  letter-spacing: 0.04em;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 23px;
+  position: relative;
+  z-index: 2;
+}
+
+.l-kuromi .novelty__title small {
+  display: block;
+  font-size: 14px;
+}
+
+.l-kuromi .novelty__img {
+  margin: -17px auto 0;
+  max-width: 450px;
+  aspect-ratio: 322/263;
+}
+
+.l-kuromi .novelty__detail {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 2;
+  color: #000;
+}
+
+.l-kuromi .novelty__note {
+  font-size: 11px;
+  font-weight: 400;
+  display: block;
+  margin-top: 18px;
+}
+
+.l-kuromi .novelty__character {
+  width: 76px;
+  position: absolute;
+  right: -20px;
+  bottom: -23px;
+  z-index: 2;
+}
+
+.l-kuromi .novelty__goforit {
+  position: absolute;
+  top: 68px;
+  left: -40px;
+  width: 120px;
+}
+
+.l-kuromi .novelty .l-kuromi__button-group {
+  margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .novelty__inner {
+    display: grid;
+    grid-template-areas: "img label" "img title" "img detail";
+    grid-template-rows: 0fr auto 0fr;
+    grid-template-columns: 55% auto;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    padding: 50px 30px 50px 16px;
+  }
+
+  .l-kuromi .novelty__inner>small {
+    margin-left: 0;
+    grid-area: label;
+    -ms-flex-item-align: end;
+    align-self: end;
+  }
+
+  .l-kuromi .novelty__title {
+    grid-area: title;
+    text-align: left;
+    margin-bottom: 25px !important;
+  }
+
+  .l-kuromi .novelty__img {
+    grid-area: img;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .l-kuromi .novelty__detail {
+    grid-area: detail;
+  }
+
+  .l-kuromi .novelty .l-kuromi__button-group {
+    max-width: 747px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .l-kuromi .novelty .l-kuromi__button {
+    max-width: none;
+    width: 317px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .novelty {
+    padding-top: 110px;
+  }
+
+  .l-kuromi .novelty__inner {
+    margin-top: 35px;
+    padding: 80px 78px 80px 16px;
+  }
+
+  .l-kuromi .novelty__inner>small {
+    font-size: 15px;
+    padding: 11px 23px 7px;
+  }
+
+  .l-kuromi .novelty__title {
+    font-size: 34px;
+  }
+
+  .l-kuromi .novelty__title small {
+    font-size: 16px;
+  }
+
+  .l-kuromi .novelty__character {
+    width: 101px;
+    right: -51px;
+    bottom: -18px;
+  }
+
+  .l-kuromi .novelty__goforit {
+    top: 38px;
+    left: -73px;
+    width: 140px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .novelty__inner {
+    grid-template-columns: 492px auto;
+  }
+
+  .l-kuromi .novelty__goforit {
+    top: 58px;
+  }
+}
+
+.l-kuromi .about {
+  background-color: #bcadd3;
+  padding: 30vw 0 32vw;
+}
+
+.l-kuromi .about__inner {
+  position: relative;
+  margin-bottom: 50px !important;
+  padding: 20px 30px;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-body-sp.webp") 0 0 / contain repeat-y;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .about__inner {
+    padding: 20px 30px 30px;
+  }
+}
+
+.l-kuromi .about__inner:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: 13vw;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-top-sp.webp") 0 100% / contain no-repeat;
+}
+
+.l-kuromi .about__inner:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 8vw;
+  background: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-bottom-sp.webp") 0 0 / contain no-repeat;
+}
+
+.l-kuromi .about__bg {
+  pointer-events: none;
+}
+
+.l-kuromi .about__content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+}
+
+.l-kuromi .about__character {
+  width: 189px;
+  margin: 0 auto;
+  grid-area: img;
+  aspect-ratio: 193/220;
+}
+
+.l-kuromi .about__title {
+  font: 700 23px/1.7 Corporate Logo Rounded;
+  text-align: center;
+  grid-area: title;
+  margin: 30px 0 0;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .about__title {
+    margin: 30px 0 18px;
+    font: 700 21px/1.7 Corporate Logo Rounded;
+  }
+}
+
+.l-kuromi .about__detail {
+  font-family: 'GenSenRoundedTW-H', tbudrgothic-std, sans-serif !important;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 2.3;
+  grid-area: detail;
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .about__detail {
+    margin-bottom: 20px !important;
+  }
+}
+
+.l-kuromi .about .l-kuromi__button {
+  grid-area: button;
+}
+
+.l-kuromi .about__el {
+  position: absolute;
+  z-index: 3;
+}
+
+.l-kuromi .about__el--1 {
+  top: -18vw;
+  right: -9vw;
+  width: 33vw;
+}
+
+.l-kuromi .about__el--2 {
+  top: -14vw;
+  left: -7vw;
+  width: 22vw;
+}
+
+.l-kuromi .about__el--3 {
+  bottom: -11vw;
+  right: -7vw;
+  width: 22vw;
+}
+
+.l-kuromi .about__el--4 {
+  bottom: -16vw;
+  left: -10vw;
+  width: 31vw;
+  max-width: 150px;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .about {
+    padding-top: 135px;
+    padding-bottom: 110px;
+  }
+
+  .l-kuromi .about__inner {
+    margin-left: 45px;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-body-pc.webp") 0 0 / contain repeat-x;
+    display: grid;
+    grid-template-areas: "title img" "detail img" "button img";
+    grid-template-columns: 55% auto;
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px;
+    column-gap: 25px;
+    padding: 55px 30px;
+  }
+
+  .l-kuromi .about__inner:before {
+    left: -31px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: unset;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-left-pc.webp") 0 0 / contain no-repeat;
+    pointer-events: none;
+  }
+
+  .l-kuromi .about__inner:after {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: -7px;
+    height: unset;
+    background: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-right-pc.webp") 100% 0 / contain no-repeat;
+    pointer-events: none;
+  }
+
+  .l-kuromi .about__title {
+    text-align: left;
+  }
+
+  .l-kuromi .about__character {
+    width: 100%;
+  }
+
+  .l-kuromi .about .l-kuromi__button {
+    margin-left: 0;
+  }
+
+  .l-kuromi .about__el--1 {
+    top: -81px;
+    right: -4vw;
+    width: 178px;
+  }
+
+  .l-kuromi .about__el--2 {
+    top: -25px;
+    left: -7vw;
+    width: 108px;
+  }
+
+  .l-kuromi .about__el--3 {
+    bottom: -11px;
+    right: -3vw;
+    width: 108px;
+  }
+
+  .l-kuromi .about__el--4 {
+    bottom: -40px;
+    left: -10vw;
+    width: 140px;
+  }
+}
+
+@media (min-width: 1296px) {
+  .l-kuromi .about__inner {
+    grid-template-columns: auto 313px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+    padding: 100px 50px;
+  }
+
+  .l-kuromi .about__inner:before {
+    left: -37px;
+  }
+
+  .l-kuromi .about__el--1 {
+    top: -49px;
+    right: 37px;
+  }
+
+  .l-kuromi .about__el--2 {
+    width: 130px;
+    top: -25px;
+    left: -69px;
+  }
+
+  .l-kuromi .about__el--3 {
+    bottom: -14px;
+    right: -37px;
+    width: 130px;
+  }
+
+  .l-kuromi .about__el--4 {
+    bottom: 27px;
+    left: -98px;
+  }
+}
+
+.l-kuromi .shop {
+  background-color: #bcadd3;
+  padding-bottom: 45vw;
+}
+
+.l-kuromi .shop .l-kuromi__shop-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.l-kuromi .shop .l-kuromi__shop-list li {
+  width: 33%;
+  font-size: 16px;
+  line-height: 2;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .shop .l-kuromi__shop-list li {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .shop {
+    padding-bottom: 280px;
+  }
+}
+
+.l-kuromi .campaign {
+  background-color: #bcadd3;
+  padding-bottom: 200px;
+  margin-top: -60px;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .campaign {
+    margin-top: 0;
+    padding-bottom: 180px;
+  }
+}
+
+.l-kuromi .campaign a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .campaign a {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.l-kuromi .campaign img {
+  height: 460px;
+  width: auto;
+}
+
+@media (max-width: 1023px) {
+  .l-kuromi .campaign img {
+    height: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .l-kuromi .campaign img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.l-kuromi .share {
+  color: #fff;
+  margin-top: -88px;
+  padding: 0 0 55px;
+  position: relative;
+  z-index: 2;
+}
+
+.l-kuromi .share:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2b2045;
+  -webkit-clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+  z-index: -1;
+}
+
+.l-kuromi .share__social {
+  margin-top: 56px;
+  margin-bottom: 56px !important;
+}
+
+.l-kuromi .share__social,
+.l-kuromi .share__social-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.l-kuromi .share__social-item {
+  background-color: #fff;
+  width: 66px;
+  height: 66px;
+  margin: 0 7px;
+  border-radius: 50%;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.l-kuromi .share__social-item:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: 50% / contain no-repeat;
+}
+
+.l-kuromi .share__social-item a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.l-kuromi .share__social-item--fb:before {
+  width: 19px;
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/icon-fb.svg");
+}
+
+.l-kuromi .share__social-item--tw:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/icon-tw.svg");
+}
+
+.l-kuromi .share__social-item--line:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/icon-line.svg");
+}
+
+.l-kuromi .share__copyright {
+  font: 300 11px/2 Founders Grotesk, sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .l-kuromi .share {
+    padding: 0 0 30px;
+  }
+
+  .l-kuromi .share:before {
+    top: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 100%);
+  }
+
+  .l-kuromi .share .l-pokemon__title {
+    font-size: 50px;
+    -webkit-column-gap: 27px;
+    -moz-column-gap: 27px;
+    column-gap: 27px;
+  }
+
+  .l-kuromi .share .l-pokemon__title:after,
+  .l-kuromi .share .l-pokemon__title:before {
+    width: 47px;
+    height: 47px;
+  }
+
+  .l-kuromi .share__social {
+    margin-top: 60px;
+    margin-bottom: 83px !important;
+  }
+
+  .l-kuromi .share__social-item {
+    width: 73px;
+    height: 73px;
+    margin: 0 15px;
+  }
+
+  .l-kuromi .share__social-item:before {
+    width: 28px;
+    height: 28px;
+  }
+
+  .l-kuromi .share__social-item--fb:before {
+    width: 21px;
+  }
+
+  .l-kuromi .share__copyright {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .l-kuromi .share {
+    margin-top: -93px;
+  }
+
+  .l-kuromi .share:before {
+    top: -9px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+  }
+
+  .l-kuromi .share__social-item:hover {
+    background-color: #000;
+    opacity: 1;
+  }
+
+  .l-kuromi .share__social-item:hover:before {
+    -webkit-filter: invert(1) brightness(2);
+    filter: invert(1) brightness(2);
+  }
+}
+
+.l-kuromi.no-webp .main:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/main-bg-lg.jpg");
+}
+
+.l-kuromi.no-webp .lineup--pink:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/lineup-top-shape-pink.png");
+}
+
+.l-kuromi.no-webp .lineup--purple:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/lineup-top-shape-purple.png");
+}
+
+.l-kuromi.no-webp .about__inner:before {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-top-sp.png");
+}
+
+.l-kuromi.no-webp .about__inner:after {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-bottom-sp.png");
+}
+
+.l-kuromi.no-webp .about__inner {
+  background-image: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-body-sp.png");
+}
+
+@media (min-width: 768px) {
+  .l-kuromi.no-webp .intro:before {
+    background-image: url("https://www.owndays.com/images/specials/products/kuromi/intro-top-shape-pc.png");
+  }
+
+  .l-kuromi.no-webp .intro:after {
+    background-image: url("https://www.owndays.com/images/specials/products/kuromi/intro-bg-pc.png");
+  }
+
+  .l-kuromi.no-webp .about__inner:before {
+    background-image: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-left-pc.png");
+  }
+
+  .l-kuromi.no-webp .about__inner:after {
+    background-image: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-right-pc.png");
+  }
+
+  .l-kuromi.no-webp .about__inner {
+    background-image: url("https://www.owndays.com/images/specials/products/kuromi/about-bg-body-pc.png");
+  }
+}
+
+@-webkit-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0 9%;
+  }
+
+  50% {
+    background-position: 100% 92%;
+  }
+
+  to {
+    background-position: 0 9%;
+  }
+}
+
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 0 9%;
+  }
+
+  50% {
+    background-position: 100% 92%;
+  }
+
+  to {
+    background-position: 0 9%;
+  }
+}
