@@ -111,6 +111,8 @@ html {
 
   img {
     display: block;
+    transition: .5s;
+    margin-bottom: 0;
   }
 
   h3 {

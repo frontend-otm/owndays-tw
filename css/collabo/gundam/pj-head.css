@@ -1,0 +1,1691 @@
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Niradei;
+  src: url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src: url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2") format("woff2"), url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+.l-gundam__box-inner,
+.l-gundam__concept-inner,
+.l-gundam__projects ul,
+.l-gundam__spec-inner,
+.l-gundam__spec-list {
+  width: 80%;
+  max-width: 1152px;
+  margin: 0 auto
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__box-inner,
+  .l-gundam__concept-inner,
+  .l-gundam__projects ul,
+  .l-gundam__spec-inner,
+  .l-gundam__spec-list {
+    width: 100%;
+    padding: 0 5%
+  }
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0 auto
+}
+
+.l-gundam {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/bk.jpg");
+  background-size: contain;
+  background-position: top;
+  color: #fff;
+  background-color: #000;
+  overflow: hidden;
+  font-size: 14px;
+
+  a {
+    outline: none;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    display: block !important;
+    text-align: center;
+
+    &:hover {
+      color: #999;
+
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  p {
+    line-height: 2;
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    transition: .5s;
+    margin-bottom: 0;
+  }
+
+  .slick-arrow {
+    transition: .5s;
+  }
+
+  .slick-arrow:before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+  }
+
+  .slick-dots {
+    font-family: var(--font-base) !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.9;
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam {
+    background-image: unset;
+    font-size: 12px;
+
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.6;
+    }
+  }
+}
+
+.l-gundam .line {
+  background-color: #000
+}
+
+.l-gundam .u-text-comment {
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .l-gundam .u-text-comment {
+    font-size: 8px
+  }
+}
+
+.l-gundam .l-gundam__form .corner {
+  background-image: unset
+}
+
+.l-gundam__banner .close-archive {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: 7px;
+  top: 8px;
+  cursor: pointer
+}
+
+.l-gundam__banner .close-archive svg {
+  fill: #fff
+}
+
+.l-gundam__banner.fix-banner {
+  position: fixed;
+  bottom: 10px;
+  right: 10px
+}
+
+.l-gundam__banner img {
+  width: 320px
+}
+
+@media (max-width:767px) {
+  .l-gundam__banner img {
+    width: 100%
+  }
+}
+
+.l-gundam__important {
+  background-color: #666;
+  width: 100%;
+  padding: 8px 5% 6px;
+  font-size: 13px;
+  text-align: center
+}
+
+.l-gundam__important span {
+  font-weight: 600;
+  margin-bottom: 2px;
+  margin-right: 10px
+}
+
+.l-gundam__time {
+  font-family: var(--font-base);
+  font-size: 49px;
+  line-height: 1;
+  margin: 30px 0;
+  font-weight: 400
+}
+
+@media (max-width:767px) {
+  .l-gundam__time {
+    font-size: 32px;
+    margin: 32px 0;
+    line-height: 1.1
+  }
+}
+
+.l-gundam__time i {
+  font-size: 40px
+}
+
+@media (max-width:767px) {
+  .l-gundam__time i {
+    font-size: 26px
+  }
+}
+
+.l-gundam__time small {
+  font-size: 16px;
+  margin-top: 12px;
+  display: block
+}
+
+.l-gundam__time strong {
+  font-weight: 400
+}
+
+.l-gundam__time span {
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1.2;
+  margin-left: 10px;
+  text-align: left
+}
+
+@media (max-width:767px) {
+  .l-gundam__time span {
+    font-size: 12px;
+    margin-left: 5px
+  }
+}
+
+.l-gundam__time span i {
+  letter-spacing: 7.4px
+}
+
+@media (max-width:767px) {
+  .l-gundam__time span i {
+    letter-spacing: 5.8px
+  }
+}
+
+.l-gundam .scroll {
+  position: absolute;
+  top: 94%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 55%;
+  left: 0;
+  cursor: pointer;
+  z-index: 1;
+  font-family: input-sans, sans-serif;
+  font-weight: 400
+}
+
+@media (max-width:767px) {
+  .l-gundam .scroll {
+    width: 61%;
+    top: 93%
+  }
+}
+
+.l-gundam__main {
+  position: relative;
+  background-color: #000;
+  padding: 100px 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__main {
+    padding: 50px 0
+  }
+}
+
+.l-gundam__main h1 {
+  font-size: 90px;
+  font-family: var(--font-base);
+  text-align: center;
+  line-height: 1.5
+}
+
+@media (max-width:767px) {
+  .l-gundam__main h1 {
+    font-size: 40px
+  }
+}
+
+@media (max-width:375px) {
+  .l-gundam__main h1 {
+    font-size: 33px
+  }
+}
+
+.l-gundam__main h1 small {
+  font-family: var(--font-base);
+  font-size: 26px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  display: block
+}
+
+@media (max-width:767px) {
+  .l-gundam__main h1 small {
+    font-size: 15px
+  }
+}
+
+.l-gundam__main .logo {
+  max-width: 280px;
+  margin: 10px auto 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__main .logo {
+    max-width: 190px
+  }
+}
+
+.l-gundam__main .l-gundam__number {
+  margin: 26px auto 5px;
+  text-align: center;
+  width: 160px;
+  border: 1px solid #fff
+}
+
+@media (max-width:767px) {
+  .l-gundam__main .l-gundam__number {
+    width: 140px;
+    margin: 26px auto 3px
+  }
+}
+
+.l-gundam__main .l-gundam__number span {
+  font-family: var(--font-base);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3
+}
+
+@media (max-width:767px) {
+  .l-gundam__main .l-gundam__number span {
+    line-height: 1.1
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__main .l-gundam__number {
+    margin-top: 15px
+  }
+}
+
+.l-gundam__main .l-gundam__time {
+  text-align: center;
+  margin: 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__main .l-gundam__time {
+    margin: 0 auto 10px
+  }
+}
+
+.l-gundam__main-inner {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam/head.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 86% top;
+  padding: 5% 24% 5% 0
+}
+
+@media (max-width:1023px) {
+  .l-gundam__main-inner {
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: top;
+    padding: 53% 0 20%
+  }
+}
+
+.l-gundam__main-inner>a {
+  color: #fff;
+  margin-top: 20px;
+  position: relative;
+  text-align: right;
+  display: block;
+  text-align: center
+}
+
+.l-gundam__main-inner>a:after {
+  content: ">";
+  position: absolute;
+  top: 1px;
+  display: inline-block;
+  padding-left: 5px
+}
+
+.l-gundam__main-title {
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 350px;
+  margin: 12px auto 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-title {
+    font-size: 9px
+  }
+}
+
+.l-gundam__main-title p {
+  text-align: right;
+  margin-right: 20px;
+  line-height: 1.5
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-title p {
+    margin-right: 10px
+  }
+}
+
+.l-gundam__main-title img {
+  width: 40px
+}
+
+@media (max-width:767px) {
+  .l-gundam__main-title img {
+    width: 30px
+  }
+}
+
+.l-gundam__concept {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-snap/line-concept.svg");
+  background-repeat: no-repeat;
+  background-position: left 16%;
+  background-size: 66%;
+  padding: 120px 0 80px;
+  position: relative;
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept {
+    padding: 80px 0 40px;
+    background-position: left 11.1%;
+    background-size: 100%
+  }
+}
+
+.l-gundam__concept h2 {
+  font-size: 120px;
+  font-family: var(--font-base);
+  letter-spacing: 9px;
+  line-height: 1.1;
+  color: #b2b2b2
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept h2 {
+    padding: 0 9%;
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 1.2
+  }
+}
+
+.l-gundam__concept h2 small {
+  font-size: 20px;
+  font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif;
+  letter-spacing: 2px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept h2 small {
+    font-size: 11px;
+    line-height: 1.4;
+    margin-left: 8px
+  }
+}
+
+.l-gundam__concept .gradation {
+  position: absolute;
+  top: -1px;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg)
+}
+
+.l-gundam__concept-inner {
+  position: relative
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-inner {
+    padding: 0
+  }
+}
+
+.l-gundam__concept-inner>img {
+  max-width: 700px;
+  margin: 0 auto -12%
+}
+
+.l-gundam__concept-inner>p {
+  max-width: 850px;
+  margin-top: 80px;
+  line-height: 2.5;
+  font-size: 16px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-inner>p {
+    font-size: 12px;
+    line-height: 2.2;
+    margin-top: 50px;
+    padding: 0 9%
+  }
+}
+
+.l-gundam__concept-movie {
+  max-width: 800px;
+  border: 4px solid #fff;
+  position: relative;
+  margin: 150px auto
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-movie {
+    margin: 50px 6%
+  }
+}
+
+.l-gundam__concept-movie .play-mark {
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  left: 69%
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-movie .play-mark {
+    width: 190px;
+    top: auto;
+    bottom: 10px;
+    left: 66%
+  }
+}
+
+.l-gundam__concept-movie a img.is-active,
+.l-gundam__concept-movie a img:active,
+.l-gundam__concept-movie a img:focus,
+.l-gundam__concept-movie a img:hover {
+  opacity: .9
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__concept-movie a img.is-active,
+  .l-gundam__concept-movie a img:active,
+  .l-gundam__concept-movie a img:focus,
+  .l-gundam__concept-movie a img:hover {
+    opacity: 1
+  }
+}
+
+.l-gundam__concept-point h3 {
+  font-family: var(--font-base);
+  font-size: 68px;
+  line-height: 1;
+  vertical-align: middle;
+  margin-bottom: 80px;
+  letter-spacing: -3px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point h3 {
+    font-size: 31px;
+    line-height: 1.2;
+    padding: 0 6%;
+    margin-bottom: 30px
+  }
+}
+
+.l-gundam__concept-point h3 p {
+  line-height: 1;
+}
+
+.l-gundam__concept-point h3 p:last-child {
+  padding-left: 18px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point h3 p:last-child {
+    padding-left: 0
+  }
+}
+
+.l-gundam__concept-point h3 span {
+  font-size: 94px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point h3 span {
+    font-size: 44px
+  }
+}
+
+.l-gundam__concept-point ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+}
+
+.l-gundam__concept-point ul li {
+  padding: 0 20px;
+  width: 320px
+}
+
+@media (max-width:1023px) {
+  .l-gundam__concept-point ul li {
+    padding: 0 10px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point ul li {
+    width: 82%;
+    margin-bottom: 40px
+  }
+}
+
+.l-gundam__concept-point ul li img {
+  max-width: 240px;
+  margin: 0 auto 40px;
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/image-frame.svg");
+  background-size: contain;
+  padding: 28px;
+  -webkit-filter: drop-shadow(0 0 1px #fff);
+  filter: drop-shadow(0 0 1px white)
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point ul li img {
+    width: 210px;
+    margin: 0 auto 20px
+  }
+}
+
+.l-gundam__concept-point ul li:nth-child(2) {
+  margin-top: 30px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point ul li:nth-child(2) {
+    margin-top: 0
+  }
+}
+
+.l-gundam__concept-point ul li:nth-child(2) img {
+  max-width: 280px;
+  padding: 32px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-point ul li:nth-child(2) img {
+    width: 210px;
+    padding: 28px
+  }
+}
+
+.l-gundam__concept-slider {
+  width: 100%;
+  margin: 120px 0 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-slider {
+    margin: 40px 0 0
+  }
+}
+
+.l-gundam__concept-slider .slick-slide {
+  margin: 0 50px
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-slider .slick-slide {
+    margin: 0
+  }
+}
+
+.l-gundam__concept-slider div img {
+  width: 640px;
+  margin: 0 auto
+}
+
+@media (max-width:767px) {
+  .l-gundam__concept-slider div img {
+    width: 100%
+  }
+}
+
+.l-gundam__reservation {
+  position: relative
+}
+
+.l-gundam__products {
+  background-color: #212121;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__products {
+    padding: 60px 9%
+  }
+}
+
+.l-gundam__products-name {
+  font-size: 20px;
+  line-height: 1.7
+}
+
+.l-gundam__products-name span {
+  font-size: 12px;
+  display: block;
+  border: 1px solid #fff;
+  width: 120px;
+  margin: 0 auto 10px;
+  line-height: 2
+}
+
+.l-gundam__products-name small {
+  font-size: 14px;
+  display: block;
+  font-family: Founders Grotesk, heisei-kaku-gothic-std, sans-serif
+}
+
+.l-gundam__products .c-price {
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 12px
+}
+
+.l-gundam__products .l-gundam__form-btn--white {
+  background-color: #0094c8;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 36px;
+  border: unset
+}
+
+@media (max-width:767px) {
+  .l-gundam__products .l-gundam__form-btn--white {
+    width: 100%;
+    margin-top: 20px;
+    -webkit-transition: unset;
+    transition: unset
+  }
+}
+
+.l-gundam__products .l-gundam__form-btn--white.is-active,
+.l-gundam__products .l-gundam__form-btn--white:active,
+.l-gundam__products .l-gundam__form-btn--white:focus,
+.l-gundam__products .l-gundam__form-btn--white:hover {
+  opacity: .6
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__products .l-gundam__form-btn--white.is-active,
+  .l-gundam__products .l-gundam__form-btn--white:active,
+  .l-gundam__products .l-gundam__form-btn--white:focus,
+  .l-gundam__products .l-gundam__form-btn--white:hover {
+    opacity: 1
+  }
+}
+
+.l-gundam__products .l-gundam__form-btn--white a {
+  color: #fff !important;
+  font-family: input-sans, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-block: 18px;
+}
+
+@media (max-width:767px) {
+  .l-gundam__products .l-gundam__form-btn--white a {
+    font-size: 13px
+  }
+}
+
+.l-gundam__products .l-gundam__form-btn--white:after {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  -webkit-transform: unset;
+  transform: unset;
+  right: 6%;
+  left: auto
+}
+
+.l-gundam__products .l-gundam__form-btn--white:before {
+  background-image: url("https://www.owndays.com/images/svg/triangle-4.svg")
+}
+
+.l-gundam__products .l-gundam__form-btn--disabled {
+  background-color: #1c3b47;
+}
+
+.l-gundam__products .disabled {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 6%;
+  padding: 16px 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__products .disabled {
+    width: 100%;
+    top: -15%
+  }
+}
+
+.l-gundam__box {
+  background-color: #000;
+  color: #fff;
+  padding-top: 90px
+}
+
+@media (max-width:767px) {
+  .l-gundam__box {
+    padding-top: 60px;
+    margin-bottom: 30px
+  }
+}
+
+.l-gundam__box-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+@media (max-width:767px) {
+  .l-gundam__box-inner {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+  }
+}
+
+.l-gundam__box img {
+  max-width: 236px;
+  margin-right: 25px
+}
+
+@media (max-width:767px) {
+  .l-gundam__box img {
+    max-width: 190px;
+    margin-bottom: 20px
+  }
+}
+
+.l-gundam__box>div h2 {
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 10px
+}
+
+@media (max-width:1023px) {
+  .l-gundam__box>div h2 {
+    font-size: 18px
+  }
+}
+
+.l-gundam__box>div h2 span {
+  font-family: var(--font-base);
+  display: block;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 6px
+}
+
+@media (max-width:767px) {
+  .l-gundam__box>div h2 span {
+    font-size: 16px
+  }
+}
+
+.l-gundam__box .c-list-decoration {
+  font-size: 10px
+}
+
+.l-gundam__box .c-list-decoration li:before {
+  top: 3px
+}
+
+.l-gundam__spec {
+  background-color: #000;
+  color: #fff;
+  padding: 100px 0 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec {
+    padding: 50px 0 0
+  }
+}
+
+.l-gundam__spec h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 50px
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec h2 {
+    font-size: 24px;
+    margin-bottom: 26px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-inner {
+    padding: 0
+  }
+}
+
+.l-gundam__spec-inner ul {
+  margin-bottom: 40px
+}
+
+.l-gundam__spec-inner ul li {
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+  margin-top: -1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-inner ul li {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 18px 9%
+  }
+}
+
+.l-gundam__spec-inner ul li h4 {
+  width: 160px;
+  font-size: 14px;
+  font-weight: 700
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-inner ul li h4 {
+    width: 100%;
+    font-size: 10px
+  }
+}
+
+.l-gundam__spec-inner ul li:first-child a {
+  color: #fff
+}
+
+.l-gundam__spec-inner ul li:first-child a.is-active,
+.l-gundam__spec-inner ul li:first-child a:active,
+.l-gundam__spec-inner ul li:first-child a:focus,
+.l-gundam__spec-inner ul li:first-child a:hover {
+  color: #999
+}
+
+.l-gundam__spec-inner ul li p {
+  width: 430px
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-inner ul li p {
+    width: 100%
+  }
+}
+
+.l-gundam__spec-inner ul li p span {
+  display: block;
+  margin-top: 2px
+}
+
+.l-gundam__spec-list {
+  padding-bottom: 100px;
+
+  li {
+    color: white;
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-list {
+    padding: 0 9% 50px
+  }
+}
+
+.l-gundam__spec-notes h5 {
+  text-align: center;
+  margin: 30px;
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-notes h5 {
+    margin: 0 0 26px;
+    font-size: 20px;
+  }
+}
+
+.l-gundam__spec-notes p {
+  border: 1px solid #707070;
+  padding: 30px
+}
+
+@media (max-width:767px) {
+  .l-gundam__spec-notes p {
+    margin: 0 9% !important;
+    padding: 30px 20px
+  }
+}
+
+.l-gundam__projects {
+  background-color: #000;
+  padding-top: 80px;
+  padding-bottom: 170px;
+  color: #fff
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects {
+    padding-bottom: 130px
+  }
+}
+
+.l-gundam__projects>img {
+  width: 340px;
+  margin: 0 auto 40px
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects>img {
+    width: 70%
+  }
+}
+
+.l-gundam__projects h5 {
+  font-family: var(--font-base);
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-align: center;
+  border-bottom: 1px solid #707070;
+  width: 70%;
+  margin: 5px auto 10px;
+  padding-bottom: 10px
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects h5 {
+    font-size: 40px;
+    width: 100%;
+    margin: 5px auto 2px;
+    padding-bottom: 2px
+  }
+}
+
+.l-gundam__projects h5 span {
+  font-size: 67px
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects h5 span {
+    font-size: 56px
+  }
+}
+
+.l-gundam__projects p {
+  font-size: 12px;
+  text-align: center
+}
+
+.l-gundam__projects ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0
+  }
+}
+
+.l-gundam__projects ul li {
+  margin: 0 6px;
+  max-width: 300px
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects ul li {
+    margin: 0;
+    width: 100%;
+    position: relative
+  }
+}
+
+@media (max-width:767px) and (max-width:767px) {
+  .l-gundam__projects ul li div {
+    position: absolute;
+    bottom: 2px;
+    left: 0
+  }
+
+  .l-gundam__projects ul li div p {
+    line-height: 1.3;
+    margin-top: 5px
+  }
+
+  .l-gundam__projects ul li div h5,
+  .l-gundam__projects ul li div p {
+    text-align: left;
+    padding-left: 20px
+  }
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects ul li:nth-child(2) div {
+    right: 0;
+    left: auto
+  }
+
+  .l-gundam__projects ul li:nth-child(2) div h5 {
+    padding-right: 15px
+  }
+}
+
+.l-gundam__projects ul li img {
+  width: 100%;
+  position: relative
+}
+
+.l-gundam__projects .l-gundam__form-btn--white {
+  border: 1px solid #fff
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects .l-gundam__form-btn--white {
+    width: 82%
+  }
+}
+
+.l-gundam__projects .l-gundam__form-btn--white a {
+  color: #fff;
+  font-family: input-sans, sans-serif;
+  font-size: 16px
+}
+
+@media (max-width:767px) {
+  .l-gundam__projects .l-gundam__form-btn--white a {
+    font-size: 13px
+  }
+}
+
+.l-gundam__projects .l-gundam__form-btn--white:after {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  -webkit-transform: unset;
+  transform: unset;
+  right: 6%;
+  left: auto
+}
+
+.l-gundam__projects .l-gundam__form-btn--white:before {
+  background-image: url("https://www.owndays.com/images/svg/triangle-3.svg")
+}
+
+.l-gundam__share {
+  background-color: #000;
+  padding-bottom: 120px
+}
+
+@media (max-width:767px) {
+  .l-gundam__share {
+    padding-bottom: 60px
+  }
+}
+
+.l-gundam__form-share {
+  max-width: 840px;
+  margin: 0 auto
+}
+
+@media (max-width:767px) {
+  .l-gundam__form-share {
+    margin: 0
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+  color: #4d4d4d;
+  line-height: 30px
+}
+
+@media (max-width:767px) {
+  .slick-dots li button:before {
+    font-size: 12px;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff
+}
+
+.slick-next,
+.slick-prev {
+  width: 30px;
+  height: 26px
+}
+
+.slick-prev {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  margin-left: -380px
+}
+
+@media (max-width:1023px) {
+  .slick-prev {
+    margin-left: -363px
+  }
+}
+
+@media (max-width:767px) {
+  .slick-prev {
+    left: 7%;
+    -webkit-transform: unset;
+    transform: unset;
+    margin-left: 0;
+    top: 46%
+  }
+}
+
+.slick-prev:hover {
+  margin-left: -390px;
+  left: 50%
+}
+
+@media (max-width:1023px) {
+  .slick-prev:hover {
+    margin-left: -373px
+  }
+}
+
+@media (max-width:767px) {
+  .slick-prev:hover {
+    margin-left: 0;
+    left: 7%
+  }
+}
+
+.slick-prev:before {
+  display: block;
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  opacity: 1;
+  width: 30px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg)
+}
+
+@media (max-width:767px) {
+  .slick-prev:before {
+    width: 20px;
+    height: 17px
+  }
+}
+
+.slick-next {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  margin-left: 375px
+}
+
+@media (max-width:1023px) {
+  .slick-next {
+    margin-left: 364px
+  }
+}
+
+@media (max-width:767px) {
+  .slick-next {
+    right: 7%;
+    left: auto;
+    -webkit-transform: unset;
+    transform: unset;
+    margin-left: 0;
+    top: 46%
+  }
+}
+
+.slick-next:hover {
+  margin-left: 385px
+}
+
+@media (max-width:1023px) {
+  .slick-next:hover {
+    margin-left: 374px
+  }
+}
+
+@media (max-width:767px) {
+  .slick-next:hover {
+    margin-left: 0;
+    right: 7%
+  }
+}
+
+.slick-next:before {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  opacity: 1;
+  width: 30px;
+  height: 26px;
+  background-size: contain
+}
+
+@media (max-width:767px) {
+  .slick-next:before {
+    width: 20px;
+    height: 17px
+  }
+}
+
+.l-gundam__form-btn {
+  width: 500px;
+  line-height: 2.4;
+  position: relative;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+.l-gundam__form-btn:after,.l-gundam__form-btn:before {
+  content: "";
+  display: block;
+  position: absolute
+}
+
+.l-gundam__form-btn:before {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  background-image: url("https://www.owndays.com/images/svg/triangle-2.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/svg/triangle-2.svg");
+  height: 20px;
+  width: 20px;
+  top: -1px;
+  right: -1px
+}
+
+.l-gundam .l-gundam__form-btn--white:after {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/collabo/gundam/pj-head/icon.svg");
+  width: 19px;
+  height: 22px;
+  -webkit-transform: unset;
+  top: 50%;
+  transform: translateY(-50%) !important;
+  right: 6%;
+}
+
+.l-gundam__content .l-gundam__form-btn--white,
+.l-gundam__content .l-gundam__form-btn--white2 {
+  width: 400px
+}
+
+@media (max-width:1023px) {
+
+  .l-gundam__content .l-gundam__form-btn--white,
+  .l-gundam__content .l-gundam__form-btn--white2 {
+    width: 250px
+  }
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__content .l-gundam__form-btn--white,
+  .l-gundam__content .l-gundam__form-btn--white2 {
+    width: 100%
+  }
+}
+
+.l-gundam__content .l-gundam__form-btn--white2:after,
+.l-gundam__content .l-gundam__form-btn--white:after {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-snap/icon.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/collabo/gundam/pj-snap/icon.svg");
+  width: 12px;
+  height: 13px;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: auto;
+  background-size: 100%
+}
+
+.l-gundam__content .l-gundam__form-btn--white2:before,
+.l-gundam__content .l-gundam__form-btn--white:before {
+  background-image: url("https://www.owndays.com/images/svg/triangle-3.svg")
+}
+
+.l-gundam__content .l-gundam__form-btn--white2 a,
+.l-gundam__content .l-gundam__form-btn--white a {
+  font-family: input-sans, Founders Grotesk, heisei-kaku-gothic-std, sans-serif;
+  font-size: 14px;
+  padding: 9px 0
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__content .l-gundam__form-btn--white2 a,
+  .l-gundam__content .l-gundam__form-btn--white a {
+    padding: 15px 0;
+    font-size: 13px
+  }
+}
+
+.l-gundam__content .l-gundam__form-btn--white {
+  background-color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 0
+}
+
+@media (max-width:767px) {
+  .l-gundam__content .l-gundam__form-btn--white {
+    -webkit-transition: unset;
+    transition: unset
+  }
+}
+
+.l-gundam__content .l-gundam__form-btn--white.is-active,
+.l-gundam__content .l-gundam__form-btn--white:active,
+.l-gundam__content .l-gundam__form-btn--white:focus,
+.l-gundam__content .l-gundam__form-btn--white:hover {
+  opacity: .6
+}
+
+@media (max-width:767px) {
+
+  .l-gundam__content .l-gundam__form-btn--white.is-active,
+  .l-gundam__content .l-gundam__form-btn--white:active,
+  .l-gundam__content .l-gundam__form-btn--white:focus,
+  .l-gundam__content .l-gundam__form-btn--white:hover {
+    opacity: 1
+  }
+}
+
+.l-gundam__content .l-gundam__form-btn--white a {
+  color: #000
+}
+
+.l-gundam__content .l-gundam__form-btn--white:after {
+  background-image: url("https://www.owndays.com/images/collabo/gundam/pj-snap/icon-black.svg");
+  -webkit-background-image: url("https://www.owndays.com/images/collabo/gundam/pj-snap/icon-black.svg")
+}
+
+.l-gundam__content .l-gundam__form-btn--white:before {
+  background-image: url("https://www.owndays.com/images/svg/triangle-4.svg")
+}
+
+.l-gundam__content .l-gundam__form-btn--white2 {
+  margin-top: 20px;
+  border: 1px solid
+}
+
+.l-gundam__content .l-gundam__form-btn--white2 a {
+  color: #fff
+}
+
+.l-gundam__content .l-gundam__form-btn--white2:before {
+  background-image: url("https://www.owndays.com/images/svg/triangle-5.svg")
+}
+
+.l-gundam__content .l-gundam__form-btn--disabled {
+  pointer-events: none;
+  background-color: #555555;
+  cursor: not-allowed;
+  
+  a {
+    color: #fff;
+  }
+}
+
+.c-list-decoration li, .c-list-decoration p {
+  position: relative;
+  padding-left: 20px;
+  line-height: 2;
+}
+
+.c-list-decoration li::before {
+  content: "・";
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  font-size: 12px;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 767px) {
+  .c-list-decoration li, .c-list-decoration p {
+    padding-left: 18px;
+  }
+}
+
+.l-gundam__share {
+  background-color: #000;
+  padding-bottom: 120px;
+  font-family: var(--font-base);
+}
+
+@media (max-width:767px) {
+  .l-gundam__share {
+    padding-bottom: 60px
+  }
+}
+
+.l-gundam__form-share {
+  max-width: 840px;
+  margin: 0 auto;
+  border-bottom: 1px solid #999;
+}
+
+@media (max-width:767px) {
+  .l-gundam__form-share {
+    margin: 0
+  }
+}
+
+.l-gundam__form-share h3 {
+  text-align: center;
+  font-family: var(--font-base);
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  letter-spacing: 6px;
+  color: #999;
+}
+
+@media (max-width: 767px) {
+  .l-gundam__form-share h3 {
+      font-size:40px
+  }
+}
+
+.l-gundam__form-share h3:after,.l-gundam__form-share h3:before {
+  border-top: 1px solid #999;
+  content: "";
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1
+}
+
+.l-gundam__form-share h3:after {
+  margin-left: 1rem
+}
+
+.l-gundam__form-share h3:before {
+  margin-right: 1rem
+}
+
+.l-gundam__form-share ul {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 12px 0 34px
+}
+
+.l-gundam__form-share ul li a.is-active,.l-gundam__form-share ul li a:active,.l-gundam__form-share ul li a:focus,.l-gundam__form-share ul li a:hover {
+  opacity: .6
+}
+
+.l-gundam__form-share ul li i {
+  font-size: 23px;
+  padding: 0 30px;
+  color: #999
+}
+
+.c-btn--primary-center {
+  margin-inline: auto !important;
+  display: block;
+}
+
+.c-btn a {
+  padding: 18px 0;
+  font-weight: 500;
+  border-width: 0;
+  width: 100%;
+}
+
+.c-btn--primary:hover {
+  background-color: #666;
+}
