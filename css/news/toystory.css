@@ -1,0 +1,4824 @@
+@import url(https://fonts.googleapis.com/css2?family=Paytone+One&display=swap);
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Niradei;
+  src:
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Niradei;
+  src:
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Niradei;
+  src:
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk TWHK;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk TWHK;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk TWHK;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.ff-primary {
+  font-family:
+    Founders Grotesk,
+    sans-serif;
+}
+.ff-fallback,
+.ff-headline {
+  font-family:
+    Founders Grotesk,
+    heisei-kaku-gothic-std,
+    sans-serif;
+}
+.fs-0 {
+  font-size: 0 !important;
+}
+.fs-1 {
+  font-size: 1px !important;
+}
+.fs-2 {
+  font-size: 2px !important;
+}
+.fs-3 {
+  font-size: 3px !important;
+}
+.fs-4 {
+  font-size: 4px !important;
+}
+.fs-5 {
+  font-size: 5px !important;
+}
+.fs-6 {
+  font-size: 6px !important;
+}
+.fs-7 {
+  font-size: 7px !important;
+}
+.fs-8 {
+  font-size: 8px !important;
+}
+.fs-9 {
+  font-size: 9px !important;
+}
+.fs-10 {
+  font-size: 10px !important;
+}
+.fs-11 {
+  font-size: 11px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+.fs-13 {
+  font-size: 13px !important;
+}
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+.fs-16 {
+  font-size: 16px !important;
+}
+.fs-17 {
+  font-size: 17px !important;
+}
+.fs-18 {
+  font-size: 18px !important;
+}
+.fs-19 {
+  font-size: 19px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-21 {
+  font-size: 21px !important;
+}
+.fs-22 {
+  font-size: 22px !important;
+}
+.fs-23 {
+  font-size: 23px !important;
+}
+.fs-24 {
+  font-size: 24px !important;
+}
+.fs-25 {
+  font-size: 25px !important;
+}
+.fs-26 {
+  font-size: 26px !important;
+}
+.fs-27 {
+  font-size: 27px !important;
+}
+.fs-28 {
+  font-size: 28px !important;
+}
+.fs-29 {
+  font-size: 29px !important;
+}
+.fs-30 {
+  font-size: 30px !important;
+}
+.fs-31 {
+  font-size: 31px !important;
+}
+.fs-32 {
+  font-size: 32px !important;
+}
+.fs-33 {
+  font-size: 33px !important;
+}
+.fs-34 {
+  font-size: 34px !important;
+}
+.fs-35 {
+  font-size: 35px !important;
+}
+.fs-36 {
+  font-size: 36px !important;
+}
+.fs-37 {
+  font-size: 37px !important;
+}
+.fs-38 {
+  font-size: 38px !important;
+}
+.fs-39 {
+  font-size: 39px !important;
+}
+.fs-40 {
+  font-size: 40px !important;
+}
+.fs-41 {
+  font-size: 41px !important;
+}
+.fs-42 {
+  font-size: 42px !important;
+}
+.fs-43 {
+  font-size: 43px !important;
+}
+.fs-44 {
+  font-size: 44px !important;
+}
+.fs-45 {
+  font-size: 45px !important;
+}
+.fs-46 {
+  font-size: 46px !important;
+}
+.fs-47 {
+  font-size: 47px !important;
+}
+.fs-48 {
+  font-size: 48px !important;
+}
+.fs-49 {
+  font-size: 49px !important;
+}
+.fs-50 {
+  font-size: 50px !important;
+}
+.fs-51 {
+  font-size: 51px !important;
+}
+.fs-52 {
+  font-size: 52px !important;
+}
+.fs-53 {
+  font-size: 53px !important;
+}
+.fs-54 {
+  font-size: 54px !important;
+}
+.fs-55 {
+  font-size: 55px !important;
+}
+.fs-56 {
+  font-size: 56px !important;
+}
+.fs-57 {
+  font-size: 57px !important;
+}
+.fs-58 {
+  font-size: 58px !important;
+}
+.fs-59 {
+  font-size: 59px !important;
+}
+.fs-60 {
+  font-size: 60px !important;
+}
+.fs-61 {
+  font-size: 61px !important;
+}
+.fs-62 {
+  font-size: 62px !important;
+}
+.fs-63 {
+  font-size: 63px !important;
+}
+.fs-64 {
+  font-size: 64px !important;
+}
+.fs-65 {
+  font-size: 65px !important;
+}
+.fs-66 {
+  font-size: 66px !important;
+}
+.fs-67 {
+  font-size: 67px !important;
+}
+.fs-68 {
+  font-size: 68px !important;
+}
+.fs-69 {
+  font-size: 69px !important;
+}
+.fs-70 {
+  font-size: 70px !important;
+}
+.fs-71 {
+  font-size: 71px !important;
+}
+.fs-72 {
+  font-size: 72px !important;
+}
+.fs-73 {
+  font-size: 73px !important;
+}
+.fs-74 {
+  font-size: 74px !important;
+}
+.fs-75 {
+  font-size: 75px !important;
+}
+.fs-76 {
+  font-size: 76px !important;
+}
+.fs-77 {
+  font-size: 77px !important;
+}
+.fs-78 {
+  font-size: 78px !important;
+}
+.fs-79 {
+  font-size: 79px !important;
+}
+.fs-80 {
+  font-size: 80px !important;
+}
+.fs-81 {
+  font-size: 81px !important;
+}
+.fs-82 {
+  font-size: 82px !important;
+}
+.fs-83 {
+  font-size: 83px !important;
+}
+.fs-84 {
+  font-size: 84px !important;
+}
+.fs-85 {
+  font-size: 85px !important;
+}
+.fs-86 {
+  font-size: 86px !important;
+}
+.fs-87 {
+  font-size: 87px !important;
+}
+.fs-88 {
+  font-size: 88px !important;
+}
+.fs-89 {
+  font-size: 89px !important;
+}
+.fs-90 {
+  font-size: 90px !important;
+}
+.fs-91 {
+  font-size: 91px !important;
+}
+.fs-92 {
+  font-size: 92px !important;
+}
+.fs-93 {
+  font-size: 93px !important;
+}
+.fs-94 {
+  font-size: 94px !important;
+}
+.fs-95 {
+  font-size: 95px !important;
+}
+.fs-96 {
+  font-size: 96px !important;
+}
+.fs-97 {
+  font-size: 97px !important;
+}
+.fs-98 {
+  font-size: 98px !important;
+}
+.fs-99 {
+  font-size: 99px !important;
+}
+.fw-100 {
+  font-weight: 100 !important;
+}
+.fw-200 {
+  font-weight: 200 !important;
+}
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+.fw-900 {
+  font-weight: 900 !important;
+}
+.l-content {
+  margin: 0;
+}
+.l-toystory__container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__container {
+    padding: 0;
+    max-width: 1155px;
+  }
+}
+.l-toystory__btn--primary {
+  width: 100%;
+  height: 65px;
+  background-color: #f9c600;
+  border-radius: 100px;
+  position: relative;
+}
+.l-toystory__btn--primary:before,
+.l-toystory__btn--primary span {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.l-toystory__btn--primary span {
+  left: 35px;
+  top: 48%;
+  color: #0047ba;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0.9px;
+}
+.l-toystory__btn--primary:before {
+  content: "";
+  width: 47px;
+  height: 47px;
+  right: 13px;
+  top: 50%;
+  background: url("https://storage.owndays.com/news/toystory/arrow-circle-blue-btn.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (min-width: 768px) {
+  .l-toystory__btn--primary {
+    max-width: 350px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__btn--primary span {
+    font-size: 17px;
+    letter-spacing: 0.85px;
+  }
+  .l-toystory__btn--primary:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #0047ba;
+  }
+  .l-toystory__btn--primary:hover span {
+    color: #f9c600;
+  }
+  .l-toystory__btn--primary:hover:before {
+    background: url("https://storage.owndays.com/news/toystory/arrow-circle-yellow-btn.svg");
+  }
+}
+.l-toystory__btn--secondary {
+  width: 100%;
+  height: 46px;
+  background-color: #fff;
+  border-radius: 100px;
+  position: relative;
+}
+.l-toystory__btn--secondary:before,
+.l-toystory__btn--secondary span {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.l-toystory__btn--secondary span {
+  left: 16px;
+  top: 50%;
+  color: #0047ba;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0.7px;
+}
+@media (min-width: 768px) {
+  .l-toystory__btn--secondary span {
+    left: 35px;
+    font-size: 17px;
+    letter-spacing: 0.85px;
+  }
+}
+.l-toystory__btn--secondary:before {
+  content: "";
+  width: 14px;
+  height: 22px;
+  right: 16px;
+  top: 50%;
+  background: url("https://storage.owndays.com/news/toystory/arrow-btn-2-sp.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (min-width: 768px) {
+  .l-toystory__btn--secondary:before {
+    width: 47px;
+    height: 47px;
+    right: 13px;
+    top: 50%;
+    background: url("https://storage.owndays.com/news/toystory/arrow-circle-blue-btn-2.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__btn--secondary {
+    max-width: 350px;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__btn--secondary span {
+    font-size: 17px;
+    letter-spacing: 0.85px;
+  }
+  .l-toystory__btn--secondary:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #fff;
+  }
+  .l-toystory__btn--secondary:hover span {
+    color: #0047ba;
+  }
+  .l-toystory__btn--secondary:hover:before {
+    background: url("https://storage.owndays.com/news/toystory/arrow-circle-blue-btn-2.svg");
+  }
+}
+.l-toystory__main {
+  position: relative;
+}
+.l-toystory__main__container {
+  position: relative;
+  height: 100%;
+  min-height: 700px;
+  overflow: hidden;
+  background-image: url("https://storage.owndays.com/news/toystory/main/main-bg-2-sp.svg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.l-toystory__main__container--tw {
+  min-height: 820px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__main__container {
+    background-image: url("https://storage.owndays.com/news/toystory/main/main-bg-tb.svg");
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__main__container {
+    background-image: url("https://storage.owndays.com/news/toystory/main/main-bg-pc.svg");
+    min-height: 466.66667px;
+    aspect-ratio: 1440/700;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__main__container {
+    min-height: 700px;
+  }
+}
+.l-toystory__main__container__group {
+  width: 100%;
+  position: relative;
+  height: auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin-inline: auto;
+  z-index: 4;
+}
+.l-toystory__main__container__group__logo,
+.l-toystory__main__container__group__mark,
+.l-toystory__main__container__group__planet,
+.l-toystory__main__container__group__rocket,
+.l-toystory__main__container__group__star {
+  position: absolute;
+  z-index: 8;
+}
+.l-toystory__main__container__group__planet {
+  width: 71px;
+  top: 32px;
+  left: -20px;
+}
+.l-toystory__main__container__group__rocket {
+  top: 40px;
+  width: 68px;
+  right: -16px;
+}
+.l-toystory__main__container__group__mark {
+  width: 53px;
+  bottom: -40px;
+  right: -24px;
+}
+.l-toystory__main__container__group__star {
+  width: 58px;
+  bottom: -60px;
+  left: -26px;
+}
+.l-toystory__main__container__group__main-character {
+  position: relative;
+  max-width: 309px !important;
+  top: 53px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__main__container__group {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 11.333333333333334px);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .l-toystory__main__container__group__planet {
+    width: 85.33333px;
+    top: 12.66667px;
+    left: -64px;
+  }
+  .l-toystory__main__container__group__rocket {
+    width: 73.33333px;
+    top: 0;
+    right: -76.66667px;
+  }
+  .l-toystory__main__container__group__rocket--tw {
+    display: block;
+    width: 144px;
+    top: -30px;
+    right: -125px;
+  }
+  .l-toystory__main__container__group__mark {
+    width: 73.33333px;
+    bottom: 4.66667px;
+    right: -71.33333px;
+  }
+  .l-toystory__main__container__group__star {
+    width: 73.33333px;
+    left: -60.66667px;
+    bottom: 22.66667px;
+  }
+  .l-toystory__main__container__group__main-character {
+    top: 0;
+    max-width: 372px !important;
+    max-width: unset;
+  }
+}
+@media screen and (min-width: 1296px) and (max-width: 1400px) {
+  .l-toystory__main__container__group__main-character {
+    top: 0;
+    max-width: 456px !important;
+  }
+}
+@media screen and (min-width: 1401px) {
+  .l-toystory__main__container__group {
+    left: calc(50% - 17px);
+  }
+  .l-toystory__main__container__group__planet {
+    width: 128px;
+    top: 19px;
+    left: -96px;
+  }
+  .l-toystory__main__container__group__rocket {
+    width: 110px;
+    top: 0;
+    right: -115px;
+  }
+  .l-toystory__main__container__group__rocket--tw {
+    display: block;
+    width: 170px;
+    top: -30px;
+    right: -125px;
+  }
+  .l-toystory__main__container__group__mark {
+    width: 110px;
+    bottom: 7px;
+    right: -107px;
+  }
+  .l-toystory__main__container__group__star {
+    width: 110px;
+    left: -91px;
+    bottom: 34px;
+  }
+  .l-toystory__main__container__group__main-character {
+    top: 0;
+    max-width: 558px !important;
+  }
+}
+.l-toystory__main__container__pre-order {
+  position: absolute;
+  bottom: 154px;
+  width: 100%;
+  max-width: 350px !important;
+  height: auto;
+  left: 50%;
+  padding: 0 20px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.l-toystory__main__container__pre-order--tw {
+  top: 462px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__main__container__pre-order {
+    display: none;
+  }
+}
+.l-toystory__main__container__logo {
+  position: absolute;
+  top: 405px;
+  width: 167px;
+  height: auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font: 0/0 a;
+}
+.l-toystory__main__container__logo--tw {
+  top: 462px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__main__container__logo {
+    top: 50%;
+    left: auto;
+    right: calc(50% + 18vw);
+    width: 213.33333px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__main__container__logo {
+    width: 320px;
+  }
+}
+.l-toystory__concept {
+  overflow: visible;
+  position: relative;
+  margin-top: -30px;
+}
+.l-toystory__concept--tw {
+  margin-top: 0;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept {
+    margin: 60px 0 190px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept {
+    margin-top: 0;
+  }
+}
+.l-toystory__concept__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+}
+.l-toystory__concept__layout {
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__layout {
+    margin-block: -80px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__layout {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url("https://storage.owndays.com/news/toystory/concept/concept-cloud-pc-2.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 100%;
+    z-index: 3;
+    position: absolute;
+    right: calc(50% - 110px);
+    padding-inline: 20px 123px;
+    height: 700px;
+    left: 0;
+  }
+}
+.l-toystory__concept__layout:after,
+.l-toystory__concept__layout:before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  right: 0;
+  z-index: 1;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__layout:after,
+  .l-toystory__concept__layout:before {
+    display: none;
+  }
+}
+.l-toystory__concept__layout:before {
+  top: -102px;
+  width: 496px;
+  height: 300px;
+  background-image: url("https://storage.owndays.com/news/toystory/concept/concept-cloud-top-sp.svg");
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__layout:before {
+    background-image: url("https://storage.owndays.com/news/toystory/concept/concept-cloud-top-tb.svg");
+    width: 100%;
+    top: -28px;
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    background-size: 100% 100%;
+    left: 0;
+  }
+}
+.l-toystory__concept__layout:after {
+  bottom: -135px;
+  height: 333px;
+  width: 597px;
+  z-index: 2;
+  background-image: url("https://storage.owndays.com/news/toystory/concept/concept-cloud-bottom-sp.svg");
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__layout:after {
+    background-image: url("https://storage.owndays.com/news/toystory/concept/concept-cloud-bottom-tb.svg");
+    width: 1200px;
+    background-size: 100% 100%;
+    bottom: -80px;
+  }
+}
+.l-toystory__concept__content {
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 20px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__content {
+    padding: 0;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1900) and (max-width: 2560px) {
+  .l-toystory__concept__content {
+    left: 260px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+.l-toystory__concept__content__star {
+  position: absolute;
+  max-width: 60px !important;
+  left: 20px;
+  height: auto;
+  top: -140px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__content__star {
+    top: -70px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__content__star {
+    max-width: 91px !important;
+    left: 400px;
+    height: auto;
+    top: -150px;
+  }
+}
+.l-toystory__concept__content__title {
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #0047ba;
+  text-align: center;
+  line-height: 29px;
+  padding-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__content__title {
+    padding-bottom: 30px;
+  }
+}
+.l-toystory__concept__content__description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  text-align: start;
+  line-height: 26px;
+  font-family: aktiv-grotesk, sans-serif;
+  padding-bottom: 30px;
+  letter-spacing: 0;
+}
+.l-toystory__concept__content__description--tw {
+  font-weight: 500;
+  line-height: 30px;
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+  margin-bottom: 0 !important;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__content__description {
+    text-align: start;
+    max-width: 565px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__content__description {
+    max-width: 556px;
+  }
+}
+.l-toystory__concept__video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 630px;
+  margin-left: auto;
+  top: 20px;
+  cursor: pointer;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__video-wrapper {
+    width: calc(50% + 110px);
+    top: 130px;
+  }
+}
+.l-toystory__concept__video-wrapper__image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 20px;
+  display: inline !important;
+  z-index: -1;
+}
+.l-toystory__concept__video-wrapper__star-icon {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  max-width: 208px !important;
+  height: auto;
+  left: -49px;
+}
+@media (max-width: 1023px) {
+  .l-toystory__concept__video-wrapper__star-icon {
+    display: none;
+  }
+}
+.l-toystory__concept__video-container {
+  position: relative;
+  overflow: hidden;
+  height: 630px;
+  cursor: pointer;
+}
+.l-toystory__concept__video-container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 0;
+}
+@media (min-width: 1024px) {
+  .l-toystory__concept__video-container a {
+    border-radius: 50px 0 0 50px;
+  }
+  .l-toystory__concept__video-container a:hover:after {
+    opacity: 0.6;
+  }
+}
+.l-toystory__concept__video-container a:after {
+  content: "";
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 110px;
+  height: inherit !important;
+  background: url("https://storage.owndays.com/news/toystory/concept/concept-play-icon.svg")
+    no-repeat 50% / contain;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-toystory__concept__video-container a:after {
+    top: 80%;
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .l-toystory__concept__video-container a:after {
+    top: 75%;
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .l-toystory__concept__video-container {
+    height: 680px;
+  }
+}
+.l-toystory__concept__video-container iframe,
+.l-toystory__concept__video-container img {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.l-toystory__concept__video-container iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9/16;
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .l-toystory__concept__video-container iframe {
+    width: auto;
+    height: 100%;
+    aspect-ratio: 16/9;
+  }
+}
+.l-toystory__lineup__nav {
+  padding: 86px 0 88px;
+  position: relative;
+  margin-top: -40px;
+  z-index: 2;
+}
+@media screen and (min-width: 1024px) {
+  .l-toystory__lineup__nav {
+    margin-top: 0;
+  }
+}
+.l-toystory__lineup__nav:after,
+.l-toystory__lineup__nav:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.l-toystory__lineup__nav:before {
+  top: -2.2%;
+  z-index: -1;
+  background: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-bg-top_sp-3.svg")
+    no-repeat top/cover;
+}
+.l-toystory__lineup__nav:after {
+  bottom: -3.2%;
+  z-index: 2;
+  background: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-bg-bottom_sp.webp")
+    no-repeat bottom/cover;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__nav {
+    padding: 160px 0;
+  }
+  .l-toystory__lineup__nav:before {
+    background: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-bg-top_pc-2.svg")
+      no-repeat top/cover;
+  }
+  .l-toystory__lineup__nav:after {
+    bottom: -2.2%;
+    background: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-bg-bottom_pc-2.svg")
+      no-repeat bottom/100%;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav {
+    padding: 220px 20px 204px;
+  }
+  .l-toystory__lineup__nav:after {
+    bottom: 2.6%;
+    height: 340px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__nav:after {
+    bottom: -1.8%;
+  }
+}
+.l-toystory__lineup__nav__wrapper {
+  background-color: #f4f4f4;
+}
+.l-toystory__lineup__nav__wrapper > div {
+  z-index: 3;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__nav__wrapper {
+    position: relative;
+    background-color: transparent;
+  }
+  .l-toystory__lineup__nav__wrapper .l-toystory__container {
+    position: relative;
+  }
+  .l-toystory__lineup__nav__wrapper:after,
+  .l-toystory__lineup__nav__wrapper:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+  }
+  .l-toystory__lineup__nav__wrapper:before {
+    top: -108px;
+    right: -20px;
+    z-index: -2;
+    width: 100%;
+    background: url("https://storage.owndays.com/news/toystory/lineup/nav/bg-right-side_pc.webp")
+      no-repeat top/cover;
+  }
+  .l-toystory__lineup__nav__wrapper:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: calc(100% + 40px);
+    margin: 0 -20px;
+    height: 1055px;
+    z-index: 2;
+    background-color: #f4f4f4;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__wrapper:after {
+    height: 1172px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__nav__wrapper:after {
+    height: 800px;
+  }
+}
+@media (min-width: 1440px) {
+  .l-toystory__lineup__nav__wrapper:before {
+    top: -58px;
+  }
+}
+.l-toystory__lineup__nav__title {
+  color: #0047ba;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 1.8px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__title {
+    font-size: 53px;
+    line-height: 29px;
+    letter-spacing: 2.65px;
+  }
+}
+.l-toystory__lineup__nav__layout__list {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(2, 170px);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 37px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__nav__layout__list {
+    grid-template-columns: repeat(4, 180px);
+    margin-top: 57px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__nav__layout__list {
+    grid-template-columns: repeat(6, 180px);
+  }
+}
+.l-toystory__lineup__nav__layout__item {
+  width: 100%;
+  height: auto;
+}
+.l-toystory__lineup__nav__layout__item[data-key="buzz"],
+.l-toystory__lineup__nav__layout__item[data-key="woody"] {
+  grid-column: span 2;
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__nav__layout__item {
+    width: 180px;
+  }
+  .l-toystory__lineup__nav__layout__item[data-key="buzz"],
+  .l-toystory__lineup__nav__layout__item[data-key="woody"] {
+    width: 370px;
+  }
+}
+.l-toystory__lineup__nav__item-header {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 170/120;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+}
+.l-toystory__lineup__nav__item-header:before {
+  width: auto;
+  height: calc(100% - 10px);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.l-toystory__lineup__nav__item-header[data-key="buzz"],
+.l-toystory__lineup__nav__item-header[data-key="woody"] {
+  aspect-ratio: 353/120;
+}
+.l-toystory__lineup__nav__item-header[data-key="buzz"]:before,
+.l-toystory__lineup__nav__item-header[data-key="woody"]:before {
+  aspect-ratio: 167/110;
+}
+.l-toystory__lineup__nav__item-header[data-key="woody"] {
+  background-color: #f9c600;
+}
+.l-toystory__lineup__nav__item-header[data-key="woody"]:before {
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-1.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="buzz"] {
+  background-color: #8247ac;
+}
+.l-toystory__lineup__nav__item-header[data-key="buzz"]:before {
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-2.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="jessie"] {
+  background-color: #0171d1;
+}
+.l-toystory__lineup__nav__item-header[data-key="jessie"]:before {
+  aspect-ratio: 50/49;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-3.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="rex"] {
+  background-color: #c3d5a7;
+}
+.l-toystory__lineup__nav__item-header[data-key="rex"]:before {
+  aspect-ratio: 50/49;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-4.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="lotso"] {
+  background-color: #f5c5d7;
+}
+.l-toystory__lineup__nav__item-header[data-key="lotso"]:before {
+  aspect-ratio: 83/75;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-5.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="aliens"] {
+  background-color: #0057be;
+}
+.l-toystory__lineup__nav__item-header[data-key="aliens"]:before {
+  aspect-ratio: 1/1;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-6.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="bo-peep"] {
+  background-color: #97cae9;
+}
+.l-toystory__lineup__nav__item-header[data-key="bo-peep"]:before {
+  aspect-ratio: 1/1;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-7.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="mr-and-mrs-potato-head"] {
+  background-color: #e64c36;
+}
+.l-toystory__lineup__nav__item-header[data-key="mr-and-mrs-potato-head"]:before {
+  aspect-ratio: 15/14;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-8.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="slinky-dog"] {
+  background-color: #f7d54f;
+}
+.l-toystory__lineup__nav__item-header[data-key="slinky-dog"]:before {
+  aspect-ratio: 15/14;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-9.webp");
+}
+.l-toystory__lineup__nav__item-header[data-key="sid-phillips"] {
+  background-color: #cbc7c8;
+}
+.l-toystory__lineup__nav__item-header[data-key="sid-phillips"]:before {
+  aspect-ratio: 15/14;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/nav-10.webp");
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__item-header {
+    border-radius: 30px 30px 0 0;
+    aspect-ratio: 180/160;
+    height: 160px;
+  }
+  .l-toystory__lineup__nav__item-header[data-key="buzz"],
+  .l-toystory__lineup__nav__item-header[data-key="woody"] {
+    aspect-ratio: 370/160;
+  }
+}
+.l-toystory__lineup__nav__item-option-box {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 170/150;
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (max-width: 425px) {
+  .l-toystory__lineup__nav__item-option-box {
+    height: 150px;
+  }
+}
+.l-toystory__lineup__nav__item-option-box[data-key="buzz"],
+.l-toystory__lineup__nav__item-option-box[data-key="woody"] {
+  aspect-ratio: 353/150;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px;
+}
+.l-toystory__lineup__nav__item-option-box[data-key="buzz"]
+  > .l-toystory__lineup__nav__item-option-img:first-child
+  img,
+.l-toystory__lineup__nav__item-option-box[data-key="woody"]
+  > .l-toystory__lineup__nav__item-option-img:first-child
+  img {
+  margin-left: auto;
+}
+.l-toystory__lineup__nav__item-option-box[data-key="buzz"]
+  > .l-toystory__lineup__nav__item-option-img:first-child::before,
+.l-toystory__lineup__nav__item-option-box[data-key="woody"]
+  > .l-toystory__lineup__nav__item-option-img:first-child::before {
+  left: 53%;
+}
+.l-toystory__lineup__nav__item-option-box[data-key="buzz"]
+  > .l-toystory__lineup__nav__item-option-img:nth-child(2):before,
+.l-toystory__lineup__nav__item-option-box[data-key="woody"]
+  > .l-toystory__lineup__nav__item-option-img:nth-child(2):before {
+  left: 46%;
+}
+.l-toystory__lineup__nav__item-option-box[data-key="buzz"]
+  > .l-toystory__lineup__nav__item-option-img:nth-child(2)
+  img,
+.l-toystory__lineup__nav__item-option-box[data-key="woody"]
+  > .l-toystory__lineup__nav__item-option-img:nth-child(2)
+  img {
+  margin-right: auto;
+}
+.l-toystory__lineup__nav__item-option-box:not([data-key="woody"]):not(
+    [data-key="buzz"]
+  )
+  > .l-toystory__lineup__nav__item-option-img
+  img {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__item-option-box {
+    border-radius: 0 0 30px 30px;
+    aspect-ratio: 180/170;
+    height: 170px;
+  }
+  .l-toystory__lineup__nav__item-option-box a:hover img {
+    opacity: 1;
+  }
+  .l-toystory__lineup__nav__item-option-box
+    > .l-toystory__lineup__nav__item-option-img:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0.4;
+  }
+  .l-toystory__lineup__nav__item-option-box[data-key="buzz"],
+  .l-toystory__lineup__nav__item-option-box[data-key="woody"] {
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    aspect-ratio: 370/170;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__nav__item-option-box {
+    height: 170px;
+  }
+}
+.l-toystory__lineup__nav__item-option-img {
+  position: relative;
+}
+.l-toystory__lineup__nav__item-option-img:before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 1;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/nav/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__item-option-img:before {
+    bottom: 20px;
+  }
+}
+.l-toystory__lineup__nav__item-option-img img {
+  width: 150px;
+  height: auto;
+  aspect-ratio: 8/7;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__nav__item-option-img img {
+    width: 160px;
+    height: 140px;
+    margin-top: 0;
+  }
+}
+.l-toystory__lineup__nav__item-option-tag {
+  width: 116px;
+  height: 21px;
+  border-radius: 30px;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: #0047ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.l-toystory__lineup__nav__item-option-tag br {
+  display: none;
+}
+.l-toystory__lineup__nav__item-option-tag span {
+  color: #fff;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.26px;
+  margin-top: -2px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__item-option-tag {
+    width: 122px;
+    height: 23px;
+    top: 18px;
+  }
+  .l-toystory__lineup__nav__item-option-tag span {
+    font-size: 14px;
+  }
+}
+.l-toystory__lineup__nav__top-icon {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__nav__top-icon {
+    display: block;
+    position: absolute;
+    top: -195px;
+    left: 0;
+    -webkit-transform-origin: 45% 60%;
+    transform-origin: 45% 60%;
+    -webkit-animation: lineup_nav_top-icon 3s steps(1) 1.8s infinite;
+    animation: lineup_nav_top-icon 3s steps(1) 1.8s infinite;
+  }
+  .l-toystory__lineup__nav__top-icon img {
+    width: 178px;
+    height: 158.788px;
+  }
+}
+.l-toystory__lineup__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.l-toystory__lineup__zone {
+  position: relative;
+  z-index: 1;
+}
+.l-toystory__lineup__zone[data-key="woody"] {
+  width: 100%;
+  height: auto;
+  background-color: #e0eff7;
+  padding: 144px 0 220px;
+  margin-top: -86px;
+}
+.l-toystory__lineup__zone[data-key="woody"]:before {
+  content: "";
+  position: absolute;
+  top: -53px;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 200px;
+  background: url("https://storage.owndays.com/news/toystory/lineup/bg-woody-top_sp.webp")
+    no-repeat bottom/cover;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__zone[data-key="woody"] {
+    padding: 233px 0;
+    margin-top: -200px;
+  }
+  .l-toystory__lineup__zone[data-key="woody"]:before {
+    content: "";
+  }
+}
+.l-toystory__lineup__zone[data-key="aliens"],
+.l-toystory__lineup__zone[data-key="buzz"],
+.l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"],
+.l-toystory__lineup__zone[data-key="rex"],
+.l-toystory__lineup__zone[data-key="sid-phillips"] {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 0;
+  margin-top: 0;
+}
+.l-toystory__lineup__zone[data-key="aliens"]:before,
+.l-toystory__lineup__zone[data-key="buzz"]:before,
+.l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before,
+.l-toystory__lineup__zone[data-key="rex"]:before,
+.l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+  content: "";
+  position: absolute;
+  top: -70px;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 80px;
+  background: url("https://storage.owndays.com/news/toystory/lineup/bg-cloud-light-white_sp.webp")
+    no-repeat top/cover;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__zone[data-key="aliens"],
+  .l-toystory__lineup__zone[data-key="buzz"],
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__zone[data-key="rex"],
+  .l-toystory__lineup__zone[data-key="sid-phillips"] {
+    padding: 233px 0 280px;
+    margin-top: -64px;
+  }
+  .l-toystory__lineup__zone[data-key="aliens"]:before,
+  .l-toystory__lineup__zone[data-key="buzz"]:before,
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before,
+  .l-toystory__lineup__zone[data-key="rex"]:before,
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -92px;
+    background: url("https://storage.owndays.com/news/toystory/lineup/bg-cloud-light-white_pc.webp")
+      no-repeat top/100%;
+    height: 140px;
+  }
+}
+@media (min-width: 992px) {
+  .l-toystory__lineup__zone[data-key="aliens"]:before,
+  .l-toystory__lineup__zone[data-key="buzz"]:before,
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before,
+  .l-toystory__lineup__zone[data-key="rex"]:before,
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -107px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__zone[data-key="aliens"],
+  .l-toystory__lineup__zone[data-key="buzz"],
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__zone[data-key="rex"],
+  .l-toystory__lineup__zone[data-key="sid-phillips"] {
+    padding: 233px 0;
+    margin-top: -64px;
+  }
+  .l-toystory__lineup__zone[data-key="aliens"]:before,
+  .l-toystory__lineup__zone[data-key="buzz"]:before,
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before,
+  .l-toystory__lineup__zone[data-key="rex"]:before,
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -103px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="aliens"]:before,
+  .l-toystory__lineup__zone[data-key="buzz"]:before,
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before,
+  .l-toystory__lineup__zone[data-key="rex"]:before,
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -144px;
+    height: 400px;
+  }
+}
+@media (min-width: 1914px) {
+  .l-toystory__lineup__zone[data-key="aliens"]:before,
+  .l-toystory__lineup__zone[data-key="buzz"]:before,
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before,
+  .l-toystory__lineup__zone[data-key="rex"]:before,
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -183px;
+  }
+}
+.l-toystory__lineup__zone[data-key="bo-peep"],
+.l-toystory__lineup__zone[data-key="jessie"],
+.l-toystory__lineup__zone[data-key="lotso"],
+.l-toystory__lineup__zone[data-key="slinky-dog"] {
+  width: 100%;
+  height: auto;
+  background-color: #e0eff7;
+  padding: 0 0 230px;
+  margin-top: 204px;
+}
+.l-toystory__lineup__zone[data-key="bo-peep"]:before,
+.l-toystory__lineup__zone[data-key="jessie"]:before,
+.l-toystory__lineup__zone[data-key="lotso"]:before,
+.l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+  content: "";
+  position: absolute;
+  top: -70px;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 80px;
+  background: url("https://storage.owndays.com/news/toystory/lineup/bg-cloud-light-blue_sp.webp")
+    no-repeat top/cover;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"],
+  .l-toystory__lineup__zone[data-key="jessie"],
+  .l-toystory__lineup__zone[data-key="lotso"],
+  .l-toystory__lineup__zone[data-key="slinky-dog"] {
+    padding: 233px 0 280px;
+    margin-top: -64px;
+  }
+  .l-toystory__lineup__zone[data-key="bo-peep"]:before,
+  .l-toystory__lineup__zone[data-key="jessie"]:before,
+  .l-toystory__lineup__zone[data-key="lotso"]:before,
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -92px;
+    background: url("https://storage.owndays.com/news/toystory/lineup/bg-cloud-light-blue_pc.webp")
+      no-repeat top/100%;
+    height: 140px;
+  }
+}
+@media (min-width: 992px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"]:before,
+  .l-toystory__lineup__zone[data-key="jessie"]:before,
+  .l-toystory__lineup__zone[data-key="lotso"]:before,
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -107px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"],
+  .l-toystory__lineup__zone[data-key="jessie"],
+  .l-toystory__lineup__zone[data-key="lotso"],
+  .l-toystory__lineup__zone[data-key="slinky-dog"] {
+    padding: 0 0 230px;
+  }
+  .l-toystory__lineup__zone[data-key="bo-peep"]:before,
+  .l-toystory__lineup__zone[data-key="jessie"]:before,
+  .l-toystory__lineup__zone[data-key="lotso"]:before,
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -103px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"],
+  .l-toystory__lineup__zone[data-key="jessie"],
+  .l-toystory__lineup__zone[data-key="lotso"],
+  .l-toystory__lineup__zone[data-key="slinky-dog"] {
+    margin-top: 11px;
+  }
+  .l-toystory__lineup__zone[data-key="bo-peep"]:before,
+  .l-toystory__lineup__zone[data-key="jessie"]:before,
+  .l-toystory__lineup__zone[data-key="lotso"]:before,
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -173px;
+    height: 400px;
+  }
+}
+@media (min-width: 1914px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"]:before,
+  .l-toystory__lineup__zone[data-key="jessie"]:before,
+  .l-toystory__lineup__zone[data-key="lotso"]:before,
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -205px;
+  }
+}
+@media (max-width: 430px) {
+  .l-toystory__lineup__zone[data-key="jessie"] {
+    padding: 0 0 200px;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__zone[data-key="buzz"] {
+    padding-top: 0;
+    margin-top: 11px;
+  }
+}
+@media (min-width: 1703px) {
+  .l-toystory__lineup__zone[data-key="buzz"]:before {
+    top: -175px;
+  }
+}
+@media (min-width: 2080px) {
+  .l-toystory__lineup__zone[data-key="buzz"]:before {
+    top: -205px;
+  }
+}
+.l-toystory__lineup__zone[data-key="lotso"] {
+  padding: 0 0 230px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__zone[data-key="lotso"] {
+    padding-top: 0;
+    margin-top: -71px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="lotso"] {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"] {
+    padding-top: 0;
+    margin-top: -71px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"] {
+    padding-top: 0;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 2080px) {
+  .l-toystory__lineup__zone[data-key="bo-peep"] {
+    padding-top: 62px;
+    padding-bottom: 271px;
+  }
+}
+@media (max-width: 767px) {
+  .l-toystory__lineup__zone[data-key="aliens"] {
+    margin-top: -98px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="aliens"] {
+    margin-top: 47px;
+  }
+  .l-toystory__lineup__zone[data-key="aliens"]:before {
+    top: -198px;
+  }
+}
+@media (min-width: 1703px) {
+  .l-toystory__lineup__zone[data-key="aliens"]:before {
+    top: -210px;
+  }
+}
+@media (min-width: 1914px) {
+  .l-toystory__lineup__zone[data-key="aliens"]:before {
+    top: -236px;
+  }
+}
+@media (max-width: 767px) {
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"] {
+    margin-top: -35px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"] {
+    padding: 30px 0 230px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"] {
+    margin-top: 14px;
+  }
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before {
+    top: -171px;
+  }
+}
+@media (min-width: 1914px) {
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before {
+    top: -199px;
+  }
+}
+@media (min-width: 2080px) {
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"] {
+    margin-top: 13px;
+  }
+  .l-toystory__lineup__zone[data-key="mr-and-mrs-potato-head"]:before {
+    top: -208px;
+  }
+}
+.l-toystory__lineup__zone[data-key="sid-phillips"] {
+  padding-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .l-toystory__lineup__zone[data-key="sid-phillips"] {
+    margin-top: -98px;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__zone[data-key="sid-phillips"] {
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="sid-phillips"] {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1703px) {
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -179px;
+  }
+}
+@media (min-width: 2080px) {
+  .l-toystory__lineup__zone[data-key="sid-phillips"] {
+    margin-top: 28px;
+  }
+  .l-toystory__lineup__zone[data-key="sid-phillips"]:before {
+    top: -219px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__zone[data-key="rex"] {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1703px) {
+  .l-toystory__lineup__zone[data-key="rex"]:before {
+    top: -201px;
+  }
+}
+@media (min-width: 1703px) {
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -179px;
+  }
+}
+@media (min-width: 2080px) {
+  .l-toystory__lineup__zone[data-key="slinky-dog"] {
+    margin-top: 28px;
+  }
+  .l-toystory__lineup__zone[data-key="slinky-dog"]:before {
+    top: -219px;
+  }
+}
+.l-toystory__lineup__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header[data-key="jessie"] {
+    margin-top: -53px;
+  }
+  .l-toystory__lineup__header[data-key="rex"] {
+    margin-top: -53px;
+    margin-bottom: -21px;
+  }
+  .l-toystory__lineup__header[data-key="lotso"] {
+    margin-top: 205px;
+    margin-bottom: -30px;
+  }
+  .l-toystory__lineup__header[data-key="aliens"] {
+    margin-top: 24px;
+    margin-bottom: -118px;
+  }
+  .l-toystory__lineup__header[data-key="bo-peep"] {
+    margin-bottom: 0;
+    margin-top: -100px;
+  }
+  .l-toystory__lineup__header[data-key="mr-and-mrs-potato-head"] {
+    margin-bottom: -65px;
+  }
+  .l-toystory__lineup__header[data-key="slinky-dog"] {
+    margin-bottom: -92px;
+  }
+  .l-toystory__lineup__header[data-key="sid-phillips"] {
+    margin-top: -228px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .l-toystory__lineup__header[data-key="aliens"],
+  .l-toystory__lineup__header[data-key="buzz-2"],
+  .l-toystory__lineup__header[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__header[data-key="rex"],
+  .l-toystory__lineup__header[data-key="sid-phillips"],
+  .l-toystory__lineup__header[data-key="woody-2"] {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .l-toystory__lineup__header[data-key="buzz-1"] {
+    margin-top: 129px;
+    margin-left: -200px;
+  }
+  .l-toystory__lineup__header[data-key="jessie"] {
+    margin-top: -53px;
+  }
+  .l-toystory__lineup__header[data-key="rex"] {
+    margin-top: -172px;
+  }
+  .l-toystory__lineup__header[data-key="lotso"] {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .l-toystory__lineup__header[data-key="aliens"] {
+    margin-top: -228px;
+    margin-bottom: 20px;
+  }
+  .l-toystory__lineup__header[data-key="bo-peep"] {
+    margin-bottom: 0;
+    margin-top: -4px;
+    padding-bottom: 20px;
+  }
+  .l-toystory__lineup__header[data-key="mr-and-mrs-potato-head"] {
+    margin-bottom: 70px;
+  }
+  .l-toystory__lineup__header[data-key="slinky-dog"] {
+    margin-bottom: 3px;
+  }
+  .l-toystory__lineup__header[data-key="sid-phillips"] {
+    margin-top: -228px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__header[data-key="bo-peep"] {
+    margin-top: -152px;
+    padding-bottom: 0;
+  }
+  .l-toystory__lineup__header[data-key="rex"] {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .l-toystory__lineup__header__img[data-aos="fade-right"] {
+    -webkit-transform: none !important;
+    transform: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}
+.l-toystory__lineup__header__img[data-key="woody-1"] {
+  width: calc(62.609px + (100vw - 390px) * 0.1);
+  height: calc(160px + (100vw - 390px) * 0.2);
+  aspect-ratio: 31/79;
+  max-width: 100%;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="woody-1"] {
+    width: 136.5px;
+    height: 350px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="woody-2"] {
+  width: calc(64px + (100vw - 390px) * 0.1);
+  height: calc(160px + (100vw - 390px) * 0.2);
+  aspect-ratio: 2/5;
+  max-width: 100%;
+  margin-top: 50px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="woody-2"] {
+    width: 136.5px;
+    height: 350px;
+    margin-top: 80px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="buzz-1"] {
+  width: calc(109.6px + (100vw - 390px) * 0.1);
+  height: calc(160px + (100vw - 390px) * 0.2);
+  aspect-ratio: 13/19;
+  max-width: 100%;
+  margin-top: -169px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="buzz-1"] {
+    width: 239.167px;
+    height: 350px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="buzz-2"] {
+  width: calc(108px + (100vw - 390px) * 0.1);
+  height: calc(160px + (100vw - 390px) * 0.2);
+  aspect-ratio: 195/289;
+  max-width: 100%;
+  margin-top: 50px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="buzz-2"] {
+    width: 236px;
+    height: 350px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="jessie"] {
+  width: calc(76.279px + (100vw - 390px) * 0.1);
+  height: calc(160px + (100vw - 390px) * 0.2);
+  aspect-ratio: 390/817;
+  max-width: 100%;
+  margin-top: -150px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="jessie"] {
+    margin-top: -346px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="jessie"] {
+    width: 166.86px;
+    height: 350px;
+    margin-top: -84px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="rex"] {
+  width: calc(142px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: -150px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="rex"] {
+    margin-top: -346px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="rex"] {
+    width: 293.092px;
+    height: auto;
+    margin-top: -84px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="lotso"] {
+  width: calc(140px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: -150px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="lotso"] {
+    margin-top: -346px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="lotso"] {
+    width: 282px;
+    height: auto;
+    margin-top: -84px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="aliens"] {
+  width: calc(210px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: -75px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="aliens"] {
+    margin-top: -434px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="aliens"] {
+    width: 257px;
+    height: auto;
+    margin-top: 0;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__header__img[data-key="aliens"] {
+    width: 340px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="bo-peep"] {
+  width: calc(137px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: -136px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="bo-peep"] {
+    margin-top: -29px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__header__img[data-key="bo-peep"] {
+    width: 298.333px;
+    height: auto;
+    margin-top: 0;
+  }
+}
+.l-toystory__lineup__header__img[data-key="mr-and-mrs-potato-head"] {
+  width: calc(180px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: -136px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="mr-and-mrs-potato-head"] {
+    margin-top: -434px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="mr-and-mrs-potato-head"] {
+    width: 310.335px;
+    height: auto;
+    margin-top: 0;
+  }
+}
+.l-toystory__lineup__header__img[data-key="slinky-dog"] {
+  width: calc(160px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: -136px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="slinky-dog"] {
+    margin-top: -434px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="slinky-dog"] {
+    width: 200px;
+    height: auto;
+    margin-top: 0;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__header__img[data-key="slinky-dog"] {
+    width: 256.547px;
+  }
+}
+.l-toystory__lineup__header__img[data-key="sid-phillips"] {
+  width: calc(186px + (100vw - 390px) * 0.1);
+  height: auto;
+  max-width: 100%;
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__img[data-key="sid-phillips"] {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__img[data-key="sid-phillips"] {
+    width: 315px;
+    height: auto;
+    margin-top: 0;
+  }
+}
+.l-toystory__lineup__header__title {
+  color: rgba(0, 113, 206, 0.35);
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: -35px;
+  padding: 50px 50px 0;
+  position: relative;
+}
+.l-toystory__lineup__header__title:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88px;
+  height: 50px;
+  background-image: url("https://storage.owndays.com/news/toystory/lineup/group-star-icon.webp");
+  background-size: 100% 100%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.l-toystory__lineup__header__title[data-key="buzz-1"]:before,
+.l-toystory__lineup__header__title[data-key="buzz-2"]:before {
+  top: 12px;
+  left: 44px;
+}
+.l-toystory__lineup__header__title[data-key="jessie"]:before {
+  top: 6px;
+  left: -9px;
+}
+.l-toystory__lineup__header__title[data-key="rex"]:before {
+  top: 36px;
+  left: -65px;
+}
+.l-toystory__lineup__header__title[data-key="lotso"]:before {
+  top: 22px;
+  left: -42px;
+}
+.l-toystory__lineup__header__title[data-key="aliens"]:before {
+  top: 30px;
+  left: -42px;
+}
+.l-toystory__lineup__header__title[data-key="bo-peep"] {
+  white-space: nowrap;
+}
+.l-toystory__lineup__header__title[data-key="bo-peep"]:before {
+  top: 5px;
+  left: -15px;
+}
+.l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"] {
+  padding: 50px 25px 0;
+}
+.l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"]:before {
+  top: 12px;
+  left: 6px;
+}
+.l-toystory__lineup__header__title[data-key="slinky-dog"] {
+  white-space: nowrap;
+}
+.l-toystory__lineup__header__title[data-key="slinky-dog"]:before {
+  top: 5px;
+  left: 20px;
+}
+.l-toystory__lineup__header__title[data-key="sid-phillips"] {
+  white-space: nowrap;
+}
+.l-toystory__lineup__header__title[data-key="sid-phillips"]:before {
+  top: 5px;
+  left: 20px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__header__title:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    left: unset;
+    right: 0;
+    -webkit-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+    opacity: 0;
+  }
+  .l-toystory__lineup__header__title.animate:before {
+    -webkit-animation: starts-fade-in-left 1s ease-out forwards;
+    animation: starts-fade-in-left 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-1"] {
+    padding: 83px 32px 0;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-1"]:before {
+    top: 35%;
+    width: 32%;
+    height: auto;
+    aspect-ratio: 228/130;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-2"] {
+    padding: 60px 32px 0;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-2"]:before {
+    top: 15%;
+    left: -113px;
+    right: unset;
+    width: 32%;
+    height: auto;
+    aspect-ratio: 228/130;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-2"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="buzz-2"]:before {
+    top: 17px;
+    left: -63px;
+  }
+  .l-toystory__lineup__header__title[data-key="buzz-2"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="rex"]:before {
+    top: 36px;
+    left: -168px;
+  }
+  .l-toystory__lineup__header__title[data-key="rex"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="aliens"]:before {
+    top: 22px;
+    left: -122px;
+  }
+  .l-toystory__lineup__header__title[data-key="aliens"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"]:before {
+    left: -100px;
+  }
+  .l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"] {
+    white-space: nowrap;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"]:before {
+    top: 5px;
+    left: -103px;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="sid-phillips"]:before {
+    left: -100px;
+  }
+  .l-toystory__lineup__header__title[data-key="sid-phillips"].animate:before {
+    -webkit-animation: starts-fade-in-right 1s ease-out forwards;
+    animation: starts-fade-in-right 1s ease-out forwards;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__title {
+    font-size: 140px;
+    line-height: 116px;
+  }
+  .l-toystory__lineup__header__title:before {
+    width: 228px;
+    height: 130px;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-1"] {
+    padding: 134px 200px 0 54px;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-1"]:before {
+    top: 24%;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-2"] {
+    padding: 179px 60px 0 162px;
+  }
+  .l-toystory__lineup__header__title[data-key="woody-2"]:before {
+    top: 35%;
+    left: -147px;
+  }
+  .l-toystory__lineup__header__title[data-key="buzz-1"] {
+    padding: 0;
+    font-size: 110px;
+    line-height: 95px;
+  }
+  .l-toystory__lineup__header__title[data-key="buzz-1"]:before {
+    top: 7%;
+    left: unset;
+    right: -160px;
+  }
+  .l-toystory__lineup__header__title[data-key="buzz-2"] {
+    font-size: 110px;
+    line-height: 95px;
+    padding: 179px 0 0 183px;
+    margin-bottom: 46px;
+  }
+  .l-toystory__lineup__header__title[data-key="buzz-2"]:before {
+    top: 40%;
+    left: -100px;
+  }
+  .l-toystory__lineup__header__title[data-key="jessie"] {
+    padding: 50px 160px 0 50px;
+  }
+  .l-toystory__lineup__header__title[data-key="jessie"]:before {
+    top: -5%;
+    left: unset;
+    right: -32px;
+  }
+  .l-toystory__lineup__header__title[data-key="rex"] {
+    padding: 50px 50px 0 300px;
+  }
+  .l-toystory__lineup__header__title[data-key="rex"]:before {
+    top: -10%;
+    left: -42px;
+  }
+  .l-toystory__lineup__header__title[data-key="lotso"] {
+    padding: 50px 292px 0 43px;
+  }
+  .l-toystory__lineup__header__title[data-key="lotso"]:before {
+    top: -10%;
+    left: unset;
+    right: 109px;
+  }
+  .l-toystory__lineup__header__title[data-key="aliens"] {
+    padding: 50px 25px 40px 285px;
+  }
+  .l-toystory__lineup__header__title[data-key="aliens"]:before {
+    top: -19px;
+    left: -20px;
+  }
+  .l-toystory__lineup__header__title[data-key="bo-peep"] {
+    padding: 50px 155px 8px 34px;
+  }
+  .l-toystory__lineup__header__title[data-key="bo-peep"]:before {
+    top: -5%;
+    left: unset;
+    right: 8px;
+  }
+  .l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"] {
+    font-size: 92px;
+    line-height: 95px;
+    padding: 50px 25px 0 72px;
+  }
+  .l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"]:before {
+    top: -11%;
+    left: -105px;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"] {
+    font-size: 110px;
+    line-height: 116px;
+    padding: 50px 150px 40px 40px;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"]:before {
+    top: -14%;
+    left: unset;
+    right: 7px;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"].animate:before {
+    -webkit-animation: starts-fade-in-left 1s ease-out forwards;
+    animation: starts-fade-in-left 1s ease-out forwards;
+  }
+  .l-toystory__lineup__header__title[data-key="sid-phillips"] {
+    font-size: 110px;
+    padding: 50px 20px 0 116px;
+  }
+  .l-toystory__lineup__header__title[data-key="sid-phillips"]:before {
+    top: -23%;
+    left: -80px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__header__title[data-key="aliens"] {
+    padding: 50px 50px 60px 375px;
+  }
+  .l-toystory__lineup__header__title[data-key="aliens"]:before {
+    top: -19px;
+    left: 59px;
+  }
+  .l-toystory__lineup__header__title[data-key="bo-peep"] {
+    padding: 99px 324px 8px 71px;
+  }
+  .l-toystory__lineup__header__title[data-key="bo-peep"]:before {
+    right: 160px;
+    top: 28px;
+  }
+  .l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"] {
+    padding: 50px 25px 0 300px;
+  }
+  .l-toystory__lineup__header__title[data-key="mr-and-mrs-potato-head"]:before {
+    top: 12%;
+    left: -19px;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"] {
+    font-size: 120px;
+    line-height: 116px;
+    padding: 50px 258px 40px 43px;
+  }
+  .l-toystory__lineup__header__title[data-key="slinky-dog"]:before {
+    top: -20%;
+    left: unset;
+    right: 98px;
+  }
+  .l-toystory__lineup__header__title[data-key="sid-phillips"] {
+    font-size: 120px;
+    padding: 50px 32px 0 290px;
+  }
+  .l-toystory__lineup__header__title[data-key="sid-phillips"]:before {
+    top: -37%;
+    left: 29px;
+  }
+}
+.l-toystory__lineup__header__text-sp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 14px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__text-sp {
+    display: none;
+  }
+}
+.l-toystory__lineup__header__text-pc {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__text-pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+.l-toystory__lineup__header__price,
+.l-toystory__lineup__header__product-numbers {
+  color: #000;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.l-toystory__lineup__header__product-numbers {
+  font-size: 24px;
+  letter-spacing: 0.48px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__product-numbers {
+    font-size: 30px;
+    letter-spacing: 0.6px;
+  }
+}
+.l-toystory__lineup__header__price {
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  margin-top: 3px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__header__price {
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    margin-top: 5px;
+  }
+}
+.l-toystory__lineup__body {
+  margin: 40px 0 0;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body {
+    margin: 48px 0 0;
+  }
+}
+.l-toystory__lineup__body__layout {
+  padding: 0 20px;
+  max-width: 1155px;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__layout {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+  }
+  .l-toystory__lineup__body__layout[data-key="aliens"],
+  .l-toystory__lineup__body__layout[data-key="buzz-2"],
+  .l-toystory__lineup__body__layout[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__body__layout[data-key="rex"],
+  .l-toystory__lineup__body__layout[data-key="sid-phillips"],
+  .l-toystory__lineup__body__layout[data-key="woody-2"] {
+    grid-template-columns: 1fr 500px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__body__layout {
+    padding: 0;
+  }
+  .l-toystory__lineup__body__layout[data-key="woody-1"] {
+    padding-bottom: 40px;
+  }
+}
+.l-toystory__lineup__body__preview {
+  width: calc(100% + 40px);
+  margin: 0 -20px;
+  height: auto;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__preview {
+    width: calc(100% + 20px);
+    margin: -46px 0 0;
+  }
+  .l-toystory__lineup__body__preview[data-key="bo-peep"],
+  .l-toystory__lineup__body__preview[data-key="buzz-1"],
+  .l-toystory__lineup__body__preview[data-key="jessie"],
+  .l-toystory__lineup__body__preview[data-key="lotso"],
+  .l-toystory__lineup__body__preview[data-key="slinky-dog"],
+  .l-toystory__lineup__body__preview[data-key="woody-1"] {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .l-toystory__lineup__body__preview[data-key="buzz-1"] {
+    margin-top: -14px;
+  }
+  .l-toystory__lineup__body__preview[data-key="aliens"],
+  .l-toystory__lineup__body__preview[data-key="buzz-2"],
+  .l-toystory__lineup__body__preview[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__body__preview[data-key="rex"],
+  .l-toystory__lineup__body__preview[data-key="sid-phillips"],
+  .l-toystory__lineup__body__preview[data-key="woody-2"] {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 1295px) {
+  .l-toystory__lineup__body__preview {
+    width: calc(100% + (90px + (52 * ((100vw - 1295px) / 145))));
+  }
+  .l-toystory__lineup__body__preview[data-key="aliens"],
+  .l-toystory__lineup__body__preview[data-key="buzz-2"],
+  .l-toystory__lineup__body__preview[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__body__preview[data-key="rex"],
+  .l-toystory__lineup__body__preview[data-key="sid-phillips"],
+  .l-toystory__lineup__body__preview[data-key="woody-2"] {
+    margin-left: calc(-90px - (52 * ((100vw - 1295px) / 145)));
+  }
+}
+@media (min-width: 1440px) {
+  .l-toystory__lineup__body__preview {
+    width: calc(100% + 142px);
+  }
+  .l-toystory__lineup__body__preview[data-key="aliens"],
+  .l-toystory__lineup__body__preview[data-key="buzz-2"],
+  .l-toystory__lineup__body__preview[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__body__preview[data-key="rex"],
+  .l-toystory__lineup__body__preview[data-key="sid-phillips"],
+  .l-toystory__lineup__body__preview[data-key="woody-2"] {
+    margin-left: -142px;
+  }
+}
+.l-toystory__lineup__body__preview-img {
+  width: 100%;
+  height: auto;
+}
+.l-toystory__lineup__body__preview-img[data-key="bo-peep"],
+.l-toystory__lineup__body__preview-img[data-key="buzz-1"],
+.l-toystory__lineup__body__preview-img[data-key="jessie"],
+.l-toystory__lineup__body__preview-img[data-key="slinky-dog"],
+.l-toystory__lineup__body__preview-img[data-key="woody-1"] {
+  padding-left: 40px;
+}
+.l-toystory__lineup__body__preview-img[data-key="aliens"],
+.l-toystory__lineup__body__preview-img[data-key="buzz-2"],
+.l-toystory__lineup__body__preview-img[data-key="mr-and-mrs-potato-head"],
+.l-toystory__lineup__body__preview-img[data-key="rex"],
+.l-toystory__lineup__body__preview-img[data-key="sid-phillips"],
+.l-toystory__lineup__body__preview-img[data-key="woody-2"] {
+  padding-right: 40px;
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__body__preview-img[data-key="aliens"],
+  .l-toystory__lineup__body__preview-img[data-key="buzz-2"],
+  .l-toystory__lineup__body__preview-img[data-key="mr-and-mrs-potato-head"],
+  .l-toystory__lineup__body__preview-img[data-key="rex"],
+  .l-toystory__lineup__body__preview-img[data-key="sid-phillips"],
+  .l-toystory__lineup__body__preview-img[data-key="woody-2"] {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__preview-img {
+    width: 100%;
+    max-width: 620px !important;
+  }
+  .l-toystory__lineup__body__preview-img[data-key="bo-peep"],
+  .l-toystory__lineup__body__preview-img[data-key="buzz-1"],
+  .l-toystory__lineup__body__preview-img[data-key="jessie"],
+  .l-toystory__lineup__body__preview-img[data-key="slinky-dog"],
+  .l-toystory__lineup__body__preview-img[data-key="woody-1"] {
+    margin-left: auto;
+  }
+}
+.l-toystory__lineup__body__preview-icon {
+  width: 100%;
+  max-width: 41px !important;
+  margin: 0 auto;
+  margin-top: -12px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__preview-icon {
+    max-width: 60px !important;
+    margin-top: -6px;
+  }
+}
+.l-toystory__lineup__body__preview-logo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 110px;
+  height: 110px;
+  z-index: 2;
+  background: url("https://storage.owndays.com/news/toystory/lineup/bg-blue-circle.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px;
+}
+.l-toystory__lineup__body__preview-logo.is-tw p:first-child::before {
+  background-color: transparent;
+}
+.l-toystory__lineup__body__preview-logo.is-tw p {
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 0 !important;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__preview-logo.is-tw p {
+    font-size: 23px;
+    line-height: 26px;
+  }
+}
+.l-toystory__lineup__body__preview-logo p {
+  color: #fff;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 13.497px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.847px;
+  letter-spacing: 0.405px;
+}
+.l-toystory__lineup__body__preview-logo p:first-child {
+  position: relative;
+}
+.l-toystory__lineup__body__preview-logo p:first-child::before {
+  content: "";
+  position: absolute;
+  bottom: -6.5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 4;
+  width: 80.982px;
+  height: 1.35px;
+  background-color: #f9c600;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__preview-logo {
+    bottom: 24px;
+    width: 163px;
+    height: 163px;
+  }
+  .l-toystory__lineup__body__preview-logo p {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.6px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__preview-logo {
+    bottom: 103px;
+  }
+  .l-toystory__lineup__body__preview-logo[data-key="buzz-1"] {
+    bottom: 20px;
+  }
+}
+@media (min-width: 1295px) {
+  .l-toystory__lineup__body__preview-logo {
+    right: 64px;
+    bottom: 20px;
+  }
+  .l-toystory__lineup__body__preview-logo[data-key="buzz-1"] {
+    bottom: 20px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__body__preview-logo {
+    right: 64px;
+    bottom: 27px;
+  }
+  .l-toystory__lineup__body__preview-logo[data-key="buzz-1"] {
+    bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__content {
+    width: 500px;
+    height: auto;
+    padding-right: 20px;
+  }
+  .l-toystory__lineup__body__content--tw {
+    max-width: 500px;
+  }
+  .l-toystory__lineup__body__content[data-key="woody-2"] {
+    padding-right: 0;
+    padding-left: 20px;
+  }
+  .l-toystory__lineup__body__content--tw {
+    padding-right: 0;
+  }
+}
+.l-toystory__lineup__body__desc {
+  color: #000;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0;
+  padding: 20px 0 40px;
+}
+.l-toystory__lineup__body__desc[data-key="bo-peep"] br:nth-child(4),
+.l-toystory__lineup__body__desc[data-key="bo-peep"] br:nth-child(6),
+.l-toystory__lineup__body__desc[data-key="slinky-dog"] br:nth-child(4),
+.l-toystory__lineup__body__desc[data-key="woody-1"] br:nth-child(2) {
+  display: none;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__desc {
+    padding: 20px 0 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__desc {
+    line-height: 30px;
+    padding: 16px 0 30px;
+  }
+  .l-toystory__lineup__body__desc--tw {
+    padding: 20px 0 30px;
+    font-family:
+      Aktiv Grotesk TWHK,
+      sans-serif;
+  }
+  .l-toystory__lineup__body__desc[data-key="woody-1"] br:nth-child(2) {
+    display: block;
+  }
+  .l-toystory__lineup__body__desc[data-key="aliens"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="aliens"] br:nth-child(4),
+  .l-toystory__lineup__body__desc[data-key="aliens"] br:nth-child(5),
+  .l-toystory__lineup__body__desc[data-key="aliens"] br:nth-child(6),
+  .l-toystory__lineup__body__desc[data-key="bo-peep"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="bo-peep"] br:nth-child(5),
+  .l-toystory__lineup__body__desc[data-key="buzz-1"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="buzz-1"] br:nth-child(2),
+  .l-toystory__lineup__body__desc[data-key="buzz-1"] br:nth-child(3),
+  .l-toystory__lineup__body__desc[data-key="buzz-1"] br:nth-child(5),
+  .l-toystory__lineup__body__desc[data-key="buzz-1"] br:nth-child(6),
+  .l-toystory__lineup__body__desc[data-key="buzz-1"] br:nth-child(8),
+  .l-toystory__lineup__body__desc[data-key="jessie"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="jessie"] br:nth-child(3),
+  .l-toystory__lineup__body__desc[data-key="lotso"] br:nth-child(2),
+  .l-toystory__lineup__body__desc[data-key="rex"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="rex"] br:nth-child(2),
+  .l-toystory__lineup__body__desc[data-key="rex"] br:nth-child(3),
+  .l-toystory__lineup__body__desc[data-key="rex"] br:nth-child(4),
+  .l-toystory__lineup__body__desc[data-key="rex"] br:nth-child(5),
+  .l-toystory__lineup__body__desc[data-key="rex"] br:nth-child(6),
+  .l-toystory__lineup__body__desc[data-key="woody-1"] br:nth-child(4),
+  .l-toystory__lineup__body__desc[data-key="woody-2"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="woody-2"] br:nth-child(3) {
+    display: none;
+  }
+  .l-toystory__lineup__body__desc[data-key="bo-peep"] br:nth-child(6) {
+    display: block;
+  }
+  .l-toystory__lineup__body__desc[data-key="slinky-dog"] br:first-child,
+  .l-toystory__lineup__body__desc[data-key="slinky-dog"] br:nth-child(3) {
+    display: none;
+  }
+  .l-toystory__lineup__body__desc[data-key="slinky-dog"] br:nth-child(4) {
+    display: block;
+  }
+}
+.l-toystory__lineup__body__points {
+  width: calc(100% + 40px);
+  margin: 0 -20px !important;
+  height: auto;
+  position: relative;
+  z-index: 8;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.l-toystory__lineup__body__points .slick-slide {
+  margin: 0 15px;
+  max-width: 200px;
+}
+.l-toystory__lineup__body__points .slick-list {
+  margin: 0 -15px;
+}
+.l-toystory__lineup__body__points .slick-dots {
+  bottom: -29px;
+}
+.l-toystory__lineup__body__points .slick-dots > li,
+.l-toystory__lineup__body__points .slick-dots > li > button,
+.l-toystory__lineup__body__points .slick-dots > li > button:before {
+  width: 12px;
+  height: 12px;
+}
+.l-toystory__lineup__body__points .slick-dots > li {
+  margin: 0 7px;
+}
+.l-toystory__lineup__body__points .slick-dots > li > button:before {
+  content: "";
+  background-color: #c2e0ee;
+  border-radius: 50%;
+  opacity: 1;
+}
+.l-toystory__lineup__body__points
+  .slick-dots
+  > li.slick-active
+  > button:before {
+  background-color: #0047ba;
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__points {
+    margin: 0;
+    padding-top: 19px;
+    width: 100%;
+    margin: 0 !important;
+  }
+  .l-toystory__lineup__body__points .slick-slide {
+    margin: 0 20px;
+    max-width: none;
+  }
+  .l-toystory__lineup__body__points .slick-list {
+    margin: -20px;
+  }
+  .l-toystory__lineup__body__points .slick-dots {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    bottom: -26px;
+    left: calc(50% - 100px);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: left;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__points {
+    margin: 0;
+    padding-top: 19px;
+    width: 100%;
+    margin: 0 !important;
+  }
+  .l-toystory__lineup__body__points .slick-slide {
+    margin: 0 20px;
+    max-width: none;
+  }
+  .l-toystory__lineup__body__points .slick-list {
+    margin: -20px;
+  }
+  .l-toystory__lineup__body__points .slick-dots {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    bottom: -26px;
+    left: 50%;
+    -webkit-transform: unset;
+    transform: unset;
+    text-align: left;
+    translate: -50% 0;
+  }
+}
+.l-toystory__lineup__body__point-sp {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__point-sp {
+    display: none;
+  }
+}
+.l-toystory__lineup__body__point-pc {
+  display: none;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__point-pc {
+    display: grid;
+    grid-template-columns: 250px 160px;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .l-toystory__lineup__body__point-pc > div {
+    margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__point-pc {
+    grid-template-columns: 200px 160px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__body__point-pc {
+    grid-template-columns: 250px 160px;
+  }
+}
+.l-toystory__lineup__body__point-img {
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 1/1;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__point-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__point-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__lineup__body__point-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+.l-toystory__lineup__body__point-tag {
+  position: absolute;
+  top: 178px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 164px;
+  height: 38px;
+  background-color: #c2e0ee;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.l-toystory__lineup__body__point-tag span {
+  color: #0047ba;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__body__point-tag {
+    position: unset;
+    top: unset;
+    left: unset;
+    -webkit-transform: unset;
+    transform: unset;
+  }
+}
+.l-toystory__lineup__body__point-desc {
+  margin-top: 34px;
+  color: #000;
+  text-align: center;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0;
+}
+.l-toystory__lineup__body__point-desc--tw {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__body__point-desc {
+    margin-top: 10px;
+    line-height: 25px;
+    text-align: left;
+    width: 100%;
+    max-width: 160px;
+  }
+}
+.l-toystory__lineup__footer {
+  margin-top: 70px;
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__footer {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__footer {
+    margin-top: 70px;
+  }
+}
+.l-toystory__lineup__footer__glasses {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.l-toystory__lineup__footer__glasses .slick-slide {
+  margin: 0 10px;
+  max-width: 310px;
+}
+.l-toystory__lineup__footer__glasses .slick-list {
+  margin: 0 -10px;
+  padding: 0 !important;
+}
+.l-toystory__lineup__footer__glasses .slick-dots {
+  bottom: -30px;
+}
+.l-toystory__lineup__footer__glasses .slick-dots > li,
+.l-toystory__lineup__footer__glasses .slick-dots > li > button,
+.l-toystory__lineup__footer__glasses .slick-dots > li > button:before {
+  width: 12px;
+  height: 12px;
+}
+.l-toystory__lineup__footer__glasses .slick-dots > li {
+  margin: 0 7.5px;
+}
+.l-toystory__lineup__footer__glasses .slick-dots .slick-active {
+  margin: 0 17px 0 4px;
+}
+.l-toystory__lineup__footer__glasses .slick-dots > li > button:before {
+  content: "";
+  background-color: #c2e0ee;
+  border-radius: 50%;
+  opacity: 1;
+}
+.l-toystory__lineup__footer__glasses
+  .slick-dots
+  > li.slick-active
+  > button:before {
+  width: 25px;
+  height: 25px;
+  background: url("https://storage.owndays.com/news/toystory/lineup/blue-start-icon.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 1;
+  top: -8px;
+}
+.l-toystory__lineup__footer__glasses .slick-arrow {
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__footer__glasses .slick-arrow {
+    cursor: pointer;
+  }
+}
+.l-toystory__lineup__footer__glasses .slick-arrow:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+  background: url("https://storage.owndays.com/news/toystory/lineup/next-icon.svg")
+    50%/100% no-repeat;
+}
+.l-toystory__lineup__footer__glasses .slick-prev {
+  top: calc(50% - 30px);
+  left: calc(50% - 183px);
+  -webkit-transform: rotate(180deg) translate(-50%, -50%);
+  transform: rotate(180deg) translate(-50%, -50%);
+}
+.l-toystory__lineup__footer__glasses .slick-next {
+  right: calc(50% - 183px);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media (min-width: 768px) {
+  .l-toystory__lineup__footer__glasses .slick-slide {
+    width: 310px;
+    max-width: none;
+  }
+  .l-toystory__lineup__footer__glasses .slick-arrow {
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+  .l-toystory__lineup__footer__glasses .slick-arrow:hover {
+    opacity: 0.6;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__footer__glasses .slick-slide {
+    width: 100%;
+    margin: 0 25px;
+    max-width: 630px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-list {
+    margin: 0 -25px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-dots {
+    bottom: -30px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-dots > li,
+  .l-toystory__lineup__footer__glasses .slick-dots > li > button,
+  .l-toystory__lineup__footer__glasses .slick-dots > li > button:before {
+    width: 15px;
+    height: 15px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-dots > li {
+    margin: 0 9px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-dots .slick-active {
+    margin: 0 32px 0 6px;
+  }
+  .l-toystory__lineup__footer__glasses
+    .slick-dots
+    > li.slick-active
+    > button:before {
+    width: 40px;
+    height: 40px;
+    background: url("https://storage.owndays.com/news/toystory/lineup/blue-start-icon.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+    top: -13px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-arrow,
+  .l-toystory__lineup__footer__glasses .slick-arrow:before {
+    width: 60px;
+    height: 60px;
+  }
+  .l-toystory__lineup__footer__glasses .slick-prev {
+    top: 36.3%;
+    left: calc(50% - 375px);
+  }
+  .l-toystory__lineup__footer__glasses .slick-next {
+    right: calc(50% - 375px);
+  }
+}
+.l-toystory__lineup__footer__button {
+  margin-top: 48px;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  .l-toystory__lineup__footer__button {
+    margin-top: 68px;
+  }
+}
+.l-toystory__type-animate {
+  -webkit-transition: 0s !important;
+  transition: 0s !important;
+}
+.l-toystory__type-animate .text-split {
+  font: inherit;
+  display: inline;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: top, opacity;
+  transition-property: top, opacity;
+  -webkit-transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+  transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+  position: relative;
+  top: 0;
+}
+.l-toystory__type-animate .text-split--empty {
+  width: 0.5em;
+}
+.l-toystory__type-animate:not(.aos-animate) {
+  opacity: 0;
+}
+.l-toystory__type-animate:not(.aos-animate) .text-split {
+  -webkit-transition-duration: 0s !important;
+  transition-duration: 0s !important;
+  -webkit-transition-delay: 0s !important;
+  transition-delay: 0s !important;
+  top: 20px;
+  opacity: 0;
+}
+.l-toystory__exclusive {
+  position: relative;
+}
+.l-toystory__exclusive:before {
+  content: "";
+  width: calc(101px + (100vw - 390px) * 0.1);
+  height: calc(65px + (100vw - 390px) * 0.2);
+  position: absolute;
+  top: -1.5%;
+  left: 20px;
+  z-index: 1;
+  background-image: url("https://storage.owndays.com/news/toystory/exclusive/exclusive-figure-1.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-animation: lineup_nav_top-icon 3s steps(1) 1.8s infinite;
+  animation: lineup_nav_top-icon 3s steps(1) 1.8s infinite;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive:before {
+    top: -3%;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive:before {
+    top: -6%;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__exclusive:before {
+    width: 210.78px;
+    height: 135px;
+    left: 122px;
+    top: -66px;
+  }
+}
+.l-toystory__exclusive__bg {
+  width: 100%;
+  height: auto;
+  background-image: url("https://storage.owndays.com/news/toystory/exclusive/exclusive-bg_sp.webp");
+  position: relative;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__bg {
+    background-image: url("https://storage.owndays.com/news/toystory/exclusive/exclusive-bg_pc.webp");
+  }
+}
+@media (min-width: 1440px) {
+  .l-toystory__exclusive__bg {
+    padding-bottom: 200px;
+  }
+}
+.l-toystory__exclusive__container {
+  width: 100%;
+  max-width: 1155px;
+  height: auto;
+  padding: 60px 20px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1200px) {
+  .l-toystory__exclusive__container--tw {
+    padding: 150px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__container {
+    padding: 150px 20px;
+  }
+}
+.l-toystory__exclusive__title {
+  color: #0047ba;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 1.7px;
+  padding: 0 20px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__title {
+    font-size: 53px;
+    line-height: 29px;
+    letter-spacing: 2.65px;
+    padding: 0;
+  }
+}
+.l-toystory__exclusive__desc {
+  color: #000;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 28px 20px 20px;
+  margin: 0 auto;
+}
+.l-toystory__exclusive__desc--tw {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__desc--tw {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__desc {
+    width: 100%;
+    height: auto;
+    max-width: 565px;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 56px 0 68px;
+  }
+}
+.l-toystory__exclusive__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__content {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .l-toystory__exclusive__content--tw {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    gap: 42px;
+  }
+}
+.l-toystory__exclusive__list .slick-slide {
+  aspect-ratio: 119/95;
+}
+.l-toystory__exclusive__list .slick-dots {
+  bottom: -36px;
+}
+.l-toystory__exclusive__list .slick-dots > li,
+.l-toystory__exclusive__list .slick-dots > li > button,
+.l-toystory__exclusive__list .slick-dots > li > button:before {
+  width: 12px;
+  height: 12px;
+}
+.l-toystory__exclusive__list .slick-dots > li {
+  margin: 0 7px;
+}
+.l-toystory__exclusive__list .slick-dots > li > button:before {
+  content: "";
+  background-color: #c2e0ee;
+  border-radius: 50%;
+  opacity: 1;
+}
+.l-toystory__exclusive__list .slick-dots > li.slick-active > button:before {
+  background-color: #0047ba;
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__list .slick-slide {
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+}
+.l-toystory__exclusive__card {
+  width: 100%;
+  height: auto;
+  padding: 25px 20px 35px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+@media screen and (min-width: 1200px) {
+  .l-toystory__exclusive__card--tw {
+    width: 556px;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__card {
+    border-radius: 3px;
+    padding: 40px 40px 80px;
+  }
+}
+.l-toystory__exclusive__card:before {
+  content: "";
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+}
+.l-toystory__exclusive__card--start-icon {
+  position: absolute;
+  width: calc(60px + (100vw - 390px) * 0.1);
+  height: calc(59.998px + (100vw - 390px) * 0.2);
+  bottom: 164.52px;
+  right: 3.39px;
+}
+@media (min-width: 425px) {
+  .l-toystory__exclusive__card--start-icon {
+    bottom: 137px;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__card--start-icon {
+    bottom: 9%;
+  }
+}
+@media (min-width: 824px) {
+  .l-toystory__exclusive__card--start-icon {
+    bottom: 7%;
+  }
+}
+@media (min-width: 928px) {
+  .l-toystory__exclusive__card--start-icon {
+    bottom: 51px;
+  }
+}
+@media (min-width: 975px) {
+  .l-toystory__exclusive__card--start-icon {
+    bottom: 44px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__card--start-icon {
+    width: 140px;
+    height: 160px;
+    right: unset;
+    left: -75px;
+    bottom: -79px;
+  }
+}
+.l-toystory__exclusive__card--start-icon:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  width: calc(60px + (100vw - 390px) * 0.1);
+  height: calc(59.998px + (100vw - 390px) * 0.2);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("https://storage.owndays.com/news/toystory/exclusive/exclusive-figure-3.svg");
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__card--start-icon:before {
+    top: -9%;
+    left: 55px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__exclusive__card--start-icon:before {
+    width: 140px;
+    height: 160px;
+    top: -4%;
+    left: 3px;
+  }
+}
+.l-toystory__exclusive__card:nth-child(2):before {
+  width: calc(65px + (100vw - 390px) * 0.1);
+  height: calc(74px + (100vw - 390px) * 0.2);
+  bottom: -11%;
+  left: 5px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  background-image: url("https://storage.owndays.com/news/toystory/exclusive/exclusive-figure-2.svg");
+}
+@media (min-width: 425px) {
+  .l-toystory__exclusive__card:nth-child(2):before {
+    bottom: -11%;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__card:nth-child(2):before {
+    bottom: -15%;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__card:nth-child(2):before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    bottom: unset;
+    left: unset;
+    top: -140px;
+    right: -13px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__exclusive__card:nth-child(2):before {
+    width: 140px;
+    height: 160px;
+    top: -93px;
+    right: -83px;
+  }
+}
+.l-toystory__exclusive__card__title {
+  color: #000;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 20px;
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__card__title {
+    font-size: 32px;
+  }
+}
+.l-toystory__exclusive__card__desc {
+  color: #000;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 15.5px;
+}
+.l-toystory__exclusive__card__desc--tw {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__card__desc {
+    line-height: 30px;
+  }
+}
+.l-toystory__exclusive__card__img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+}
+.l-toystory__exclusive__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 30px;
+  padding: 70px 0;
+}
+.l-toystory__exclusive__buttons--th span {
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+}
+.l-toystory__exclusive__buttons--tw span {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 100px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__buttons {
+    gap: 40px;
+    position: relative;
+  }
+  .l-toystory__exclusive__buttons:before {
+    content: "";
+    position: absolute;
+    bottom: var(--before-bottom, 0);
+    right: -46px;
+    width: 110.53px;
+    height: 113.511px;
+    background-image: url("https://storage.owndays.com/news/toystory/exclusive/exclusive-figure-4.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+.l-toystory__exclusive__stores {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 80px 0 0 20px;
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__stores {
+    margin-bottom: -25px;
+    padding: 80px 0 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__stores {
+    padding: 150px 0 0;
+  }
+}
+.l-toystory__exclusive__stores__title {
+  color: #0047ba;
+  text-align: center;
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 1.8px;
+  padding-bottom: 30px;
+  width: 100%;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__stores__title {
+    padding-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__exclusive__stores__title {
+    font-size: 53px;
+    letter-spacing: 2.65px;
+    padding-bottom: 50px;
+  }
+}
+.l-toystory__exclusive__stores__text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__stores__text {
+    margin-bottom: 30px;
+    padding-right: 0;
+    font-size: 16px;
+  }
+}
+.l-toystory__exclusive__stores__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style-type: disc;
+  padding: 0;
+}
+.l-toystory__exclusive__stores__list > li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  color: #000;
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .l-toystory__exclusive__stores__list {
+    grid-template-columns: 235px 235px;
+    padding: 0;
+    -webkit-column-gap: 70px;
+    -moz-column-gap: 70px;
+    column-gap: 70px;
+  }
+  .l-toystory__exclusive__stores__list > li:first-child {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .l-toystory__exclusive__stores__list > li:nth-child(2) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .l-toystory__exclusive__stores__list > li:nth-child(3) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  .l-toystory__exclusive__stores__list > li:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .l-toystory__exclusive__stores__list > li:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .l-toystory__exclusive__stores__list > li:nth-child(6) {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+}
+.l-toystory__share {
+  position: relative;
+  margin-top: -59px;
+  padding-top: 80px;
+}
+@media (min-width: 768px) {
+  .l-toystory__share {
+    margin-top: -95px;
+    padding-top: 116px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__share {
+    margin-top: -150px;
+  }
+}
+@media (min-width: 1173px) {
+  .l-toystory__share {
+    padding-top: 213px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__share {
+    padding-top: 245px;
+  }
+}
+@media (min-width: 1440px) {
+  .l-toystory__share {
+    margin-top: -290px;
+  }
+}
+.l-toystory__share__top-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.l-toystory__share:after {
+  content: "";
+  display: block;
+  position: relative;
+  left: 0;
+  width: 100%;
+  height: 220px;
+  z-index: 0;
+  background-image: url("https://storage.owndays.com/news/toystory/sns/sns-bg-pc.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+@media (max-width: 767px) {
+  .l-toystory__share:after {
+    height: 61px;
+    background-image: url("https://storage.owndays.com/news/toystory/sns/sns-bg-sp.svg");
+  }
+}
+.l-toystory__share__warp {
+  width: 100%;
+  height: auto;
+  margin-top: -1px;
+  padding: 0 20px;
+  background-color: #fff;
+  padding-top: 100px;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__warp {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__share__warp {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1296px) {
+  .l-toystory__share__warp {
+    margin-top: -87px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .l-toystory__share__warp {
+    padding-top: -55px;
+  }
+}
+.l-toystory__share__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 14px;
+  padding-left: 1.5em;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+}
+.l-toystory__share__list--tw {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+}
+@media (min-width: 768px) {
+  .l-toystory__share__list--tw {
+    max-width: 595px;
+  }
+}
+.l-toystory__share__list--tw li:nth-child(8) {
+  display: none;
+}
+@media (min-width: 768px) {
+  .l-toystory__share__list {
+    line-height: 30px;
+    font-weight: 600;
+  }
+}
+.l-toystory__share__list li {
+  position: relative;
+  padding-left: 0;
+  font-size: 14px;
+}
+.l-toystory__share__list li:before {
+  content: "\2022";
+  position: absolute;
+  top: 0;
+  left: -1em;
+}
+.l-toystory__share__layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 107px;
+  padding: 0 0 32px;
+  gap: 60px;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__layout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 0 40px;
+    margin-top: 60px;
+  }
+}
+.l-toystory__share__layout__share {
+  font-family:
+    Paytone One,
+    sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #0047ba;
+}
+@media (min-width: 768px) {
+  .l-toystory__share__layout__share {
+    font-size: 50px;
+  }
+}
+.l-toystory__share__layout__img {
+  width: 100%;
+  max-width: 175px;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__layout__img {
+    max-width: 142px;
+  }
+}
+.l-toystory__share__layout__list-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__layout__list-share {
+    gap: 24px;
+  }
+}
+.l-toystory__share__layout__list-share li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.l-toystory__share__layout__list-share li a img {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__layout__list-share li a img {
+    width: 38px;
+    height: 38px;
+  }
+}
+.l-toystory__share__layout__list-share li:nth-child(2) a > img {
+  width: 44px;
+  height: 44px;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__layout__list-share li:nth-child(2) a > img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__share__layout__list-share li a:hover {
+    cursor: pointer;
+  }
+  .l-toystory__share__layout__list-share li:first-child a:hover > img {
+    content: url("https://storage.owndays.com/news/toystory/sns/fb-hover.svg");
+  }
+  .l-toystory__share__layout__list-share li:nth-child(2) a:hover > img {
+    content: url("https://storage.owndays.com/news/toystory/sns/x-hover.svg");
+  }
+  .l-toystory__share__layout__list-share li:nth-child(3) a:hover > img {
+    content: url("https://storage.owndays.com/news/toystory/sns/line-hover.svg");
+  }
+}
+.l-toystory__share__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+.l-toystory__share__copyright__svg {
+  width: 100%;
+  max-width: 130px !important;
+}
+@media (max-width: 767px) {
+  .l-toystory__share__copyright__svg {
+    max-width: 123px !important;
+    padding-bottom: 20px;
+  }
+}
+.l-toystory__share__copyright__text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
+.l-toystory__share__copyright__text {
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 16px;
+}
+.l-toystory__navs.is-fixed {
+  position: fixed;
+}
+.l-toystory__navs-wrap {
+  position: relative;
+  margin-top: 70px;
+}
+.l-toystory__navs-wrap--tw {
+  margin-top: 120px;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs-wrap {
+    height: 56px;
+  }
+}
+.l-toystory__navs--2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 9;
+  padding-top: 10px;
+  height: 70px;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs--2 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+@media (max-width: 767px) {
+  .l-toystory__navs--2 {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: -2px;
+    right: 10px;
+    bottom: 10px;
+  }
+  .l-toystory__navs--2 .l-toystory__btn--primary:before {
+    display: none !important;
+  }
+  .l-toystory__navs--2 .l-toystory__btn--primary span {
+    position: static;
+    -webkit-transform: none;
+    transform: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  .l-toystory__navs--2 a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    line-height: 16px;
+    height: 100%;
+    font-size: 14px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    border-radius: 0;
+  }
+  .l-toystory__navs--2 a#cta_floating2-product-list {
+    height: 100%;
+    background-color: #f9c600;
+    color: #0047ba;
+    border-top: 2px solid #0047ba;
+    border-left: 2px solid #0047ba;
+    border-bottom: 2px solid #0047ba;
+    border-radius: 10px 0 0 10px;
+  }
+  .l-toystory__navs--2 a#cta_floating2-shop-search {
+    background-color: #fff;
+    color: #0047ba;
+    border: 2px solid #0047ba;
+    border-radius: 0 10px 10px 0;
+  }
+}
+.l-toystory__navs--2 span {
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 0;
+  letter-spacing: 0;
+  top: 50%;
+}
+.l-toystory__navs--2.is-fixed {
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs--2.is-fixed {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+.l-toystory__navs--2-wrap {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs--2-wrap {
+    height: 56px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__navs--2 {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0;
+    height: 120px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .l-toystory__navs--2 span {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .l-toystory__navs--2-wrap {
+    height: 70px;
+  }
+  .l-toystory__navs--2.is-fixed {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__navs--2 {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0;
+    height: 120px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .l-toystory__navs--2 span {
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .l-toystory__navs--2-wrap {
+    height: 70px;
+  }
+  .l-toystory__navs--2.is-fixed {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+.l-toystory__navs--3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.l-toystory__navs--3,
+.l-toystory__navs--3.is-fixed {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(0, 31, 80, 0.65);
+}
+.l-toystory__navs--3.is-fixed {
+  position: fixed;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.l-toystory__navs--3-wrap {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs--3-wrap {
+    height: 56px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-toystory__navs--3 {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 26px 0;
+    height: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .l-toystory__navs--3-wrap {
+    height: 70px;
+  }
+  .l-toystory__navs--3.is-fixed {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+@media (min-width: 768px) {
+  .l-toystory__navs--3 {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 26px 0;
+    height: auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .l-toystory__navs--3-wrap {
+    height: 70px;
+  }
+  .l-toystory__navs--3.is-fixed {
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+.l-toystory__navs__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 90px;
+  padding-right: 7px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs__message {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "text btn" "sub  btn";
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-column-gap: 44px;
+    -moz-column-gap: 44px;
+    column-gap: 44px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.l-toystory__navs__message__text {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+  grid-area: text;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  border-radius: 5px;
+  background-color: #0047ba;
+  padding: 0 14px;
+  line-light: 24px;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs__message__text {
+    font-size: 14px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 1px 18px;
+    line-height: 28px;
+  }
+}
+.l-toystory__navs__message__flex {
+  grid-area: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs__message__flex {
+    display: contents;
+  }
+}
+.l-toystory__navs__message__subtext {
+  font-family:
+    Aktiv Grotesk TWHK,
+    sans-serif;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 4.14px;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs__message__subtext {
+    font-size: 30px;
+    grid-area: sub;
+    line-height: 28px;
+  }
+}
+.l-toystory__navs__message__subtext span {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 1.3px;
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs__message__subtext span {
+    font-size: 15px;
+  }
+}
+.l-toystory__navs__message .l-toystory__btn--secondary {
+  grid-area: btn;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .l-toystory__navs__message .l-toystory__btn--secondary {
+    grid-area: btn;
+    -ms-flex-item-align: center;
+    background-color: #fff;
+    width: 100%;
+    min-width: 350px;
+    height: 65px;
+    align-self: center;
+    justify-self: end;
+  }
+}
+@-webkit-keyframes lineup_nav_top-icon {
+  0% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  8% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  16% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  24%,
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes lineup_nav_top-icon {
+  0% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  8% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  16% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+  }
+  24%,
+  to {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes starts-fade-in-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes starts-fade-in-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes starts-fade-in-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(0) scaleX(-1);
+    transform: translateX(0) scaleX(-1);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(100px) scaleX(-1);
+    transform: translateX(100px) scaleX(-1);
+  }
+}
+@keyframes starts-fade-in-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(0) scaleX(-1);
+    transform: translateX(0) scaleX(-1);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(100px) scaleX(-1);
+    transform: translateX(100px) scaleX(-1);
+  }
+}
+.only-sp {
+  display: inline;
+}
+@media screen and (min-width: 1024px) {
+  .only-sp {
+    display: none;
+  }
+}
+.only-pc {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .only-pc {
+    display: inline;
+  }
+}
+@media (max-width: 767px) {
+  .fancybox__content {
+    aspect-ratio: 9/16 !important;
+  }
+}
+@media (max-width: 767px) {
+  .fancybox__slide {
+    padding-inline: 40px !important;
+  }
+}
+
+.breadcrumbs ul li p {
+  font-family: var(--font-base);
+}
+
+.l-toystory p {
+  margin-bottom: 0 !important;
+}
