@@ -36,15 +36,6 @@ img {
   --font-base: heisei-kaku-gothic-std, sans-serif;
 }
 
-:root[lang^="zh"] {
-  --font-base: Aktiv Grotesk TWHK, sans-serif;
-}
-
-:root[lang^="th"],
-:root[lang^="vi"] {
-  --font-base: aktiv-grotesk, sans-serif;
-}
-
 :root[lang^="en"],
 :root[lang^="in"] {
   --font-base: Founders Grotesk, sans-serif;
@@ -448,7 +439,7 @@ html {
   padding: 0;
   position: relative;
   display: flex !important;
-  font-family: var(--font-aktiv-grotesk-twhk);
+  /* font-family: var(--font-aktiv-grotesk-twhk); */
 }
 
 .l-the-one .product-slider__color-nav .nav-link:before {
