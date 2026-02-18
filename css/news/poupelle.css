@@ -32,6 +32,7 @@ html {
     heisei-kaku-gothic-std,
     sans-serif;
   font-weight: 400;
+  line-height: 2;
 }
 @media (max-width: 767px) {
   .l-poupelle {
@@ -225,13 +226,17 @@ html {
   background-color: #000;
 }
 .l-poupelle .p-num {
-  font-family: Founders Grotesk, sans-serif !important;
+  font-family:
+    Founders Grotesk,
+    sans-serif !important;
   margin-top: 6px;
   font-size: 14px;
 }
 @media (max-width: 767px) {
   .l-poupelle .p-num {
     margin-top: 2px;
+    font-size: 13px;
+    font-weight: 400;
   }
 }
 .l-poupelle .type {
@@ -1116,7 +1121,7 @@ html {
 }
 @media (max-width: 767px) {
   .l-poupelle__lineup-slider > img {
-    width: 75px;
+    width: 64px;
     top: -17%;
     right: -5%;
   }
@@ -1317,6 +1322,7 @@ html {
     text-align: left;
     width: 280px;
     margin: 20px auto;
+    font-size: 13px;
   }
 }
 .l-poupelle__accessory > div .jp-title {
@@ -1727,7 +1733,7 @@ html {
 }
 @media (max-width: 767px) {
   .l-poupelle__about {
-    margin: 70px auto;
+    margin: 70px auto 10px;
   }
 }
 .l-poupelle__about-inner {
@@ -1977,4 +1983,8 @@ html {
     padding: 0 20px 15px;
     margin-top: -15px;
   }
+}
+.l-poupelle__accessory p {
+  font-size: 14px;
+  line-height: 2;
 }
