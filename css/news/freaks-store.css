@@ -1,24 +1,31 @@
 @import url("https://use.typekit.net/tik4gli.css");
 @font-face {
-  font-family: "AXIS Std";
-  src:
-    url("https://www.owndays.com/fonts/axis/axisstd-medium.woff2")
-      format("woff2"),
-    url("https://www.owndays.com/fonts/axis/axisstd-medium.woff") format("woff");
-  font-weight: 500;
+  font-family: 'AXIS Std';
+  src: url('https://static.lenskart.com/media/owndays/fonts/AxisStd/AxisStd-Light.woff2') format('woff2'),
+      url('https://static.lenskart.com/media/owndays/fonts/AxisStd/AxisStd-Light.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "AXIS Std";
-  src:
-    url("https://www.owndays.com/fonts/axis/axisstd-bold.woff2") format("woff2"),
-    url("https://www.owndays.com/fonts/axis/axisstd-bold.woff") format("woff");
-  font-weight: 600;
+  font-family: 'AXIS Std';
+  src: url('https://static.lenskart.com/media/owndays/fonts/AxisStd/AxisStd-Regular.woff2') format('woff2'),
+      url('https://static.lenskart.com/media/owndays/fonts/AxisStd/AxisStd-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'AXIS Std';
+  src: url('https://static.lenskart.com/media/owndays/fonts/AxisStd/AxisStd-Medium.woff2') format('woff2'),
+      url('https://static.lenskart.com/media/owndays/fonts/AxisStd/AxisStd-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background-color: transparent;
 }
