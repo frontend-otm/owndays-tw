@@ -1,0 +1,2226 @@
+@import url(https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&family=Zen+Old+Mincho&display=swap);
+@import url(https://fonts.cdnfonts.com/css/post-no-bills-colombo);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg)
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  25% {
+    -webkit-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%)
+  }
+
+  50% {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  75% {
+    -webkit-transform: translate(-50%, -65%);
+    transform: translate(-50%, -65%)
+  }
+
+  to {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+}
+
+@keyframes move {
+  0% {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  25% {
+    -webkit-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%)
+  }
+
+  50% {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+
+  75% {
+    -webkit-transform: translate(-50%, -65%);
+    transform: translate(-50%, -65%)
+  }
+
+  to {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+  }
+}
+
+@-webkit-keyframes shine {
+  0% {
+    background-color: #c18b35
+  }
+
+  8% {
+    background-color: #ffd086
+  }
+
+  to {
+    background-color: #c18b35
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-color: #c18b35
+  }
+
+  8% {
+    background-color: #ffd086
+  }
+
+  to {
+    background-color: #c18b35
+  }
+}
+
+@-webkit-keyframes shine-red {
+  0% {
+    background-color: #b31111
+  }
+
+  8% {
+    background-color: #ff8383
+  }
+
+  to {
+    background-color: #b31111
+  }
+}
+
+@keyframes shine-red {
+  0% {
+    background-color: #b31111
+  }
+
+  8% {
+    background-color: #ff8383
+  }
+
+  to {
+    background-color: #b31111
+  }
+}
+
+.l-zeon {
+  color: #fff;
+  background-color: #000;
+  font: 500 14px/220% Zen Kaku Gothic New, sans-serif;
+  letter-spacing: normal;
+
+  overflow: hidden;
+
+  a {
+    outline: none;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    display: flex !important;
+
+    &:hover {
+      color: #999;
+
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  p {
+    line-height: 2;
+    margin-bottom: 0 !important;
+  }
+
+  img {
+    display: block;
+    height: auto;
+    margin-bottom: 0 !important;
+  }
+}
+
+.u-sp-only {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .u-sp-only {
+    display: none;
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon {
+    font-size: 16px;
+    line-height: 250%
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+.l-zeon__container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1320px
+}
+
+.l-zeon__heading {
+  font: 400 36px/28px Post No Bills Colombo, sans-serif;
+  letter-spacing: 3.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.l-zeon__heading span {
+  font: inherit;
+  letter-spacing: inherit;
+  position: relative
+}
+
+.l-zeon__heading--border span {
+  padding-bottom: 32px
+}
+
+.l-zeon__heading--border span:after,
+.l-zeon__heading--border span:before {
+  content: "";
+  position: absolute;
+  left: 17px;
+  border-top: 1px solid #fff
+}
+
+.l-zeon__heading--border span:before {
+  bottom: 13px;
+  width: 84px
+}
+
+.l-zeon__heading--border span:after {
+  bottom: 0;
+  width: 46px
+}
+
+.l-zeon__heading--center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.l-zeon__heading--center span:after,
+.l-zeon__heading--center span:before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.l-zeon__heading--bold {
+  font-weight: 700
+}
+
+@media (min-width:768px) {
+  .l-zeon__heading--pc-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+
+  .l-zeon__heading--pc-center span:after,
+  .l-zeon__heading--pc-center span:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon__heading {
+    font-size: 48px;
+    line-height: 28px;
+    letter-spacing: 4.8px
+  }
+
+  .l-zeon__heading--border span {
+    padding-bottom: 46px
+  }
+
+  .l-zeon__heading--border span:before {
+    bottom: 16px;
+    width: 225px
+  }
+
+  .l-zeon__heading--border span:after {
+    width: 123px
+  }
+}
+
+.l-zeon__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+  border-radius: 10rem;
+  opacity: 1 !important;
+  background: #999;
+  color: #fff;
+  font: 600 16px/1 Zen Kaku Gothic New, sans-serif
+}
+
+.l-zeon__btn:active,
+.l-zeon__btn:focus,
+.l-zeon__btn:hover,
+.l-zeon__btn:visited {
+  color: #fff
+}
+
+.l-zeon__btn--red {
+  background-color: #b31111;
+  border-color: #b31111;
+  border-radius: 8px
+}
+
+.l-zeon__btn--pill {
+  border-radius: 10rem
+}
+
+.l-zeon__btn--reservation {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/arrow-up-down.svg");
+  background-position: right 24px center;
+  background-size: 19px auto
+}
+
+.l-zeon__btn[disabled] {
+  background-color: #999;
+  opacity: 1;
+  pointer-events: none
+}
+
+@media (min-width:1024px) {
+  .l-zeon__btn {
+    height: 85px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-position: right 40px center;
+    background-size: 9px auto
+  }
+
+  .l-zeon__btn:hover {
+    color: #fff;
+    -webkit-animation: shine 2s;
+    animation: shine 2s
+  }
+
+  .l-zeon__btn--red {
+    height: 80px
+  }
+
+  .l-zeon__btn--red:hover {
+    -webkit-animation: shine-red 2s;
+    animation: shine-red 2s
+  }
+
+  .l-zeon__btn--reservation {
+    background-position: right 37px center;
+    background-size: 25px auto
+  }
+}
+
+.l-zeon .main {
+  background: url("https://www.owndays.com/images/specials/products/gundam5-zeon/main_bg-sp.webp") no-repeat top/cover;
+  position: relative;
+  overflow: hidden
+}
+
+.l-zeon .main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000), color-stop(40%, rgba(0, 0, 0, .5)), color-stop(95%, transparent));
+  background: linear-gradient(0deg, #000, rgba(0, 0, 0, .5) 40%, transparent 95%);
+  z-index: 3
+}
+
+.l-zeon .main .l-zeon__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding-bottom: 190px;
+  z-index: 4
+}
+
+.l-zeon .main__fg {
+  position: absolute;
+  left: 0;
+  right: 0
+}
+
+.l-zeon .main__fg--1 {
+  top: 0;
+  z-index: 0
+}
+
+.l-zeon .main__fg--2 {
+  bottom: 54px;
+  z-index: 2
+}
+
+.l-zeon .main__zeon-logo {
+  position: absolute;
+  top: 26px;
+  right: 15px;
+  width: 44px
+}
+
+.l-zeon .main__char {
+  position: relative;
+  z-index: 1
+}
+
+.l-zeon .main__heading,
+.l-zeon .main__heading h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.l-zeon .main__heading h1 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  row-gap: 17px
+}
+
+.l-zeon .main__heading h1 img {
+  max-width: 281px;
+  margin: 0 auto
+}
+
+.l-zeon .main__heading h1 p {
+  background-color: #999;
+  border-color: #999;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+  line-height: 1;
+  padding: 5px 12px 8px;
+  text-align: center;
+  font-family: Zen Kaku Gothic New, sans-serif
+}
+
+@media (min-width:768px) {
+  .l-zeon .main__heading h1 p {
+    font-size: 16px;
+    letter-spacing: 4.8px
+  }
+}
+
+.l-zeon .main__heading h1 span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c18b35;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #c18b35;
+  font: 900 13px/16px Zen Old Mincho, serif;
+  letter-spacing: 2.08px;
+  padding: 5px 28px 7px
+}
+
+@media (max-width: 1024px) {
+  .l-zeon .main__heading h1 span {
+    text-align: center;
+    line-height: 1.8em;
+  }
+}
+
+.l-zeon .main__heading h1 span,
+.l-zeon .main__scroll-down {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.l-zeon .main__scroll-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.l-zeon .main__scroll-down a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100px;
+  height: 100px;
+  position: relative
+}
+
+.l-zeon .main__scroll-down a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://www.owndays.com/images/specials/products/gundam5-zeon/scroll-down.svg") no-repeat 50%/contain;
+  -webkit-animation: rotation 10s infinite linear;
+  animation: rotation 10s infinite linear
+}
+
+.l-zeon .main__scroll-down a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 32px;
+  height: 48px;
+  background: url("https://www.owndays.com/images/specials/products/gundam5-zeon/arrow-down.svg") no-repeat 50%/contain;
+  font: 0/0 a;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in
+}
+
+.l-zeon .main__period {
+  margin-bottom: 2px !important;
+}
+
+.l-zeon .main__period-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 94px;
+  height: 94px;
+  border-radius: 100%;
+  background-color: #c18b35;
+  margin-left: auto
+}
+
+.l-zeon .main__period-wrap span {
+  font-family: Zen Kaku Gothic New, sans-serif;
+  font-weight: 700
+}
+
+.l-zeon .main__period-wrap span.y {
+  font-size: 10px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  margin-top: -6px
+}
+
+.l-zeon .main__period-wrap span.m-d {
+  font-size: 20px;
+  line-height: 17px;
+  letter-spacing: 1.2px;
+  margin-top: -2px;
+  margin-bottom: 3px !important;
+}
+
+.l-zeon .main__period-wrap span.m-d small {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #7e530d;
+  padding: 2px 1px 3px 2px;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 5px;
+  letter-spacing: .8px;
+  margin-left: 2px
+}
+
+.l-zeon .main__period-wrap span.t {
+  font-size: 9px;
+  line-height: 6px;
+  letter-spacing: .18px;
+  margin-bottom: 1px !important;
+}
+
+.l-zeon .main__period-wrap span.text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 1.2px
+}
+
+.l-zeon .main__special-price {
+  font: 0/0 a
+}
+
+.l-zeon .main__special-price img {
+  max-width: 228px
+}
+
+@media (max-width:1023px) {
+  .l-zeon .main__special-price img {
+    max-width: 310px
+  }
+}
+
+@media (max-width:767px) {
+  .l-zeon .main__char {
+    margin-left: -20px;
+    margin-right: -20px
+  }
+
+  .l-zeon .main__heading {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+
+  .l-zeon .main__special-price {
+    position: absolute;
+    top: calc(50% - 75px);
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+  }
+
+  .l-zeon .main__special-price img {
+    max-width: 228px
+  }
+}
+
+@media (min-width:768px) {
+  .l-zeon .main {
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/main_bg-pc.webp")
+  }
+
+  .l-zeon .main__char {
+    margin-left: calc(50% - 507px)
+  }
+
+  .l-zeon .main__fg img {
+    -o-object-fit: contain;
+    object-fit: contain
+  }
+
+  .l-zeon .main__fg--1 img {
+    max-height: 422px
+  }
+
+  .l-zeon .main__fg--1 img,
+  .l-zeon .main__fg--2 img {
+    -o-object-position: right top;
+    object-position: right top
+  }
+
+  .l-zeon .main__fg--2 img {
+    max-height: 685px
+  }
+
+  .l-zeon .main__period {
+    position: absolute;
+    top: calc(50% + 10rem);
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    margin-bottom: 0 !important;
+  }
+
+  .l-zeon .main__heading {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 23px
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon .main .l-zeon__container {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 313px;
+    padding-bottom: 124px
+  }
+
+  .l-zeon .main__zeon-logo {
+    width: 76px
+  }
+
+  .l-zeon .main__fg--2 {
+    bottom: -35px
+  }
+
+  .l-zeon .main__heading {
+    gap: 46px
+  }
+
+  .l-zeon .main__heading h1 {
+    row-gap: 28px
+  }
+
+  .l-zeon .main__heading h1 img {
+    max-width: 525px
+  }
+
+  .l-zeon .main__heading h1 span {
+    font-size: 23px;
+    line-height: 16px;
+    letter-spacing: 3.68px;
+    padding: 25px 0 27px
+  }
+
+  .l-zeon .main__scroll-down a {
+    width: 150px;
+    height: 150px
+  }
+
+  .l-zeon .main__scroll-down a i {
+    width: 48px;
+    height: 73px
+  }
+
+  .l-zeon .main__scroll-down a:hover i {
+    -webkit-animation: move 1s infinite linear;
+    animation: move 1s infinite linear
+  }
+
+  .l-zeon .main__period {
+    top: calc(50% + 4rem)
+  }
+
+  .l-zeon .main__period-wrap {
+    width: 168px;
+    height: 168px
+  }
+
+  .l-zeon .main__period-wrap span.y {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-top: -15px
+  }
+
+  .l-zeon .main__period-wrap span.m-d {
+    font-size: 34px;
+    letter-spacing: 3.4px;
+    margin-top: 5px;
+    margin-bottom: 7px !important;
+  }
+
+  .l-zeon .main__period-wrap span.m-d small {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1.4px;
+    padding: 0 2px 1px 3px;
+    margin-left: 4px;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+  }
+
+  .l-zeon .main__period-wrap span.t {
+    font-size: 15px;
+    letter-spacing: .3px;
+    margin-bottom: 10px !important;
+  }
+
+  .l-zeon .main__period-wrap span.text {
+    font-size: 21px;
+    letter-spacing: 2.1px
+  }
+
+  .l-zeon .main__special-price img {
+    max-width: 598px
+  }
+}
+
+@media (min-width:1296px) {
+  .l-zeon .main__zeon-logo {
+    top: 70px;
+    right: 60px
+  }
+
+  .l-zeon .main__heading {
+    padding-left: 60px
+  }
+
+  .l-zeon .main__period {
+    padding: 0 70px
+  }
+}
+
+.l-zeon .concept {
+  position: relative;
+  z-index: 3;
+  margin-top: -1px
+}
+
+.l-zeon .concept .l-zeon__heading {
+  margin-bottom: 50px !important;
+}
+
+.l-zeon .concept__text {
+  padding: 0 30px;
+  max-width: 860px;
+  margin: 0 auto 90px !important;
+}
+
+.l-zeon .concept__movie {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%
+}
+
+.l-zeon .concept__movie-wrap {
+  max-width: 860px;
+  margin: 0 auto
+}
+
+.l-zeon .concept__movie:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background: url("https://www.owndays.com/images/specials/products/gundam5-zeon/btn_play.svg") no-repeat 50%/contain
+}
+
+.l-zeon .concept__movie iframe,
+.l-zeon .concept__movie img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+.l-zeon .concept__movie iframe {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+@media (min-width:1024px) {
+  .l-zeon .concept .l-zeon__heading {
+    margin-bottom: 60px !important;
+  }
+
+  .l-zeon .concept__text {
+    margin-bottom: 100px !important;
+  }
+
+  .l-zeon .concept__movie:after {
+    width: 87px;
+    height: 87px
+  }
+
+  .l-zeon .concept__movie:hover img,
+  .l-zeon .concept__movie:hover picture {
+    opacity: 1
+  }
+
+  .l-zeon .concept__movie:hover iframe,
+  .l-zeon .concept__movie:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+  }
+}
+
+.l-zeon .lineup__item {
+  position: relative
+}
+
+.l-zeon .lineup__item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-repeat: repeat-x;
+  background-position: 50%;
+  background-size: auto 100%
+}
+
+.l-zeon .lineup__item--glasses {
+  padding: 115px 0 0
+}
+
+.l-zeon .lineup__item--glasses:before {
+  top: -199px;
+  bottom: -189px;
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/lineup_bg-1-sp.webp")
+}
+
+.l-zeon .lineup__item--glasses .lineup__char {
+  top: 289px;
+  left: calc(50% - 333px)
+}
+
+.l-zeon .lineup__item--sunglasses {
+  padding: 120px 0 94px
+}
+
+.l-zeon .lineup__item--sunglasses:before {
+  top: -121px;
+  bottom: -168px;
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/lineup_bg-2-sp.webp")
+}
+
+.l-zeon .lineup__item--sunglasses .lineup__char {
+  top: 248px;
+  left: calc(50% - 274px)
+}
+
+.l-zeon .lineup__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0
+}
+
+.l-zeon .lineup__char {
+  width: 750px;
+  height: 1080px;
+  position: absolute;
+  z-index: 1
+}
+
+.l-zeon .lineup__content {
+  position: relative;
+  z-index: 2
+}
+
+.l-zeon .lineup__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 25px;
+  padding: 0 20px;
+  margin-bottom: 497px !important;
+}
+
+.l-zeon .lineup__heading-logo {
+  max-width: 31px
+}
+
+.l-zeon .lineup__heading-text,
+.l-zeon .lineup__heading-text h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 15px
+}
+
+.l-zeon .lineup__heading-text h2 {
+  color: #c18b35;
+  font: 500 26px/160% Zen Kaku Gothic New, sans-serif;
+  letter-spacing: 1.3px
+}
+
+.l-zeon .lineup__heading-text h2 small {
+  font: 900 14px/16px Zen Old Mincho, serif;
+  letter-spacing: 2.24px
+}
+
+.l-zeon .lineup__heading-text p {
+  font: 500 14px/165% Zen Kaku Gothic New, sans-serif
+}
+
+.l-zeon .lineup__heading-text p strong {
+  font-size: 20px;
+  margin: 0 .25em
+}
+
+.l-zeon .lineup__heading-text p small {
+  font-size: 12px;
+  font-weight: inherit
+}
+
+.l-zeon .lineup__heading-text .price--before {
+  color: #797979
+}
+
+.l-zeon .lineup__heading-text .price--before strong {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  position: relative
+}
+
+.l-zeon .lineup__heading-text .price--before strong:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 47px;
+  height: 1px;
+  background-color: #797979;
+  -webkit-transform: rotate(162deg);
+  transform: rotate(162deg)
+}
+
+.l-zeon .lineup__heading-text .price--before small {
+  font-size: 9px
+}
+
+.l-zeon .lineup__heading-text .price--after {
+  color: #ad0923;
+  position: relative;
+  margin-left: 16px
+}
+
+.l-zeon .lineup__heading-text .price--after:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -8px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 8px solid #ad0923
+}
+
+.l-zeon .lineup__heading-text .price--after strong {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px
+}
+
+.l-zeon .lineup__heading-text .price--after small {
+  font-size: 12px
+}
+
+.l-zeon .lineup__product {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.l-zeon .lineup__product-slider img {
+  width: 337px;
+  padding: 10px 0;
+  background-color: #fff
+}
+
+.l-zeon .lineup__product-slider .slick {
+  display: none
+}
+
+.l-zeon .lineup__product-slider .slick.active {
+  display: block
+}
+
+.l-zeon .lineup__product-slider .slick-slide>div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 6px
+}
+
+.l-zeon .lineup__product-details {
+  padding: 25px 20px 63px;
+  position: relative
+}
+
+.l-zeon .lineup__product-details:before {
+  content: "";
+  position: absolute;
+  top: -125px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .8);
+  background-blend-mode: multiply;
+  z-index: -1
+}
+
+.l-zeon .lineup__product-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 45px !important;
+}
+
+.l-zeon .lineup__product-colors {
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px
+}
+
+.l-zeon .lineup__product-colors,
+.l-zeon .lineup__product-colors li,
+.l-zeon .lineup__product-colors li button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.l-zeon .lineup__product-colors li button {
+  outline: none;
+  padding: 0;
+  font: 0/0 a;
+  width: 57px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 103%;
+  cursor: pointer;
+  border: none;
+}
+
+.l-zeon .lineup__product-colors li button.active {
+  border: 2px solid #c18b35;
+}
+
+.l-zeon .lineup__product-color {
+  margin-left: 20px;
+  font: 500 14px/165% Zen Kaku Gothic New, sans-serif
+}
+
+.l-zeon .lineup__product-nav {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px
+}
+
+.l-zeon .lineup__product-nav-btn {
+  outline: none;
+  font: 0/0 a;
+  padding: 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 16px auto;
+  border: 1px solid #666;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease
+}
+
+.l-zeon .lineup__product-nav-btn:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1)
+}
+
+.l-zeon .lineup__product-nav-btn--prev {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/chevron-left.svg");
+  background-position: 45%
+}
+
+.l-zeon .lineup__product-nav-btn--next {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/chevron-right.svg");
+  background-position: 55%
+}
+
+.l-zeon .lineup__product-des {
+  margin-bottom: 38px !important;
+}
+
+@media (max-width:1023px) {
+  .l-zeon .lineup__heading {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+
+  .l-zeon .lineup__heading-logo {
+    margin: 0 auto
+  }
+
+  .l-zeon .lineup__heading-text {
+    text-align: center
+  }
+
+  .l-zeon .lineup__product-actions {
+    padding: 0 7px
+  }
+
+  .l-zeon .lineup__product-nav {
+    display: none;
+    visibility: hidden;
+    opacity: 0
+  }
+
+  .l-zeon .lineup__product-des {
+    text-align: justify;
+    padding: 0 30px
+  }
+
+  .l-zeon .lineup__product-link {
+    padding: 0 10px
+  }
+}
+
+@media (min-width:768px) {
+  .l-zeon .lineup__item--glasses:before {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/lineup_bg-1-pc.webp")
+  }
+
+  .l-zeon .lineup__item--sunglasses:before {
+    background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/lineup_bg-2-pc.webp")
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon .lineup__item--glasses {
+    padding: 263px 0 242px
+  }
+
+  .l-zeon .lineup__item--glasses .lineup__char {
+    top: 218px;
+    left: auto;
+    right: calc(50% - 109px)
+  }
+
+  .l-zeon .lineup__item--glasses .lineup__content {
+    margin-left: calc(50% - 190px)
+  }
+
+  .l-zeon .lineup__item--glasses .lineup__heading {
+    padding-left: 83px
+  }
+
+  .l-zeon .lineup__item--glasses .lineup__product-slider {
+    margin-left: 70px
+  }
+
+  .l-zeon .lineup__item--glasses .lineup__product-slider .slick-slide>div {
+    margin: 0 30px 0 0
+  }
+
+  .l-zeon .lineup__item--sunglasses {
+    padding: 137px 0 371px
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__char {
+    top: 202px;
+    left: calc(50% + 25px)
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__content {
+    margin-left: auto;
+    margin-right: calc(50% - 190px)
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__heading {
+    padding-left: 100px
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__product-slider {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-right: 70px
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__product-slider img {
+    width: 100%
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__product-slider .slick-slide>div {
+    margin: 0 0 0 30px
+  }
+
+  .l-zeon .lineup__item--sunglasses .lineup__product-details {
+    margin-left: auto
+  }
+
+  .l-zeon .lineup__char {
+    width: 972px;
+    height: 1374px
+  }
+
+  .l-zeon .lineup__heading {
+    -webkit-column-gap: 28px;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+    margin-bottom: 58px !important;
+  }
+
+  .l-zeon .lineup__heading-logo {
+    max-width: 72px
+  }
+
+  .l-zeon .lineup__heading-text {
+    row-gap: 29px
+  }
+
+  .l-zeon .lineup__heading-text h2 {
+    font-size: 32px;
+    letter-spacing: 5.12px;
+    row-gap: 12px
+  }
+
+  .l-zeon .lineup__heading-text h2 small {
+    font-size: 20px;
+    letter-spacing: 3.2px
+  }
+
+  .l-zeon .lineup__heading-text p {
+    font-size: 16px
+  }
+
+  .l-zeon .lineup__heading-text p strong {
+    font-size: 24px
+  }
+
+  .l-zeon .lineup__heading-text p small {
+    font-size: 16px
+  }
+
+  .l-zeon .lineup__heading-text .price--before strong {
+    font-size: 21px;
+    line-height: 35px
+  }
+
+  .l-zeon .lineup__heading-text .price--before strong:after {
+    width: 74px
+  }
+
+  .l-zeon .lineup__heading-text .price--before small {
+    font-size: 13px
+  }
+
+  .l-zeon .lineup__heading-text .price--after {
+    margin-left: 23px
+  }
+
+  .l-zeon .lineup__heading-text .price--after:before {
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 12px;
+    left: -12px
+  }
+
+  .l-zeon .lineup__heading-text .price--after strong {
+    font-size: 24px;
+    line-height: 40px
+  }
+
+  .l-zeon .lineup__heading-text .price--after small {
+    font-size: 16px
+  }
+
+  .l-zeon .lineup__product-slider {
+    width: 1120px
+  }
+
+  .l-zeon .lineup__product-slider img {
+    width: 100%;
+    padding: 18px 0
+  }
+
+  .l-zeon .lineup__product-details {
+    padding: 30px 70px 60px;
+    max-width: 870px
+  }
+
+  .l-zeon .lineup__product-actions {
+    margin-bottom: 35px !important;
+  }
+
+  .l-zeon .lineup__product-colors li button {
+    width: 100px;
+    height: 45px
+  }
+
+  .l-zeon .lineup__product-color {
+    margin-left: 25px;
+    font-size: 18px
+  }
+
+  .l-zeon .lineup__product-des {
+    margin-bottom: 35px !important;
+  }
+}
+
+@media (min-width:1296px) {
+  .l-zeon .lineup__product-slider {
+    width: 1320px
+  }
+}
+
+.l-zeon .accessories {
+  position: relative
+}
+
+.l-zeon .accessories .l-zeon__heading {
+  margin-bottom: 50px !important;
+}
+
+.l-zeon .accessories__inner {
+  background-color: #191313;
+  padding: 100px 30px
+}
+
+.l-zeon .accessories__grid {
+  display: grid;
+  grid-gap: 40px
+}
+
+@media (max-width:767px) {
+  .l-zeon .accessories {
+    margin-left: -20px;
+    margin-right: -20px
+  }
+}
+
+@media (min-width:768px) {
+  .l-zeon .accessories__grid {
+    grid-template-columns: calc(50% + 27px) 1fr;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon .accessories .l-zeon__heading {
+    margin-bottom: 70px !important;
+  }
+
+  .l-zeon .accessories__inner {
+    padding: 110px 60px
+  }
+
+  .l-zeon .accessories__grid {
+    grid-gap: 50px
+  }
+}
+
+.l-zeon .stores {
+  padding: 100px 0
+}
+
+.l-zeon .stores .l-zeon__container {
+  max-width: 915px
+}
+
+.l-zeon .stores .l-zeon__heading {
+  margin-bottom: 40px !important;
+}
+
+.l-zeon .stores .l-zeon__btn {
+  max-width: 700px;
+  margin: 0 auto
+}
+
+.l-zeon .stores__text {
+  text-align: center;
+  font: 500 20px/170% Zen Kaku Gothic New, sans-serif;
+  letter-spacing: 1px
+}
+
+.l-zeon .stores__text small {
+  font-weight: inherit;
+  font-size: 16px;
+  letter-spacing: .8px
+}
+
+.l-zeon .stores__text i {
+  font-weight: inherit;
+  font-size: 9px;
+  letter-spacing: .45px
+}
+
+.l-zeon .stores__note {
+  margin-top: 15px;
+  text-align: center;
+  font: 500 12px/220% Zen Kaku Gothic New, sans-serif
+}
+
+.l-zeon .stores__action {
+  padding: 50px 10px
+}
+
+.l-zeon .stores__notes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #999;
+  font: 400 13px/220% Inter, sans-serif
+}
+
+.l-zeon .stores__notes li {
+  position: relative;
+  padding-left: 1.5em
+}
+
+.l-zeon .stores__notes li:before {
+  content: "\203B";
+  position: absolute;
+  top: 0;
+  left: 0
+}
+
+@media (min-width:1024px) {
+  .l-zeon .stores {
+    padding: 195px 0 150px
+  }
+
+  .l-zeon .stores .l-zeon__heading {
+    margin-bottom: 50px !important;
+  }
+
+  .l-zeon .stores__text {
+    font-size: 30px;
+    letter-spacing: 1.5px
+  }
+
+  .l-zeon .stores__text small {
+    font-size: 21px;
+    letter-spacing: 1.05px
+  }
+
+  .l-zeon .stores__note,
+  .l-zeon .stores__text i {
+    font-size: 14px;
+    letter-spacing: .7px
+  }
+
+  .l-zeon .stores__note {
+    margin-top: 20px
+  }
+
+  .l-zeon .stores__action {
+    padding-top: 70px;
+    padding-bottom: 70px
+  }
+}
+
+.l-zeon .case {
+  position: relative;
+  padding: 60px 10px 153px;
+  background: url("https://www.owndays.com/images/specials/products/gundam5-zeon/case_bg-sp.webp") no-repeat top/cover
+}
+
+.l-zeon .case .l-zeon__container {
+  position: relative;
+  z-index: 1
+}
+
+.l-zeon .case__img {
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 295px;
+  z-index: 0
+}
+
+.l-zeon .case__badge {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px 12px 8px;
+  background-color: #66430b;
+  color: #fff;
+  font: 500 13px/16px Zen Kaku Gothic New, sans-serif;
+  letter-spacing: 3.9px
+}
+
+.l-zeon .case__soldout-notice {
+  position: relative;
+  background-color: #999;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+  line-height: 1;
+  padding: 5px 12px 8px;
+  text-align: center;
+  font-family: Zen Kaku Gothic New, sans-serif;
+  margin: 0 auto;
+  display: block;
+  width: 160px
+}
+
+@media (max-width:767px) {
+  .l-zeon .case__soldout-notice {
+    margin-top: 256px;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (min-width:768px) {
+  .l-zeon .case__soldout-notice {
+    font-size: 16px;
+    letter-spacing: 3.8px;
+    width: 210px
+  }
+}
+
+.l-zeon .case__heading {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font: 900 36px/44px Zen Old Mincho, serif;
+  letter-spacing: 1.44px;
+  row-gap: 3px;
+  margin-bottom: 12px !important;
+}
+
+.l-zeon .case__heading small {
+  font-size: 13px;
+  font-weight: inherit;
+  line-height: normal;
+  letter-spacing: 1.17px
+}
+
+.l-zeon .case__zeon-owndays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  row-gap: 15px;
+  text-align: center;
+  margin-bottom: 46px !important;
+}
+
+.l-zeon .case__zeon-owndays h3 {
+  max-width: 187px;
+  margin: 0 auto
+}
+
+.l-zeon .case__zeon-owndays p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  font: 500 12px/28px Zen Kaku Gothic New, sans-serif;
+  letter-spacing: 3px;
+  padding: 0 44px 4px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #fff
+}
+
+.l-zeon .case__zeon-owndays p strong {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: inherit;
+  letter-spacing: 2.08px
+}
+
+.l-zeon .case__action {
+  max-width: 400px;
+  margin: 0 auto
+}
+
+.l-zeon .case__tag {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 150px;
+  height: 29px;
+  padding: 0 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.l-zeon .case__tag-sp {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  top: 61px;
+  left: 20px
+}
+
+.l-zeon .case__tag-pc {
+  display: none
+}
+
+.l-zeon .case__tag--sold-out {
+  color: #fff;
+  text-align: center;
+  font-family: Zen Kaku Gothic New, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.56px;
+  background-color: #999;
+  white-space: nowrap
+}
+
+@media (min-width:768px) {
+  .l-zeon .case {
+    padding: 94px 0;
+    margin-top: 228px;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/case_bg-pc.webp")
+  }
+
+  .l-zeon .case__img {
+    top: -28.5px;
+    left: auto;
+    right: calc(50% + 40px);
+    -webkit-transform: translateX(0);
+    transform: translateX(0)
+  }
+
+  .l-zeon .case__content {
+    max-width: 440px;
+    margin-left: 50%
+  }
+
+  .l-zeon .case__badge {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto
+  }
+
+  .l-zeon .case__heading {
+    margin-top: 20px
+  }
+
+  .l-zeon .case__tag {
+    max-width: 207px;
+    padding: 0 7.2px 0 12px
+  }
+
+  .l-zeon .case__tag-sp {
+    display: none
+  }
+
+  .l-zeon .case__tag-pc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon .case__img {
+    top: -57px;
+    right: calc(50% + 55px);
+    width: 440px
+  }
+
+  .l-zeon .case__heading {
+    row-gap: 10px;
+    font-size: 45px;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    margin-bottom: 23px !important;
+  }
+
+  .l-zeon .case__heading small {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 1.44px
+  }
+
+  .l-zeon .case__zeon-owndays {
+    row-gap: 30px
+  }
+
+  .l-zeon .case__zeon-owndays h3 {
+    max-width: 267px
+  }
+
+  .l-zeon .case__zeon-owndays p {
+    padding: 4px 56px 8px;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 3.75px
+  }
+
+  .l-zeon .case__zeon-owndays p strong {
+    font-size: 19px;
+    line-height: inherit;
+    letter-spacing: 2.47px
+  }
+
+  .l-zeon .case__tag--sold-out {
+    font-size: 16px;
+    letter-spacing: 4.8px
+  }
+}
+
+.l-zeon .share {
+  padding: 60px 0 100px
+}
+
+.l-zeon .share__inner {
+  background-color: #150707;
+  padding: 43px 0 62px
+}
+
+.l-zeon .share__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px
+}
+
+.l-zeon .share__list li a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #fff;
+  font-size: 35px
+}
+
+@media (max-width:767px) {
+  .l-zeon .share .l-zeon__heading {
+    margin-bottom: 26px !important;
+  }
+}
+
+@media (min-width:768px) {
+  .l-zeon .share .l-zeon__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-column-gap: 28.5px;
+    -moz-column-gap: 28.5px;
+    column-gap: 28.5px
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon .share {
+    padding-bottom: 110px
+  }
+
+  .l-zeon .share .l-zeon__container {
+    -webkit-column-gap: 57px;
+    -moz-column-gap: 57px;
+    column-gap: 57px
+  }
+
+  .l-zeon .share .l-zeon__heading {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 4px
+  }
+
+  .l-zeon .share__inner {
+    padding-top: 30px;
+    padding-bottom: 26px
+  }
+
+  .l-zeon .share__list {
+    -webkit-column-gap: 36px;
+    -moz-column-gap: 36px;
+    column-gap: 36px
+  }
+}
+
+.l-zeon .reservation {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background-color: rgba(47, 34, 14, .8);
+  padding: 15px 0
+}
+
+.l-zeon .reservation .l-zeon__container {
+  max-width: 915px
+}
+
+.l-zeon .reservation__grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  row-gap: 3px
+}
+
+.l-zeon .reservation__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column
+}
+
+.l-zeon .reservation__badge {
+  font: 700 11px/23px Zen Kaku Gothic New, sans-serif;
+  letter-spacing: .88px;
+  color: #c18b35;
+  border: 1px solid #c18b35;
+  border-radius: 10rem;
+  padding: 0 18px
+}
+
+.l-zeon .reservation__text {
+  font: 500 14px/28px Zen Kaku Gothic New, sans-serif;
+  letter-spacing: 2.56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 9px;
+  -moz-column-gap: 9px;
+  column-gap: 9px;
+  text-wrap: nowrap
+}
+
+.l-zeon .reservation__text small {
+  font: 500 10px/13px Zen Kaku Gothic New, sans-serif;
+  letter-spacing: .33px;
+  text-wrap: wrap
+}
+
+.l-zeon .reservation__text small i {
+  font-size: var(--fz)
+}
+
+.l-zeon .reservation__action {
+  width: 100%;
+  max-width: 330px
+}
+
+@media (max-width:767px) {
+  .l-zeon .reservation__grid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+  }
+
+  .l-zeon .reservation__content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+}
+
+@media (min-width:768px) {
+  .l-zeon .reservation__grid {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px
+  }
+
+  .l-zeon .reservation__content {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+  }
+
+  .l-zeon .reservation__text {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+  }
+
+  .l-zeon .reservation__text small {
+    line-height: 18px
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon .reservation {
+    padding: 40px 0
+  }
+
+  .l-zeon .reservation__content {
+    row-gap: 11px
+  }
+
+  .l-zeon .reservation__badge {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1.28px
+  }
+
+  .l-zeon .reservation__text {
+    font-size: 28px;
+    letter-spacing: 7.25px;
+    font-weight: 500
+  }
+
+  .l-zeon .reservation__text small {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: .45px
+  }
+
+  .l-zeon .reservation__text small i {
+    font-size: var(--fz-lg)
+  }
+
+  .l-zeon .reservation__text small span {
+    font-size: 11px
+  }
+
+  .l-zeon .reservation__action {
+    max-width: 414px
+  }
+}
+
+@media (min-width:1024px) {
+  .l-zeon--jp .main .l-zeon__container {
+    padding-top: 280px
+  }
+}
+
+.fancybox-infobar {
+  top: calc(50% + 62vw);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #fff
+}
+
+.fancybox-button--play,
+.fancybox-button--zoom {
+  display: none !important
+}
+
+.fancybox-button--close {
+  background-color: #000
+}
+
+.fancybox-navigation {
+  position: absolute;
+  top: calc(50% + 50vw);
+  left: 0;
+  right: 0;
+  z-index: 99997;
+  -webkit-column-gap: 15px;
+  -moz-column-gap: 15px;
+  column-gap: 15px
+}
+
+.fancybox-navigation,
+.fancybox-navigation .fancybox-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.fancybox-navigation .fancybox-button {
+  position: static;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 100%;
+  border: 1px solid #666;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 10px auto
+}
+
+.fancybox-navigation .fancybox-button svg {
+  display: none !important
+}
+
+.fancybox-navigation .fancybox-button--arrow_left {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/nav-prev.svg")
+}
+
+.fancybox-navigation .fancybox-button--arrow_right {
+  background-image: url("https://www.owndays.com/images/specials/products/gundam5-zeon/nav-next.svg")
+}
+
+.fancybox-navigation .fancybox-button[disabled] {
+  opacity: .6;
+  cursor: not-allowed
+}
+
+.fancybox-caption {
+  top: calc(50% + 38vw);
+  left: 0;
+  bottom: auto;
+  text-align: left;
+  padding: 0 20px;
+  max-width: 780px;
+  margin: 0 auto;
+  background: none
+}
+
+@media (min-width:1024px) {
+  .fancybox-infobar {
+    top: auto;
+    bottom: 0
+  }
+
+  .fancybox-navigation {
+    top: auto;
+    bottom: 50px
+  }
+
+  .fancybox-caption {
+    top: calc(50% + 20rem)
+  }
+}
