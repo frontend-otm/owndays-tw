@@ -1,0 +1,1084 @@
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src:
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/founders-grotesk/FoundersGrotesk-Semibold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Niradei;
+  src:
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Niradei;
+  src:
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Niradei;
+  src:
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/Niradei/Niradei-SemiBold.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk TWHK;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk TWHK;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk TWHK;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskTWHK/AktivGroteskTWHK-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Aktiv Grotesk CNSG;
+  src:
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff2")
+      format("woff2"),
+    url("https://storage.owndays.com/fonts/AktivGroteskCNSG/AktivGroteskCNSG-Regular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.ff-primary {
+  font-family:
+    Founders Grotesk,
+    sans-serif;
+}
+.ff-fallback,
+.ff-headline {
+  font-family:
+    Founders Grotesk,
+    heisei-kaku-gothic-std,
+    sans-serif;
+}
+.fs-0 {
+  font-size: 0 !important;
+}
+.fs-1 {
+  font-size: 1px !important;
+}
+.fs-2 {
+  font-size: 2px !important;
+}
+.fs-3 {
+  font-size: 3px !important;
+}
+.fs-4 {
+  font-size: 4px !important;
+}
+.fs-5 {
+  font-size: 5px !important;
+}
+.fs-6 {
+  font-size: 6px !important;
+}
+.fs-7 {
+  font-size: 7px !important;
+}
+.fs-8 {
+  font-size: 8px !important;
+}
+.fs-9 {
+  font-size: 9px !important;
+}
+.fs-10 {
+  font-size: 10px !important;
+}
+.fs-11 {
+  font-size: 11px !important;
+}
+.fs-12 {
+  font-size: 12px !important;
+}
+.fs-13 {
+  font-size: 13px !important;
+}
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+.fs-16 {
+  font-size: 16px !important;
+}
+.fs-17 {
+  font-size: 17px !important;
+}
+.fs-18 {
+  font-size: 18px !important;
+}
+.fs-19 {
+  font-size: 19px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-21 {
+  font-size: 21px !important;
+}
+.fs-22 {
+  font-size: 22px !important;
+}
+.fs-23 {
+  font-size: 23px !important;
+}
+.fs-24 {
+  font-size: 24px !important;
+}
+.fs-25 {
+  font-size: 25px !important;
+}
+.fs-26 {
+  font-size: 26px !important;
+}
+.fs-27 {
+  font-size: 27px !important;
+}
+.fs-28 {
+  font-size: 28px !important;
+}
+.fs-29 {
+  font-size: 29px !important;
+}
+.fs-30 {
+  font-size: 30px !important;
+}
+.fs-31 {
+  font-size: 31px !important;
+}
+.fs-32 {
+  font-size: 32px !important;
+}
+.fs-33 {
+  font-size: 33px !important;
+}
+.fs-34 {
+  font-size: 34px !important;
+}
+.fs-35 {
+  font-size: 35px !important;
+}
+.fs-36 {
+  font-size: 36px !important;
+}
+.fs-37 {
+  font-size: 37px !important;
+}
+.fs-38 {
+  font-size: 38px !important;
+}
+.fs-39 {
+  font-size: 39px !important;
+}
+.fs-40 {
+  font-size: 40px !important;
+}
+.fs-41 {
+  font-size: 41px !important;
+}
+.fs-42 {
+  font-size: 42px !important;
+}
+.fs-43 {
+  font-size: 43px !important;
+}
+.fs-44 {
+  font-size: 44px !important;
+}
+.fs-45 {
+  font-size: 45px !important;
+}
+.fs-46 {
+  font-size: 46px !important;
+}
+.fs-47 {
+  font-size: 47px !important;
+}
+.fs-48 {
+  font-size: 48px !important;
+}
+.fs-49 {
+  font-size: 49px !important;
+}
+.fs-50 {
+  font-size: 50px !important;
+}
+.fs-51 {
+  font-size: 51px !important;
+}
+.fs-52 {
+  font-size: 52px !important;
+}
+.fs-53 {
+  font-size: 53px !important;
+}
+.fs-54 {
+  font-size: 54px !important;
+}
+.fs-55 {
+  font-size: 55px !important;
+}
+.fs-56 {
+  font-size: 56px !important;
+}
+.fs-57 {
+  font-size: 57px !important;
+}
+.fs-58 {
+  font-size: 58px !important;
+}
+.fs-59 {
+  font-size: 59px !important;
+}
+.fs-60 {
+  font-size: 60px !important;
+}
+.fs-61 {
+  font-size: 61px !important;
+}
+.fs-62 {
+  font-size: 62px !important;
+}
+.fs-63 {
+  font-size: 63px !important;
+}
+.fs-64 {
+  font-size: 64px !important;
+}
+.fs-65 {
+  font-size: 65px !important;
+}
+.fs-66 {
+  font-size: 66px !important;
+}
+.fs-67 {
+  font-size: 67px !important;
+}
+.fs-68 {
+  font-size: 68px !important;
+}
+.fs-69 {
+  font-size: 69px !important;
+}
+.fs-70 {
+  font-size: 70px !important;
+}
+.fs-71 {
+  font-size: 71px !important;
+}
+.fs-72 {
+  font-size: 72px !important;
+}
+.fs-73 {
+  font-size: 73px !important;
+}
+.fs-74 {
+  font-size: 74px !important;
+}
+.fs-75 {
+  font-size: 75px !important;
+}
+.fs-76 {
+  font-size: 76px !important;
+}
+.fs-77 {
+  font-size: 77px !important;
+}
+.fs-78 {
+  font-size: 78px !important;
+}
+.fs-79 {
+  font-size: 79px !important;
+}
+.fs-80 {
+  font-size: 80px !important;
+}
+.fs-81 {
+  font-size: 81px !important;
+}
+.fs-82 {
+  font-size: 82px !important;
+}
+.fs-83 {
+  font-size: 83px !important;
+}
+.fs-84 {
+  font-size: 84px !important;
+}
+.fs-85 {
+  font-size: 85px !important;
+}
+.fs-86 {
+  font-size: 86px !important;
+}
+.fs-87 {
+  font-size: 87px !important;
+}
+.fs-88 {
+  font-size: 88px !important;
+}
+.fs-89 {
+  font-size: 89px !important;
+}
+.fs-90 {
+  font-size: 90px !important;
+}
+.fs-91 {
+  font-size: 91px !important;
+}
+.fs-92 {
+  font-size: 92px !important;
+}
+.fs-93 {
+  font-size: 93px !important;
+}
+.fs-94 {
+  font-size: 94px !important;
+}
+.fs-95 {
+  font-size: 95px !important;
+}
+.fs-96 {
+  font-size: 96px !important;
+}
+.fs-97 {
+  font-size: 97px !important;
+}
+.fs-98 {
+  font-size: 98px !important;
+}
+.fs-99 {
+  font-size: 99px !important;
+}
+.fw-100 {
+  font-weight: 100 !important;
+}
+.fw-200 {
+  font-weight: 200 !important;
+}
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+.fw-900 {
+  font-weight: 900 !important;
+}
+.l-product__details-code,
+.l-product__details-name,
+.l-product__details-price {
+  font-family:
+    Founders Grotesk,
+    heisei-kaku-gothic-std,
+    sans-serif;
+  font-weight: 300;
+}
+.l-product__inner {
+  margin: 13px auto 0;
+  line-height: 1.5;
+}
+.l-product__inner label.active {
+  color: #0094c8 !important;
+}
+.l-product__inner .slick-slider .slick-slide a {
+  padding: 0 13px;
+}
+.l-product__inner .slick-slider .slick-slide a .l-product__details-img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.l-product__inner .slick-slider .slick-arrow {
+  z-index: 1;
+}
+.l-product__inner .slick-slider .slick-prev,
+.l-product__inner .slick-slider .slick-prev:hover {
+  left: -1rem;
+}
+.l-product__inner .slick-slider .slick-next,
+.l-product__inner .slick-slider .slick-next:hover {
+  right: -1rem;
+}
+.l-product__inner--2:not(.l-cart__slider) {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.l-product__inner--2.l-cart__slider {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.l-product__inner--2 .slick-list {
+  --gap: 15px;
+  overflow: visible !important;
+  margin-right: calc(var(--gap) * 2 * -1);
+}
+.l-product__inner--2 .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: calc(var(--gap) * -1);
+  margin-right: calc(var(--gap) * -1);
+}
+.l-product__inner--2 .slick-slider {
+  margin: 0 !important;
+}
+.l-product__inner--2 .slick-slider .slick-prev,
+.l-product__inner--2 .slick-slider .slick-prev:hover {
+  left: auto;
+}
+.l-product__inner--2 .slick-slider .slick-next,
+.l-product__inner--2 .slick-slider .slick-next:hover {
+  right: 0;
+}
+.l-product__inner--2 .slick-slide {
+  height: auto;
+  margin: 0 var(--gap);
+  position: relative;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.l-product__inner--2 .slick-slide:not(.p-product) {
+  padding: 0 !important;
+}
+.l-product__inner--2 .slick-slide a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.l-product__inner--2 .slick-slide > div:not([class]) {
+  height: 100%;
+}
+.l-product__inner--2 .slick-slide > div:not([class]) .p-product {
+  height: 100%;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.l-product__inner--2 .slick-arrow {
+  display: none !important;
+}
+.l-product__inner--2 .l-product__details-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-right: 55px;
+}
+.l-product__inner--2 .l-product__details-name {
+  font-size: var(--font-size-brand, 14px);
+  font-weight: var(--font-weight-brand, 400);
+  letter-spacing: 0.77px;
+  text-align: left !important;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+}
+.l-product__inner--2 .l-product__details-model-name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.16px;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+  text-align: left !important;
+}
+.l-product__inner--2 .l-product__details-code {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #666;
+  text-align: left !important;
+  margin-top: 4px;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+.l-product__inner--2 .l-product__details-price {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  color: #000;
+  line-height: 1;
+  text-align: left !important;
+  margin-top: 7px;
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+.l-product__inner--2 .l-product__details-price small {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  display: inline-block;
+}
+.l-product__inner--2 .l-product__details-price--sale {
+  color: #bf0000;
+}
+.l-product__inner--2 .l-product__details-price--default {
+  font-size: 13px;
+  color: #999;
+  padding-left: 8px;
+  position: relative;
+}
+.l-product__inner--2 .l-product__details-price--default:before {
+  content: "";
+  width: 5px;
+  height: 15px;
+  background-color: currentColor;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
+}
+.l-product__inner--2 .l-product__details-price--default:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  right: 0;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(-4deg) translateY(-50%);
+  transform: rotate(-4deg) translateY(-50%);
+}
+.l-product__inner--2 .l-product__details-price--default small {
+  font-size: 7px;
+}
+.l-product__inner--2 .l-product__details.active {
+  padding: 0;
+}
+.l-product__inner--2 .l-product__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  font-weight: 700;
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+.l-product__inner--2 .l-product__tags li {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2px 8px;
+}
+.l-product__inner--2 .l-product__tags--sale {
+  background-color: #bf0000;
+  color: #fff;
+  font-size: 12px;
+}
+.l-product__inner--2 .l-product__tags--outlet {
+  background-color: #fff;
+  white-space: nowrap;
+  border: 1px solid #bf0000;
+}
+.l-product__inner--2 .l-product__tags--outlet-text {
+  color: #bf0000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.l-product__inner--2 .l-product__tags--outlet,
+.l-product__inner--2 .l-product__tags--ranks,
+.l-product__inner--2 .l-product__tags--sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}
+.l-product__inner--2 .p-product__favorite {
+  top: 0 !important;
+  bottom: auto !important;
+  right: 0;
+  margin-top: 60%;
+}
+.l-product__inner--2 .p-product__favorite .favorite {
+  width: 45px;
+  height: 45px;
+}
+.l-product__inner--2 .p-product__favorite .favorite span {
+  width: 20px;
+  height: 18px;
+}
+.l-product__inner--2 + .c-btn {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  .l-product__inner--2 .slick-slide:not(:first-child) {
+    margin-left: 30px;
+  }
+  .l-product__inner--2 + .c-btn {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .l-product__inner--2 .slick-arrow {
+    --size: 54px;
+    display: block !important;
+    width: var(--size);
+    height: var(--size);
+    top: var(--nav-top, -60px);
+    z-index: 9;
+    -webkit-transform: none;
+    transform: none;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+  }
+  .l-product__inner--2 .slick-arrow:before {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .l-product__inner--2 .slick-next.slick-disabled,
+  .l-product__inner--2 .slick-prev.slick-disabled {
+    visibility: visible !important;
+    opacity: 0.4;
+  }
+  .l-product__inner--2 .slick-next {
+    right: 0;
+    background-image: url("https://storage.owndays.com/icons/carousel-arrow-next.svg");
+  }
+  .l-product__inner--2 .slick-next:focus,
+  .l-product__inner--2 .slick-next:hover {
+    right: 0 !important;
+  }
+  .l-product__inner--2 .slick-prev {
+    left: auto;
+    right: var(--size);
+    background-image: url("https://storage.owndays.com/icons/carousel-arrow-prev.svg");
+  }
+  .l-product__inner--2 .slick-prev:focus,
+  .l-product__inner--2 .slick-prev:hover {
+    left: auto;
+  }
+}
+.l-product__inner--recommend
+  .slick-initialized
+  .slick-slide
+  > div:not([class]) {
+  height: 100%;
+}
+.l-product__inner--recommend
+  .slick-initialized
+  .slick-slide
+  > div:not([class])
+  > div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+.l-product__inner--recommend .slick-initialized .slick-slide a {
+  height: 100%;
+}
+.l-product__tab {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .l-product__tab {
+    margin-bottom: 10px;
+  }
+}
+.l-product__tab label {
+  display: inline-block;
+  color: #666;
+  text-align: center;
+  padding: 0 6px;
+}
+.l-product__tab label.is-active,
+.l-product__tab label:active,
+.l-product__tab label:focus,
+.l-product__tab label:hover {
+  color: #0094c8;
+}
+@media (max-width: 767px) {
+  .l-product__tab label {
+    width: auto;
+    padding: 0 6px;
+  }
+}
+.l-product__tab.l-product__tab--2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #f4f4f4;
+  border-radius: 30px;
+  padding: 4px 5px;
+  margin-bottom: 25px;
+}
+.l-product__tab.l-product__tab--2 label {
+  font-family:
+    Founders Grotesk,
+    sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.l-product__tab.l-product__tab--2 label.active {
+  background-color: #fff;
+  border-radius: 30px;
+  color: #666 !important;
+}
+.l-product__panel {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.l-product__details {
+  display: none;
+  width: 100%;
+  padding: 0;
+}
+.l-product__details.active {
+  display: block;
+  padding: 0 0 40px;
+}
+@media (max-width: 767px) {
+  .l-product__details.active {
+    padding: 0 5%;
+  }
+}
+@media (max-width: 767px) {
+  .l-product__details {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 39px 5% 16px;
+  }
+}
+.l-product__details .search-list-slickslide {
+  margin: 0 0 26px;
+}
+.l-product__details .search-list-slickslide .slick-slide a {
+  width: 100%;
+  height: 100%;
+}
+.l-product__details .search-list-slickslide .slick-slide a img {
+  position: relative;
+  z-index: -1;
+}
+.l-product__details .search-list-slickslide .slick-slide a.is-active,
+.l-product__details .search-list-slickslide .slick-slide a:active,
+.l-product__details .search-list-slickslide .slick-slide a:focus,
+.l-product__details .search-list-slickslide .slick-slide a:hover {
+  opacity: 0.6;
+}
+.l-product__details .search-list-slickslide .slick-slide a p {
+  text-align: center;
+}
+.l-product__details-img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .l-product__details-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+.l-product__details-name {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  line-height: 1.5;
+}
+.l-product__details-code,
+.l-product__details-price {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  line-height: 1.5;
+}
+.l-product__details-price {
+  margin-top: 1px;
+}
+.l-product__details-price small {
+  font-size: 1em;
+}
+.l-product__details-code {
+  margin-bottom: 3px;
+}
+.l-product .bx-wrapper .bx-viewport {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.l-product .bx-wrapper .bx-controls-auto .bx-start.is-active,
+.l-product .bx-wrapper .bx-controls-auto .bx-start:active,
+.l-product .bx-wrapper .bx-controls-auto .bx-start:focus,
+.l-product .bx-wrapper .bx-controls-auto .bx-start:hover,
+.l-product .bx-wrapper .bx-controls-auto .bx-stop.is-active,
+.l-product .bx-wrapper .bx-controls-auto .bx-stop:active,
+.l-product .bx-wrapper .bx-controls-auto .bx-stop:focus,
+.l-product .bx-wrapper .bx-controls-auto .bx-stop:hover {
+  background-position: 0;
+}
+.l-product .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.l-product__color-selector {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+.l-product__color-selector,
+.l-product__color-selector > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.l-product__color-selector > li {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  padding: 5px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+.l-product__color-selector > li.selected {
+  -webkit-box-shadow: inset 0 0 0 2px #999;
+  box-shadow: inset 0 0 0 2px #999;
+}
+.l-product__color-button {
+  border: none;
+  outline: none;
+  background: var(--bg);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 50%;
+  background-size: cover;
+}
+.l-product__color-button > span {
+  background: var(--bg);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.l-product__color-button > span:nth-child(2) {
+  -webkit-clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+.__mockuptext {
+  display: none;
+}
+.l-product-details__bottom-slider .l-product__title {
+  font-size: 26px;
+  margin-bottom: 35px;
+  grid-row-gap: 6px;
+  letter-spacing: 1.02px;
+  line-height: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  text-align: center;
+  font-weight: 400;
+}
+.p-product__thumbnail--old {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  aspect-ratio: 350/306;
+  position: relative;
+  width: 100%;
+  opacity: 1;
+}
